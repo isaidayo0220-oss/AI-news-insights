@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wire Desk — AI情報収集・分析ブリーフィング</title>
+  <meta name="description" content="RSS/公式APIから収集したニュースをAIが要約する日次ブリーフィング" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="masthead">
+    <div class="masthead__inner">
+      <p class="masthead__eyebrow">DAILY SIGNAL BRIEFING</p>
+      <h1 class="masthead__title">Wire Desk</h1>
+      <p class="masthead__sub" id="masthead-meta">同期待機中…</p>
+    </div>
+  </header>
+
+  <main class="desk">
+    <section class="summary-panel" id="summary-panel" aria-live="polite">
+      <p class="summary-panel__loading">本日のブリーフィングを読み込んでいます…</p>
+    </section>
+
+    <section class="highlights" id="highlights" hidden>
+      <h2 class="section-label">注目記事 <span class="section-label__hint">AIが選定</span></h2>
+      <ol class="highlights__list" id="highlights-list"></ol>
+    </section>
+
+    <section class="wire">
+      <div class="wire__head">
+        <h2 class="section-label">全記事</h2>
+        <div class="wire__filter" id="source-filter" role="tablist" aria-label="情報源で絞り込み">
+          <button class="chip chip--active" data-source="all" role="tab" aria-selected="true">すべて</button>
+        </div>
+      </div>
+      <ul class="wire__list" id="article-list"></ul>
+    </section>
+  </main>
+
+  <footer class="colophon">
+    <p>収集元はRSS/公式APIのみ。各記事の著作権は配信元に帰属します。詳細はREADMEを参照してください。</p>
+  </footer>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
