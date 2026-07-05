@@ -36,6 +36,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "変更なし。コミットをスキップします。"
           else
-            git commit -m "chore(data): 日次ニュース収集・AI要約を更新 [skip ci]"
+            git commit -m "chore(data): 日次ニュース収集・AI要約を更新"
             git push
           fi
