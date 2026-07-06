@@ -56,18 +56,18 @@ function renderHighlights(aiSummary, articles) {
     return;
   }
 
-const articleMap = new Map(articles.map((a) => [a.id, a]));
+  const articleMap = new Map(articles.map((a) => [a.id, a]));
   const articleByTitle = new Map(articles.map((a) => [a.title, a]));
   el.highlightsList.innerHTML = aiSummary.highlights
     .map((h, i) => {
       const article = articleMap.get(h.articleId) ?? articleByTitle.get(h.title);
       const url = article?.url ?? "#";
       const title = h.title || article?.title || "(タイトル不明)";
-      const analysis = h.analysisMarkdown
+      const analysis = h.analysis
         ? `
         <details class="highlight-card__details">
           <summary>詳細分析を見る</summary>
-          <div class="highlight-card__analysis">${renderMarkdownLite(h.analysisMarkdown)}</div>
+          <div class="highlight-card__analysis">${renderDeepDiveSections(h.analysis)}</div>
         </details>`
         : "";
       return `
@@ -82,47 +82,49 @@ const articleMap = new Map(articles.map((a) => [a.id, a]));
 }
 
 /**
- * Gemini出力のMarkdown(見出し/箇条書き/太字/水平線程度)を安全なHTMLに変換する軽量レンダラー。
- * 外部ライブラリに依存せず、まずHTMLエスケープしてからMarkdown記法のみをタグに変換するため、
- * AIが出力したテキストに万一HTMLが含まれていても、そのまま埋め込まれることはない。
+ * deep-dive.jsが返す構造化された詳細分析(DeepDiveAnalysis)を、固定レイアウトのHTMLに変換する。
+ * 見出しやセクション構成はコード側で固定し、中身の文言だけがAI/config/deep-dive-prompt.mdに
+ * よって変わる設計。自由形式Markdownの見出し指示にAIが従いきれない問題を回避している。
  */
-function renderMarkdownLite(markdown) {
-  const lines = escapeHtml(markdown).split("\n");
-  const htmlParts = [];
-  let listBuffer = [];
+function renderDeepDiveSections(a) {
+  const list = (items) => `<ul>${items.map((i) => `<li>${escapeHtml(i)}</li>`).join("")}</ul>`;
+  const stars = "★".repeat(a.importanceStars) + "☆".repeat(Math.max(0, 5 - a.importanceStars));
 
-  const flushList = () => {
-    if (listBuffer.length > 0) {
-      htmlParts.push(`<ul>${listBuffer.map((item) => `<li>${item}</li>`).join("")}</ul>`);
-      listBuffer = [];
-    }
-  };
+  return `
+    <h4>📰 3行要約</h4>
+    <p>${escapeHtml(a.summary)}</p>
 
-  for (const rawLine of lines) {
-    const line = rawLine.trim();
-    const inline = (text) => text.replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
+    ${a.keyPoints.length ? `<h4>📌 重要ポイント</h4>${list(a.keyPoints)}` : ""}
 
-    if (line === "" || line === "---") {
-      flushList();
-      if (line === "---") htmlParts.push("<hr>");
-      continue;
-    }
-    if (line.startsWith("### ")) {
-      flushList();
-      htmlParts.push(`<h5>${inline(line.slice(4))}</h5>`);
-    } else if (line.startsWith("## ")) {
-      flushList();
-      htmlParts.push(`<h4>${inline(line.slice(3))}</h4>`);
-    } else if (line.startsWith("* ") || line.startsWith("- ")) {
-      listBuffer.push(inline(line.slice(2)));
-    } else {
-      flushList();
-      htmlParts.push(`<p>${inline(line)}</p>`);
-    }
-  }
-  flushList();
-  return htmlParts.join("");
+    ${a.keywords.length ? `<h4>🔑 キーワード</h4><p class="keyword-list">${a.keywords.map((k) => `<span class="keyword-pill">${escapeHtml(k)}</span>`).join("")}</p>` : ""}
+
+    ${a.category ? `<h4>🏷 カテゴリ</h4><p>${escapeHtml(a.category)}</p>` : ""}
+
+    <h4>⭐ 重要度</h4>
+    <p><span class="stars">${stars}</span> ${escapeHtml(a.importanceReason)}</p>
+
+    ${a.consultantPoints.length ? `<h4>💼 コンサル視点</h4>${list(a.consultantPoints)}` : ""}
+
+    ${a.issue ? `<h4>🎯 イシュー</h4><p>${escapeHtml(a.issue)}</p>` : ""}
+
+    ${a.hypotheses.length ? `<h4>💡 仮説</h4>${list(a.hypotheses)}` : ""}
+
+    <h4>🏢 ビジネスへの影響</h4>
+    <h5>企業</h5><p>${escapeHtml(a.businessImpact.company)}</p>
+    <h5>消費者</h5><p>${escapeHtml(a.businessImpact.consumer)}</p>
+    <h5>市場</h5><p>${escapeHtml(a.businessImpact.market)}</p>
+    <h5>日本経済</h5><p>${escapeHtml(a.businessImpact.economy)}</p>
+
+    ${a.actions.length ? `<h4>🚀 アクション</h4>${list(a.actions)}` : ""}
+
+    <h4>📝 読書ノート</h4>
+    <h5>学び</h5><p>${escapeHtml(a.readingNotes.learning)}</p>
+    <h5>気づき</h5><p>${escapeHtml(a.readingNotes.insight)}</p>
+    <h5>明日活かせること</h5><p>${escapeHtml(a.readingNotes.tomorrow)}</p>
+  `;
 }
+
+</parameter>
 
 function renderArticles(report) {
   const { articles, sources } = report;
