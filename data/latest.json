@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06T12:03:48.356Z",
+  "generatedAt": "2026-07-06T17:01:31.695Z",
   "sources": [
     {
       "id": "itmedia",
@@ -20,36 +20,90 @@
   "articleCount": 95,
   "aiSummary": {
     "available": true,
-    "overview": "本日のIT/テクノロジー分野のニュースは、AIの進化とそれに伴う影響、サイバーセキュリティの脅威、そして半導体・メモリ技術の動向が主要なテーマとなっています。特にAIは、エネルギー消費、倫理的課題、そして社会への広範な影響が浮き彫りになっており、その進展と規制のバランスが今後の焦点となるでしょう。また、大規模な情報漏えいやサービス障害も発生しており、デジタル社会における信頼性と安全性の確保が喫緊の課題であることが示されています。",
+    "overview": "本日のIT/テクノロジー分野のニュースは、AI技術の進化とそれに伴う課題が中心的な傾向を示しています。特に、Metaの高性能AI「Watermelon」の登場や、AIエージェントのエネルギー消費に関する研究、そしてAIの悪用や規制に関するニュースが目立ちます。また、AppleのmacOSカーネル開発におけるSwift言語採用など、基盤技術の進化も注目されますが、全体としてはAIが社会に与える影響の広がりと、それに対するセキュリティや倫理的な対応が喫緊の課題であることが浮き彫りになっています。",
     "highlights": [
       {
-        "title": "KDDI、パスワード760万人分漏えい　メアドも1220万人分　ISP事業者向けシステムへの不正アクセスで",
-        "reason": "KDDIおよび関連ISP事業者で発生した大規模な個人情報漏えいは、メールアドレス1220万人分、パスワード760万人分という極めて広範な影響を及ぼし、デジタルサービス利用者のセキュリティに対する懸念を大きく高めるものです。",
+        "title": "(Publickey) Apple、次期macOS 27でSwift言語をシステムカーネル開発に採用。メモリ安全な言語として",
+        "reason": "AppleがmacOSのシステムカーネル開発にSwift言語を採用することは、OSの安定性とセキュリティ向上に大きく寄与し、今後のソフトウェア開発のトレンドに影響を与える可能性があります。",
+        "articleId": "publickey:71982bf7"
+      },
+      {
+        "title": "(GIGAZINE) Metaの新AI「Watermelon」はOpenAIのGPT-5.5に匹敵する性能で近日登場",
+        "reason": "MetaがOpenAIのGPT-5.5に匹敵する性能を持つ新AIモデル「Watermelon」を発表したことは、生成AI分野における競争の激化と技術革新の加速を示しており、広範なAIアプリケーションに影響を与えます。",
+        "articleId": "gigazine:81c248fc"
+      },
+      {
+        "title": "(ITmedia NEWS) KDDI、パスワード760万人分漏えい　メアドも1220万人分　ISP事業者向けシステムへの不正アクセスで",
+        "reason": "KDDIのISP事業者向けシステムへの不正アクセスによる大規模な個人情報漏えいは、多くのユーザーに直接的な影響を及ぼし、企業におけるサイバーセキュリティ対策の重要性を改めて浮き彫りにします。",
         "articleId": "itmedia:fae192cf"
       },
       {
-        "title": "AIエージェントは通常の生成AIよりも最大136倍エネルギーを消費する",
-        "reason": "AIエージェントが通常の生成AIと比較して最大136倍ものエネルギーを消費するという研究結果は、AI技術の持続可能性と環境負荷に関する重要な課題を提起し、今後のAI開発における省エネルギー化の必要性を示唆しています。",
+        "title": "(GIGAZINE) AIエージェントは通常の生成AIよりも最大136倍エネルギーを消費する",
+        "reason": "AIエージェントが通常の生成AIと比較して大幅に高いエネルギーを消費するという研究結果は、AI技術の持続可能性や環境負荷に関する重要な課題を提起し、今後のAI開発の方向性に影響を与える可能性があります。",
         "articleId": "gigazine:cd29f5be"
       },
       {
-        "title": "かつて成功したブログ100個のうち約半数はGoogleのAI導入などで検索トラフィックの85％以上を失った",
-        "reason": "GoogleのAI概要機能の導入により、多くのウェブサイトが検索トラフィックを大幅に失っているという報告は、AIが情報流通のあり方やコンテンツ産業に与える影響の大きさを明確に示しており、今後のウェブエコシステムに大きな変化をもたらす可能性を秘めています。",
-        "articleId": "gigazine:888f5d79"
-      },
-      {
-        "title": "CIA長官が高度なAIを核兵器と同等のレベルに位置づける",
-        "reason": "CIA長官が高度なAIを核兵器と同等のレベルに位置づけたことは、AI技術が国家安全保障に与える影響の深刻さを示しており、国際的な規制や倫理的議論の必要性を強く訴えかけるものです。",
+        "title": "(GIGAZINE) CIA長官が高度なAIを核兵器と同等のレベルに位置づける",
+        "reason": "CIA長官が高度なAIを核兵器と同等のレベルに位置づけたことは、AIが国家安全保障に与える影響の深刻さを示しており、国際的なAI規制や倫理的利用に関する議論を加速させる可能性があります。",
         "articleId": "gigazine:a4d43529"
-      },
-      {
-        "title": "「ChatGPTで不正プログラム自作」　バンダイチャンネル4万6800人を勝手に退会させた疑い、15歳を再逮捕　報道",
-        "reason": "生成AIを用いて不正プログラムが自作され、大規模なサービス妨害が行われた事例は、AI技術の悪用リスクが現実のものとなっていることを示しており、AIの倫理的利用とセキュリティ対策の重要性を浮き彫りにしています。",
-        "articleId": "itmedia:fe78a23b"
       }
     ]
   },
   "articles": [
+    {
+      "id": "publickey:71982bf7",
+      "sourceId": "publickey",
+      "sourceName": "Publickey",
+      "title": "Apple、次期macOS 27でSwift言語をシステムカーネル開発に採用。メモリ安全な言語として",
+      "url": "https://www.publickey1.jp/blog/26/applemacos_27swift.html",
+      "publishedAt": "2026-07-06T15:11:01.000Z",
+      "excerpt": "Appleは次期macOS 27 Golden Gateから、Swift言語をシステムカーネルの開発に採用することを明らかにしました。 これは先月に行われたWWDC26ですでに表明されており、7月2日付けのSwiftのブログ「What's new in Swift: June 2026 Edition」であらためて言及されたものです。 Swiftはメモリ安全なプログラミング言語 Swift言語はもともとMacやiPhoneのアプリケーション開発用の言語としてAppleが開発し……"
+    },
+    {
+      "id": "publickey:2c07fe66",
+      "sourceId": "publickey",
+      "sourceName": "Publickey",
+      "title": "MCPにエンタープライズ向け新機能、アクセスを一括管理できる「Enterprise-Managed Authorization（EMA）extension」が安定版として利用可能に",
+      "url": "https://www.publickey1.jp/blog/26/mcpenterprise-managed_authorizationemaextension.html",
+      "publishedAt": "2026-07-06T15:08:16.000Z",
+      "excerpt": "生成AIとツールとの接続プロトコルとしてLinux Foundation傘下で標準化と機能拡張が進められているMCP（Model Context Protocol）の企業向けの新機能「Enterprise-Managed Authorization（EMA）extension」が安定版になったと発表されました。 MCPサーバへのアクセスはユーザーが手動で行っている これまでMCPを利用する際には、生成AIとツールを提供するサーバとの接続要求をユーザー毎に行い、ユーザー毎に認証……"
+    },
+    {
+      "id": "gigazine:b9e69163",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "Steam公式ゲーミングPC「Steam Machine」用の電子ペーパー式情報表示ディスプレイがオープンソース化されて誰でも作成可能に",
+      "url": "https://gigazine.net/news/20260706-steam-machine-inkterface/",
+      "publishedAt": "2026-07-06T14:00:00.000Z",
+      "excerpt": "2026年6月23日に発売されたSteam公式ゲーミングPC「Steam Machine」はフロントパネルを交換することが可能です。交換用パネルの一部として未発売の電子ペーパー式情報表示ディスプレイの存在が明らかになっているのですが、この電子ペーパー式情報表示ディスプレイが「Inkterface」という名称でオープンソース化されました。 続きを読む..."
+    },
+    {
+      "id": "gigazine:81c248fc",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "Metaの新AI「Watermelon」はOpenAIのGPT-5.5に匹敵する性能で近日登場",
+      "url": "https://gigazine.net/news/20260706-meta-watermelon/",
+      "publishedAt": "2026-07-06T13:25:00.000Z",
+      "excerpt": "Metaの最高AI責任者であるアレクサンドル・ワン氏が、MetaのAIモデル・Muse Sparkがまもなくアップデートされ、コーディングやエージェント機能が向上する予定であることを明らかにしました。AIモデルの名称自体は変わりませんが、内部コードではAvocadoからWatermelonのアップデートになるとのことです。 続きを読む..."
+    },
+    {
+      "id": "gigazine:37b8eec4",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "YouTube StudioのAI機能で非公開動画の情報が漏れる可能性が指摘される",
+      "url": "https://gigazine.net/news/20260706-youtube-ask-studio-leak/",
+      "publishedAt": "2026-07-06T13:00:00.000Z",
+      "excerpt": "YouTube StudioのAI機能「Ask Studio」を悪用するとコメント欄に仕込まれた指示を通じて非公開動画のタイトルなどを外部に送信させられる可能性がある、とセキュリティ研究者のjavoriuski氏が報告しました。 続きを読む..."
+    },
+    {
+      "id": "itmedia:8f5730d8",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "これが「はやぶさ2」が撮った小惑星「トリフネ」だ　秒速5キロメートルで爆速撮影",
+      "url": "https://www.itmedia.co.jp/news/articles/2607/06/news133.html",
+      "publishedAt": "2026-07-06T12:00:00.000Z",
+      "excerpt": "JAXAの小惑星探査機「はやぶさ2」が、7月5日18時30分ごろ、直径約500m程度の細長い形状をした小惑星「トリフネ」のフライバイ（探査機が天体の近くを通過すること）に成功した。"
+    },
     {
       "id": "gigazine:16322cd6",
       "sourceId": "gigazine",
@@ -72,7 +126,7 @@
       "id": "itmedia:8da25839",
       "sourceId": "itmedia",
       "sourceName": "ITmedia NEWS",
-      "title": "ギガファイル便で障害　暫定ドメイン「gigafile.jp」で一部復旧",
+      "title": "ギガファイル便で障害　暫定ドメインで一部復旧",
       "url": "https://www.itmedia.co.jp/news/articles/2607/06/news132.html",
       "publishedAt": "2026-07-06T11:32:00.000Z",
       "excerpt": "ファイル転送サービス「ギガファイル便」で7月6日朝から発生している障害を巡り、運営はドメインを暫定的に「gigafile.jp」へ変更したと発表した。発行済みのURLもドメイン部分の書き換えでアクセスできるという。"
@@ -429,15 +483,6 @@
       "excerpt": "東京大学社会科学研究所は、働く人たちの労働時間に関する最新の調査結果（2026年）を発表した。"
     },
     {
-      "id": "gigazine:c929190a",
-      "sourceId": "gigazine",
-      "sourceName": "GIGAZINE",
-      "title": "AI時代に大学のコンピューターサイエンス学科はどうやって学生を教育すればいいのか？",
-      "url": "https://gigazine.net/news/20260706-university-in-the-ai-era/",
-      "publishedAt": "2026-07-05T22:00:00.000Z",
-      "excerpt": "記事作成時点では多くの大学生がAIを利用しており、持ち帰り試験で平均96点のクラスが対面試験に切り替えると平均48点になってしまうという事態も発生しています。そんな中、「AI時代における大学の価値とは何なのか」「AI時代にどのように教育を行えばいいのか」といったトピックについて、アメリカのモンタナ州立大学でコンピューターサイエンスを教えるカーソン・グロス氏が記しています。 続きを読む..."
-    },
-    {
       "id": "publickey:9b91bde9",
       "sourceId": "publickey",
       "sourceName": "Publickey",
@@ -454,24 +499,6 @@
       "url": "https://www.publickey1.jp/blog/26/vmware_9.html",
       "publishedAt": "2026-07-05T15:11:34.000Z",
       "excerpt": "公正取引委員会は、ブロードコムに対する独占禁止法違反の調査を、違反に認定するに足る事実が認められなかったとして終了すると発表しました。 VMware製品、ライセンス変更により事実上の大幅値上げ ブロードコムは2023年にVMwareを買収。翌年にはそれまでサーバ仮想化やストレージ仮想化、クラウド基盤などに分かれていたVMware製ソフトウェア製品群のライセンスを変更し、大半の製品をまとめたセット製品のサブスクリプションに移行しました。 これにより、VMwareのソフトウェア製……"
-    },
-    {
-      "id": "gigazine:6eea8848",
-      "sourceId": "gigazine",
-      "sourceName": "GIGAZINE",
-      "title": "銀行の窓口係を減らしたのはATMではなくiPhoneだったという指摘",
-      "url": "https://gigazine.net/news/20260705-atm-iphone-bank-tellers/",
-      "publishedAt": "2026-07-05T13:45:00.000Z",
-      "excerpt": "AIが人間の仕事を奪うのかどうかを考える際、「ATMは銀行の窓口係の仕事を奪うと思われたが、実際には窓口係の雇用は減らなかった」という例が挙げられることがあります。しかしライターのデイヴィッド・オクス氏は、銀行の窓口係の雇用を大きく減らしたのはATMではなく、iPhoneとそれによって広がったモバイルバンキングだったと指摘しています。 続きを読む..."
-    },
-    {
-      "id": "gigazine:1e8afda2",
-      "sourceId": "gigazine",
-      "sourceName": "GIGAZINE",
-      "title": "FIFAワールドカップ2026の開催で予測市場・KalshiやPolymarketの取引額が急増し過去最高を記録",
-      "url": "https://gigazine.net/news/20260705-fifa-world-cup-2026-boosts-prediction-market-volumes/",
-      "publishedAt": "2026-07-05T11:00:00.000Z",
-      "excerpt": "2026年6月12日から7月20日までの期間、アメリカ・カナダ・メキシコの3カ国でFIFAワールドカップ2026が開催されています。4年に1度のサッカーの祭典により、2026年6月の予測市場の取引量は過去最高を記録したと、CNBCが報じています。 続きを読む..."
     },
     {
       "id": "itmedia:b1229c51",
@@ -807,15 +834,6 @@
       "excerpt": "ソニー・インタラクティブエンタテインメントは1日、PlayStationコンソール向けの新作ゲームのディスク生産を2028年1月に終了すると発表した。"
     },
     {
-      "id": "itmedia:8ab02d62",
-      "sourceId": "itmedia",
-      "sourceName": "ITmedia NEWS",
-      "title": "40周年の「写ルンです」に20年ぶり新商品　防水モデルとモノクロ専用",
-      "url": "https://www.itmedia.co.jp/news/articles/2607/01/news150.html",
-      "publishedAt": "2026-07-01T11:00:00.000Z",
-      "excerpt": "富士フイルムは1日、レンズ付きフィルム「写ルンです」の新製品として、防水モデルの「写ルンです Active」と白黒フィルムモデルの「写ルンです Black and White」を発表した。新設計の写ルンですは20年ぶり。"
-    },
-    {
       "id": "publickey:2fde5b24",
       "sourceId": "publickey",
       "sourceName": "Publickey",
@@ -886,24 +904,6 @@
       "url": "https://www.publickey1.jp/blog/26/awsaws_contiuumai.html",
       "publishedAt": "2026-06-21T15:26:18.000Z",
       "excerpt": "Amazon Web Services（AWS）は、コードをスキャンするだけでなく、インフラ構成やアクセス許可、ネットワークトポロジーそしてビジネス上の優先事項やドキュメントなどの非構造化データなどをコンテキストとして活用し、システムの脆弱性を推論する新サービス「AWS Continuum for code vulnerabilities」を発表しました。 AWS Security AgentもContinuumの一部に AWSでは以前から、システム侵入を試すペネトレーション……"
-    },
-    {
-      "id": "publickey:dbe2c484",
-      "sourceId": "publickey",
-      "sourceName": "Publickey",
-      "title": "AWS、AIエージェントがリポジトリを自動スキャンして技術的負債を指摘してくれる「AWS Transform – continuous modernization」プレビュー公開",
-      "url": "https://www.publickey1.jp/blog/26/awsaiaws_transform_continuous_modernization.html",
-      "publishedAt": "2026-06-21T15:24:42.000Z",
-      "excerpt": "Amazon Web Services（AWS）は、AIエージェントがコードリポジトリを継続的に自動スキャンし、サポートが終了したライブラリやフレームワークなどを始めとする技術的負債を検出し、優先順位をつけて報告あるいは修正のためのプルリクエストの提案などをしてくれるサービス「AWS Transform – continuous modernization」のプレビュー公開を発表しました。 AWS Trasformはコード変換などのサービス AWS TransformはAIエ……"
-    },
-    {
-      "id": "publickey:2b1f54ff",
-      "sourceId": "publickey",
-      "sourceName": "Publickey",
-      "title": "あなたのAWSのコストの問題がどこにあるか、AIが教えてくれる「AWS FinOps Agent」パブリックプレビュー開始",
-      "url": "https://www.publickey1.jp/blog/26/awsaiaws_finops_agent.html",
-      "publishedAt": "2026-06-17T15:49:03.000Z",
-      "excerpt": "Amazon Web Services（AWS）は、使用中のAWSのコストに関する質問や、コストに異常が発生した場合にその原因を調査して特定してくれる「AWS FinOps Agent」のパブリックプレビュー開始を発表しました。 AWSはそのサービスのほとんどが従量制となっており、1カ月のあいだに使用したコンピュートやストレージ容量、データ転送量に応じたコストが発生します。 これはクラウドとしては一般的かつ合理的な料金体系ではあるものの、事前に正確な利用料金を予測することが難……"
     }
   ]
 }
