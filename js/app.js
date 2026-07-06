@@ -56,10 +56,11 @@ function renderHighlights(aiSummary, articles) {
     return;
   }
 
-  const articleMap = new Map(articles.map((a) => [a.id, a]));
+const articleMap = new Map(articles.map((a) => [a.id, a]));
+  const articleByTitle = new Map(articles.map((a) => [a.title, a]));
   el.highlightsList.innerHTML = aiSummary.highlights
     .map((h, i) => {
-      const article = articleMap.get(h.articleId);
+      const article = articleMap.get(h.articleId) ?? articleByTitle.get(h.title);
       const url = article?.url ?? "#";
       const title = h.title || article?.title || "(タイトル不明)";
       const analysis = h.analysisMarkdown
