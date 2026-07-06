@@ -258,6 +258,28 @@ body {
 
 .highlight-card__analysis strong { color: var(--brass-bright); }
 
+.keyword-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.keyword-pill {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  background: rgba(201, 162, 75, 0.12);
+  border: 1px solid var(--ink-line);
+  color: var(--brass-bright);
+  border-radius: 999px;
+  padding: 0.2rem 0.65rem;
+}
+
+.stars {
+  color: var(--brass-bright);
+  letter-spacing: 0.1em;
+  font-size: 1rem;
+}
+
 /* ---- Wire: full article list --------------------------------------*/
 .wire__head {
   display: flex;
