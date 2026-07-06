@@ -124,7 +124,6 @@ function renderDeepDiveSections(a) {
   `;
 }
 
-</parameter>
 
 function renderArticles(report) {
   const { articles, sources } = report;
