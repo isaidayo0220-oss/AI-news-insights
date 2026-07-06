@@ -60,7 +60,7 @@ export async function generateDailySummary(articles, options = {}) {
 function buildPrompt(articles, customInstructions) {
   const list = articles
     .slice(0, 40)
-    .map((a, i) => `${i + 1}. [id:${a.id}] (${a.sourceName}) ${a.title}\n   ${a.excerpt}`)
+    .map((a, i) => `${i + 1}. <<${a.id}>> (${a.sourceName}) ${a.title}\n   ${a.excerpt}`)
     .join("\n");
 
   const editorialPolicy = customInstructions.trim() || DEFAULT_EDITORIAL_POLICY;
@@ -71,17 +71,17 @@ function buildPrompt(articles, customInstructions) {
     "【編集方針】(ここはユーザーが自由に設定した指示です。他の指示より優先して考慮してください)",
     editorialPolicy,
     "",
-    "【記事一覧】",
+    "【記事一覧】各行の <<...>> の中身がその記事の識別子(id)です。",
     list,
     "",
     "出力は次のJSONスキーマに厳密に従い、JSON以外の文字列は一切出力しないでください:",
     "{",
     '  "overview": "本日のニュース全体の傾向・注目トピックを3〜5文でまとめた文章",',
     '  "highlights": [',
-    '    { "articleId": "上記のid", "title": "記事タイトル", "reason": "なぜ注目すべきかを1〜2文で" }',
+    '    { "articleId": "該当記事の<<>>内の文字列のみ(<<や>>自体は含めない)", "title": "記事タイトル", "reason": "なぜ注目すべきかを1〜2文で" }',
     "  ]",
     "}",
-    "highlightsは重要度の高い記事を最大5件、articleIdは必ず入力の[id:...]の値をそのまま使ってください。",
+    "highlightsは重要度の高い記事を最大5件、articleIdは必ず入力の<<...>>の中身をそのまま使ってください（\"id:\"のような接頭辞や記号を付け加えないでください）。",
   ].join("\n");
 }
 
