@@ -72,10 +72,16 @@ async function main() {
       "<!-- TEMPLATE:END -->",
     );
     const articleMap = new Map(merged.map((a) => [a.id, a]));
+    const articleByTitle = new Map(merged.map((a) => [a.title, a]));
 
     for (const highlight of aiSummary.highlights) {
-      const article = articleMap.get(highlight.articleId);
-      if (!article) continue;
+      // AIがidを一部誤って出力するケースへの保険として、まずid完全一致、
+      // 次にタイトル完全一致でフォールバックする(それでも見つからなければスキップ)。
+      const article = articleMap.get(highlight.articleId) ?? articleByTitle.get(highlight.title);
+      if (!article) {
+        console.warn(`[collect] 注目記事に対応する記事が見つかりません: id=${highlight.articleId}`);
+        continue;
+      }
 
       const deepDive = await generateDeepDive(article, { template });
       if (deepDive.available) {
