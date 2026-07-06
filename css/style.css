@@ -197,6 +197,67 @@ body {
   font-size: 0.92rem;
 }
 
+/* ---- Deep dive analysis (collapsible Markdown) --------------------- */
+.highlight-card__details {
+  margin-top: 0.75rem;
+  border-top: 1px dashed var(--ink-line);
+  padding-top: 0.6rem;
+}
+
+.highlight-card__details summary {
+  cursor: pointer;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--brass-bright);
+  list-style: none;
+}
+
+.highlight-card__details summary::-webkit-details-marker { display: none; }
+.highlight-card__details summary::before {
+  content: "▸ ";
+}
+.highlight-card__details[open] summary::before {
+  content: "▾ ";
+}
+
+.highlight-card__analysis {
+  margin-top: 0.85rem;
+  font-size: 0.92rem;
+  line-height: 1.7;
+}
+
+.highlight-card__analysis h4 {
+  font-family: var(--font-display);
+  color: var(--brass-bright);
+  font-size: 1rem;
+  margin: 1rem 0 0.4rem;
+}
+.highlight-card__analysis h4:first-child { margin-top: 0; }
+
+.highlight-card__analysis h5 {
+  font-family: var(--font-mono);
+  color: var(--paper);
+  font-size: 0.85rem;
+  margin: 0.75rem 0 0.3rem;
+}
+
+.highlight-card__analysis ul {
+  margin: 0 0 0.6rem;
+  padding-left: 1.2rem;
+}
+
+.highlight-card__analysis li { margin-bottom: 0.25rem; }
+
+.highlight-card__analysis p { margin: 0 0 0.6rem; }
+
+.highlight-card__analysis hr {
+  border: none;
+  border-top: 1px solid var(--ink-line);
+  margin: 0.75rem 0;
+}
+
+.highlight-card__analysis strong { color: var(--brass-bright); }
+
 /* ---- Wire: full article list --------------------------------------*/
 .wire__head {
   display: flex;
