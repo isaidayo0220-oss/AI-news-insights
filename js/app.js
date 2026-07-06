@@ -62,14 +62,65 @@ function renderHighlights(aiSummary, articles) {
       const article = articleMap.get(h.articleId);
       const url = article?.url ?? "#";
       const title = h.title || article?.title || "(タイトル不明)";
+      const analysis = h.analysisMarkdown
+        ? `
+        <details class="highlight-card__details">
+          <summary>詳細分析を見る</summary>
+          <div class="highlight-card__analysis">${renderMarkdownLite(h.analysisMarkdown)}</div>
+        </details>`
+        : "";
       return `
         <li class="highlight-card" data-rank="${i + 1}">
           <p class="highlight-card__title"><a href="${escapeAttr(url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(title)}</a></p>
           <p class="highlight-card__reason">${escapeHtml(h.reason)}</p>
+          ${analysis}
         </li>`;
     })
     .join("");
   el.highlights.hidden = false;
+}
+
+/**
+ * Gemini出力のMarkdown(見出し/箇条書き/太字/水平線程度)を安全なHTMLに変換する軽量レンダラー。
+ * 外部ライブラリに依存せず、まずHTMLエスケープしてからMarkdown記法のみをタグに変換するため、
+ * AIが出力したテキストに万一HTMLが含まれていても、そのまま埋め込まれることはない。
+ */
+function renderMarkdownLite(markdown) {
+  const lines = escapeHtml(markdown).split("\n");
+  const htmlParts = [];
+  let listBuffer = [];
+
+  const flushList = () => {
+    if (listBuffer.length > 0) {
+      htmlParts.push(`<ul>${listBuffer.map((item) => `<li>${item}</li>`).join("")}</ul>`);
+      listBuffer = [];
+    }
+  };
+
+  for (const rawLine of lines) {
+    const line = rawLine.trim();
+    const inline = (text) => text.replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
+
+    if (line === "" || line === "---") {
+      flushList();
+      if (line === "---") htmlParts.push("<hr>");
+      continue;
+    }
+    if (line.startsWith("### ")) {
+      flushList();
+      htmlParts.push(`<h5>${inline(line.slice(4))}</h5>`);
+    } else if (line.startsWith("## ")) {
+      flushList();
+      htmlParts.push(`<h4>${inline(line.slice(3))}</h4>`);
+    } else if (line.startsWith("* ") || line.startsWith("- ")) {
+      listBuffer.push(inline(line.slice(2)));
+    } else {
+      flushList();
+      htmlParts.push(`<p>${inline(line)}</p>`);
+    }
+  }
+  flushList();
+  return htmlParts.join("");
 }
 
 function renderArticles(report) {
