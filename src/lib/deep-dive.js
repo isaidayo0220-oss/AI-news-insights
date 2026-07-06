@@ -35,9 +35,14 @@ export async function generateDeepDive(article, options = {}) {
     `本文抜粋: ${article.excerpt}`,
   ].join("\n");
 
-  const prompt = template.includes(ARTICLE_PLACEHOLDER)
+  const promptBody = template.includes(ARTICLE_PLACEHOLDER)
     ? template.replace(ARTICLE_PLACEHOLDER, articleBlock)
     : `${template}\n\n# 記事\n${articleBlock}`;
+
+  const FORMAT_REMINDER =
+    "\n\n---\n【重要】上記で指定されたMarkdown出力フォーマットの見出し(絵文字含む)・構成・順序を一字一句省略せずそのまま使用してください。" +
+    "自己流の要約や、フォーマットに無い前置き・追加コメントは出力しないでください。";
+  const prompt = `${promptBody}${FORMAT_REMINDER}`;
 
   try {
     const markdown = await callGemini(prompt, {
