@@ -44,6 +44,10 @@ export async function generateDeepDive(article, options = {}) {
       apiKey: options.apiKey,
       model: options.model,
       fetchImpl: options.fetchImpl,
+      // 12セクションにわたる複雑なフォーマット指示に従わせるため、
+      // 思考を完全ゼロにはせず一定の余地を与えつつ、出力トークンも十分に確保する。
+      thinkingBudget: options.thinkingBudget ?? 2048,
+      maxOutputTokens: options.maxOutputTokens ?? 8192,
       // Markdown出力を期待するため、JSON形式は強制しない
     });
     return { available: true, markdown: markdown.trim() };
