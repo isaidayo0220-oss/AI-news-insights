@@ -11,6 +11,11 @@ const ARCHIVE_DIR = path.join(DATA_DIR, "archive");
 const POLICY_FILE = path.resolve("config/prompt.md");
 const DEEP_DIVE_TEMPLATE_FILE = path.resolve("config/deep-dive-prompt.md");
 const ARTICLE_LIMIT = 100;
+const DEEP_DIVE_INTERVAL_MS = 5000; // Gemini無料枠のRPM制限対策として、詳細分析の呼び出し間隔を空ける
+
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
 
 /**
  * markdownファイルから指定マーカーで囲まれた本文だけを取り出す。
@@ -83,12 +88,16 @@ async function main() {
         continue;
       }
 
-      const deepDive = await generateDeepDive(article, { template });
+      const deepDive = await generateDeepDive(article, { customInstructions: template });
       if (deepDive.available) {
         highlight.analysis = deepDive.analysis;
       } else {
         console.warn(`[collect] 詳細分析生成に失敗 (${article.id}): ${deepDive.error}`);
       }
+
+      // Gemini無料枠のRPM(1分あたりのリクエスト数)制限を避けるため、
+      // 詳細分析の呼び出し間に間隔を空ける(gemini-client.js側の429自動リトライと合わせた二重対策)。
+      await sleep(DEEP_DIVE_INTERVAL_MS);
     }
   }
 
