@@ -61,7 +61,14 @@ describe("generateDailySummary", () => {
   it("HTTPエラー時はフォールバックする", async () => {
     const fetchImpl = vi.fn().mockResolvedValue({ ok: false, status: 429 });
 
-    const result = await generateDailySummary([makeArticle()], { apiKey: "dummy-key", fetchImpl });
+    // maxRetries:0を指定し、429時の自動リトライ待機(本番では最大60秒超)を待たずに
+    // エラーハンドリング自体を検証する。リトライの成功/失敗パスはgemini-client側の
+    // 責務であり、ここでは「HTTPエラー時にフォールバックする」動作のみを検証する。
+    const result = await generateDailySummary([makeArticle()], {
+      apiKey: "dummy-key",
+      fetchImpl,
+      maxRetries: 0,
+    });
 
     expect(result.available).toBe(false);
     expect(result.error).toMatch(/429/);
