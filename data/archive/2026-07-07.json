@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-07T00:36:13.651Z",
+  "generatedAt": "2026-07-07T05:27:17.482Z",
   "sources": [
     {
       "id": "itmedia",
@@ -20,36 +20,306 @@
   "articleCount": 95,
   "aiSummary": {
     "available": true,
-    "overview": "本日のIT/テクノロジー分野のニュースは、AI技術の進化とそれに伴う課題、大手IT企業の動向、そしてサイバーセキュリティとデータ漏洩に関する懸念が主な傾向として見られます。特に、AIの活用範囲の拡大と、それに伴う倫理的・技術的な問題が浮上しており、業界全体に大きな影響を与えています。また、Microsoftの人員削減やAppleとBroadcomの契約延長など、大手企業の戦略的な動きも注目されます。",
+    "overview": "本日のIT/テクノロジー分野のニュースは、AI技術の進化と社会への浸透、大手IT企業の組織再編、そして次世代ハードウェアの動向が主な傾向として見られます。特にAIは、開発競争の激化、ガバナンスの必要性、そして教育やコンテンツ生成といった多様な分野での活用と課題が浮き彫りになっています。また、Microsoftや任天堂といった主要企業が、市場の変化に対応するための大規模な人員削減や製品戦略の転換を発表しており、業界全体の変革期を示唆しています。",
     "highlights": [
       {
-        "title": "Microsoft、全社で約4800人を削減へ――法人向け部門とXbox部門が中心",
-        "reason": "Microsoftが全社で約4800人の人員削減を発表したことは、大手IT企業の経営戦略と市場の変化を示す重要な動きであり、特にXbox部門での大規模な再編はゲーム業界にも影響を与える可能性があります。",
-        "articleId": "itmedia:e20b4479"
+        "title": "国連事務総長がAI技術開発で世界に呼びかけ、「革新的な技術」を利用できない数十億の人々に提供する必要性を強調",
+        "reason": "AI技術が急速に発展する中で、その恩恵を世界中の人々が享受できるよう、国連がガバナンスとアクセシビリティの重要性を強調しており、AIの倫理的・社会的な影響範囲の広さを示しています。",
+        "articleId": "gigazine:5f6b3224"
       },
       {
-        "title": "Broadcom、Appleとの半導体契約を2031年まで延長　複数世代のApple製品にカスタムASICを供給へ",
-        "reason": "BroadcomとAppleの半導体契約延長は、Apple製品の将来的な技術ロードマップとサプライチェーンに長期的な影響を与えるだけでなく、Apple Intelligenceを支えるAIサーバ向けチップへの協業拡大はAI分野におけるAppleの戦略を強化するものです。",
-        "articleId": "itmedia:e574f5b7"
+        "title": "複数のAIモデルを一元管理できる「Otari」がMozilla.aiによって開発される",
+        "reason": "Mozilla.aiによるオープンソースのAIモデル管理ツール「Otari」の登場は、多様なAIモデルの効率的な運用を可能にし、AI開発の加速と普及に貢献する可能性があり、その影響範囲は広大です。",
+        "articleId": "gigazine:fb2497b4",
+        "analysis": {
+          "summary": "Mozilla.aiが、複数のAIモデルを一元管理できるオープンソースのコントロールプレーン「Otari」をリリースしました。Otariは大規模言語モデル(LLM)の効果的な運用を目的としています。Mozilla.aiはオープンソースAIエコシステムの構築を目指すスタートアップです。",
+          "keyPoints": [
+            "Mozilla.aiがオープンソースのAIモデル管理ツール「Otari」をリリース。",
+            "Otariは複数のLLMを一元的に管理・運用するためのコントロールプレーン。",
+            "Mozilla.aiはオープンソースAIエコシステムの構築を目標としている。"
+          ],
+          "keywords": [
+            "Mozilla.ai",
+            "Otari",
+            "オープンソース",
+            "AIモデル管理",
+            "LLM"
+          ],
+          "category": "AI/半導体",
+          "importanceStars": 4,
+          "importanceReason": "AIモデルの運用効率化とオープンソース化は、今後のAI開発・導入において重要なトレンドとなるため。",
+          "consultantPoints": [
+            "企業は、複数のAIモデルを導入する際の管理・運用コスト削減と効率化の可能性を検討すべき。",
+            "オープンソースAIツールの採用が、ベンダーロックイン回避やコスト最適化に繋がるかを評価すべき。",
+            "Otariのようなコントロールプレーンが、自社のAI戦略やガバナンスにどのように貢献できるかを分析すべき。"
+          ],
+          "issue": "複数のAIモデルを効率的かつセキュアに運用するための統合管理ソリューションの必要性が高まっている。",
+          "hypotheses": [
+            "OtariがオープンソースAIモデル管理のデファクトスタンダードの一つとなる可能性がある。",
+            "Otariの登場により、企業におけるLLM導入のハードルが下がり、AI活用が加速する可能性がある。",
+            "既存のAIプラットフォームベンダーは、Otariのようなオープンソースツールとの連携や競合戦略を迫られる可能性がある。"
+          ],
+          "businessImpact": {
+            "company": "複数のAIモデルを運用する企業は、管理コスト削減と効率化の恩恵を受ける可能性がある。特に中小企業やスタートアップは、低コストで高度なAI運用が可能になる。",
+            "consumer": "間接的に、企業が提供するAI活用サービスがより高度化・効率化され、利便性が向上する可能性がある。",
+            "market": "AIモデル管理ツールの市場競争が激化し、オープンソースソリューションの存在感が増す。AIプラットフォーム市場全体が活性化する。",
+            "economy": "日本企業におけるAI導入・活用が促進され、生産性向上や新たなビジネス創出に寄与する可能性がある。"
+          },
+          "actions": [
+            "Otariの具体的な機能、対応モデル、導入要件について詳細を調べる。",
+            "類似のオープンソースおよび商用AIモデル管理ソリューションとの比較分析を行う。",
+            "自社のAI開発・運用ロードマップにおけるOtari導入の実現可能性とROIを評価する。"
+          ],
+          "readingNotes": {
+            "learning": "MozillaがオープンソースAIエコシステムに注力し、AIモデル管理の課題解決を目指していることを学んだ。",
+            "insight": "AIモデルの乱立が進む中で、一元管理のニーズは必然であり、オープンソースでの提供は市場に大きな影響を与えるだろう。",
+            "tomorrow": "自社やクライアントのAI戦略において、オープンソースAIツールの活用可能性について議論する際にOtariの事例を引用できる。特に、複数のLLMを検討しているプロジェクトで管理の課題がないか確認する。"
+          }
+        }
       },
       {
-        "title": "かつて成功したブログ100個のうち約半数はGoogleのAI導入などで検索トラフィックの85％以上を失った",
-        "reason": "GoogleのAI導入がウェブサイトの検索トラフィックに壊滅的な影響を与えているという調査結果は、AIが情報流通のあり方を根本的に変え、既存のビジネスモデルに大きな打撃を与えていることを示しており、広範な影響が懸念されます。",
-        "articleId": "gigazine:888f5d79"
+        "title": "xAIの名称が「SpaceXAI」に変更される",
+        "reason": "イーロン・マスク氏率いるxAIが「SpaceXAI」に名称変更し、SpaceXの技術とAIの統合を進める方針は、宇宙開発とAIの融合という新たな産業領域を切り開く可能性があり、その影響は広範囲に及びます。",
+        "articleId": "gigazine:32a09475",
+        "analysis": {
+          "summary": "イーロン・マスク氏が設立したAIスタートアップxAIが、社名を「SpaceXAI」に変更しました。この変更は、マスク氏が率いる他の企業との連携強化を示唆している可能性があります。具体的な変更理由や事業戦略への影響は記事からは不明です。",
+          "keyPoints": [
+            "xAIが社名を「SpaceXAI」に変更した。",
+            "イーロン・マスク氏が設立したAIスタートアップである。",
+            "名称変更の背景や目的は記事からは不明。"
+          ],
+          "keywords": [
+            "xAI",
+            "SpaceXAI",
+            "イーロン・マスク",
+            "AIスタートアップ",
+            "社名変更"
+          ],
+          "category": "AI",
+          "importanceStars": 3,
+          "importanceReason": "AI業界における主要プレイヤーの一つであるxAIのブランド戦略変更は、今後の事業展開に影響を与える可能性があるため。",
+          "consultantPoints": [
+            "社名変更がブランド戦略、採用戦略、資金調達に与える影響を分析する。",
+            "SpaceXとの具体的な事業連携や技術シナジーの可能性を評価する。",
+            "競合他社がこの名称変更をどのように捉え、戦略に組み込むかを予測する。"
+          ],
+          "issue": "xAIの社名変更が、同社の事業戦略、市場ポジショニング、およびイーロン・マスク氏のエコシステム全体にどのような影響を与えるか。",
+          "hypotheses": [
+            "SpaceXの宇宙技術とAI技術の融合による新たなサービス開発が加速する可能性がある。",
+            "マスク氏が率いる企業群（テスラ、SpaceX、Neuralinkなど）との連携を強化し、統合的なエコシステムを構築する意図がある。",
+            "投資家や顧客に対して、SpaceXの信頼性や技術力をAI事業にも波及させる狙いがある。"
+          ],
+          "businessImpact": {
+            "company": "（推測）xAIはSpaceXのブランド力を活用し、認知度向上や信頼性獲得に繋がる可能性がある一方、ブランドイメージの混同やAI事業の独自性希薄化のリスクも考えられる。",
+            "consumer": "（推測）SpaceXの技術と連携したAIサービスが提供されれば、より高性能で革新的な製品やサービスの恩恵を受ける可能性がある。",
+            "market": "（推測）AI市場において、SpaceXAIが宇宙関連AIや特定分野での存在感を高めることで、競合他社の戦略に影響を与える可能性がある。",
+            "economy": "（推測）日本経済への直接的な影響は限定的だが、グローバルなAI技術開発競争の動向として、間接的に日本のAI関連産業の戦略に影響を与える可能性はある。"
+          },
+          "actions": [
+            "xAIおよびSpaceXの公式発表やプレスリリースを確認し、社名変更の具体的な理由や戦略的意図を調べる。",
+            "イーロン・マスク氏の過去の発言やインタビューを調査し、AIと宇宙技術の融合に関するビジョンを深掘りする。",
+            "SpaceXAIの今後の採用動向や技術開発ロードマップに関する情報を収集する。"
+          ],
+          "readingNotes": {
+            "learning": "企業がブランド戦略の一環として社名変更を行う際、その背景には事業戦略の大きな転換や連携強化の意図があることが多いという学び。",
+            "insight": "イーロン・マスク氏の企業群は、単なる独立した事業体ではなく、相互に連携し合うエコシステムを形成しようとしているという強い示唆を得た。",
+            "tomorrow": "AI関連企業の動向を追う際、単一企業だけでなく、その背後にある経営者のビジョンや関連企業との連携可能性にも注目して分析を行う。"
+          }
+        }
       },
       {
-        "title": "KDDI、パスワード760万人分漏えい　メアドも1220万人分　ISP事業者向けシステムへの不正アクセスで",
-        "reason": "KDDIおよび関連ISP事業者における大規模な個人情報漏洩は、サイバーセキュリティの重要性を改めて浮き彫りにし、多くのユーザーに直接的な影響を与える重大なインシデントです。",
-        "articleId": "itmedia:fae192cf"
+        "title": "Microsoftが主にXBOXとコマーシャル部門で約4800人をレイオフ、4つのスタジオを手放し最高14階層ある管理層を削減して意思決定の迅速化を図る",
+        "reason": "Microsoftによる大規模な人員削減と組織再編は、大手IT企業が市場の変化と競争激化に対応するための構造改革を進めていることを示しており、業界全体に大きな影響を与える可能性があります。",
+        "articleId": "gigazine:5ab29e95"
       },
       {
-        "title": "CIA長官が高度なAIを核兵器と同等のレベルに位置づける",
-        "reason": "CIA長官が高度なAIを核兵器と同等の戦略的脅威と位置づけたことは、AI技術が国家安全保障レベルで認識され、その開発と利用が国際政治に大きな影響を与える可能性を示唆しています。",
-        "articleId": "gigazine:a4d43529"
+        "title": "任天堂が交換可能バッテリー搭載のNintendo Switch 2などを欧州で順次投入、初代Nintendo Switchシリーズは2027年2月に販売終了",
+        "reason": "欧州のバッテリー規制に対応するための任天堂の製品戦略転換は、次世代ゲーム機の設計思想や、環境規制がグローバル企業の製品開発に与える影響の大きさを示しており、消費者や競合他社にも波及する可能性があります。",
+        "articleId": "gigazine:d855439f"
       }
     ]
   },
   "articles": [
+    {
+      "id": "gigazine:70026afc",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "手書きの文章に返事をくれるハリー・ポッターの「トム・リドルの日記」を電子ペーパー端末とAIで再現",
+      "url": "https://gigazine.net/news/20260707-harry-potter-diary-of-tom-riddle/",
+      "publishedAt": "2026-07-07T05:00:00.000Z",
+      "excerpt": "J・K・ローリングの人気児童小説「ハリー・ポッター」シリーズの2作目である『ハリー・ポッターと秘密の部屋』に登場する「トム・リドルの日記」は、日記帳に文字を書き込むことでホグワーツ魔法学校の元学生だったトム・リドルと会話ができるというアイテムでした。このトム・リドルの日記をLLM(大規模言語モデル)を使って再現するツール「Riddle」がオープンソースで開発されています。 続きを読む..."
+    },
+    {
+      "id": "gigazine:87bec937",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "NASAの古い衛星Swiftを救う「宇宙のロードサービス」ミッションが進行中",
+      "url": "https://gigazine.net/news/20260707-swift-boost-mission/",
+      "publishedAt": "2026-07-07T04:45:00.000Z",
+      "excerpt": "老朽化したNASAの人工衛星「Neil Gehrels Swift Observatory」を救うため、民間企業Katalyst Space Technologiesのロボット宇宙船「LINK」が打ち上げられ、軌道上でSwiftを追いかけるミッションが進行しています。 続きを読む..."
+    },
+    {
+      "id": "gigazine:d4420b25",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "エアコンの推奨温度などエネルギー節約に関する約6000の政府ウェブページをアメリカエネルギー省が削除",
+      "url": "https://gigazine.net/news/20260707-white-house-heatwave/",
+      "publishedAt": "2026-07-07T04:35:00.000Z",
+      "excerpt": "アメリカでは発達した高気圧が張り出す「ヒートドーム」という現象により猛暑が発生しています。そんな中、エネルギー保全に関するウェブページ約6000ページをアメリカのエネルギー省が削除したことが報じられています。 続きを読む..."
+    },
+    {
+      "id": "gigazine:5f6b3224",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "国連事務総長がAI技術開発で世界に呼びかけ、「革新的な技術」を利用できない数十億の人々に提供する必要性を強調",
+      "url": "https://gigazine.net/news/20260707-un-chief-call-ai/",
+      "publishedAt": "2026-07-07T03:58:00.000Z",
+      "excerpt": "ジュネーブで開催された第1回Global Dialogue on AI Governance(国連AIガバナンスに関するグローバルな対話)において、国連事務総長のアントニオ・グテーレス氏がAIに関する演説を行いました。 続きを読む..."
+    },
+    {
+      "id": "gigazine:fb2497b4",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "複数のAIモデルを一元管理できる「Otari」がMozilla.aiによって開発される",
+      "url": "https://gigazine.net/news/20260707-mozilla-ai-otari/",
+      "publishedAt": "2026-07-07T03:55:00.000Z",
+      "excerpt": "Firefoxなどの開発で知られるMozillaが設立したオープンソースAIエコシステム構築を目指すスタートアップ「Mozilla.ai」は2026年7月6日に、大規模言語モデル(LLM)を効果的に運用するためのオープンソースコントロールプレーン「Otari」をリリースしました。 続きを読む..."
+    },
+    {
+      "id": "itmedia:5b3ab56",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "「iPhone Air」が2万円引き　「プライムデー先行セール」開始、Apple製品が安い",
+      "url": "https://www.itmedia.co.jp/news/articles/2607/07/news112.html",
+      "publishedAt": "2026-07-07T03:26:00.000Z",
+      "excerpt": "日本のプライムデーに初めて登場した「iPhone Air」（256GB／SIMフリー版）は、参考価格の15万9800円から2万円引き（13％オフ）の13万9800円で販売している。"
+    },
+    {
+      "id": "gigazine:4f03d627",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "Sakana AIが翻訳機能「Sakana Translate」をリリース、日英中の双方向翻訳に対応＆カジュアル・簡潔・大阪弁などに変換可能",
+      "url": "https://gigazine.net/news/20260707-sakana-translate/",
+      "publishedAt": "2026-07-07T03:26:00.000Z",
+      "excerpt": "東京に拠点を置くAI企業のSakana AIがチャットAI「Sakana Chat」に翻訳機能「Sakana Translate」を追加しました。Sakana Translateは日本語・英語・中国語の双方向翻訳に対応し、最大約5000文字の翻訳が可能とのこと。無料で使えるそうなので実際に使ってみました。 続きを読む..."
+    },
+    {
+      "id": "gigazine:3bd35af",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "MSIが中国製DDR5メモリ向けのベータ版BIOSをリリースしDDR5-8200での動作が可能に、CXMTがMicron・Samsung・SK hynixに代わる選択肢となるか",
+      "url": "https://gigazine.net/news/20260707-msi-cxmt-memory-bios/",
+      "publishedAt": "2026-07-07T03:19:00.000Z",
+      "excerpt": "AI需要による世界的なメモリ不足が深刻化する中、中国のメモリメーカーであるCXMTが個人向けのDDR5メモリを生産しているという情報が注目を集めています。新たに大手マザーボードメーカーのMSIがCXMT製メモリの高速動作を可能にするベータ版BIOSをリリースしたことが明らかになりました。 続きを読む..."
+    },
+    {
+      "id": "gigazine:125dac20",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "中国のネット小説サイトがAI小説対策を強化、読者からは「AI小説を読むのは時間の無駄」との声も",
+      "url": "https://gigazine.net/news/20260707-china-ai-web-novels/",
+      "publishedAt": "2026-07-07T03:10:00.000Z",
+      "excerpt": "中国のウェブ小説プラットフォームで、AIを使って作られた小説への投稿制限や審査強化が始まっているとRest of Worldが報じています。AIで大量生成された作品が増えたことで読者から品質低下への不満が出ており、テンセント、ByteDance、百度などが関わる主要サービスは投稿制限や審査強化に動いているとのことです。 続きを読む..."
+    },
+    {
+      "id": "itmedia:d7a0d291",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "欧州のSwitch 2、バッテリー交換式へ　EU新バッテリー規制に対応　初代Switchファミリーは販売終了",
+      "url": "https://www.itmedia.co.jp/news/articles/2607/07/news106.html",
+      "publishedAt": "2026-07-07T03:07:00.000Z",
+      "excerpt": "任天堂の欧州法人Nintendo of Europeは7月6日（現地時間）、欧州で2027年2月中旬に施行されるバッテリー規制の変更に備え、「Nintendo Switch 2」本体や周辺機器を、ユーザー自身でバッテリーを交換できる改訂版へ26年夏から順次切り替えると発表した。初代「Nintendo Switch」ファミリーは改訂の対象外とし、27年2月中旬に販売を終える。"
+    },
+    {
+      "id": "gigazine:4589e3c1",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "人類の歴史上「戦争のない時期」はあったのか？",
+      "url": "https://gigazine.net/news/20260707-period-human-history-without-war/",
+      "publishedAt": "2026-07-07T03:00:00.000Z",
+      "excerpt": "人類は数千年にわたり数え切れないほどの戦争を繰り返しており、記事作成時点でもロシアによるウクライナ侵攻、イスラエルによるパレスチナ自治区ガザ地区への攻撃など、さまざまな戦争が行われています。科学系メディアのLive Scienceが、「人類の歴史において戦争のない時期はあったのか」という問いについて、さまざまな専門家の声をまとめています。 続きを読む..."
+    },
+    {
+      "id": "gigazine:32a09475",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "xAIの名称が「SpaceXAI」に変更される",
+      "url": "https://gigazine.net/news/20260707-xai-change-spacexai/",
+      "publishedAt": "2026-07-07T02:34:00.000Z",
+      "excerpt": "イーロン・マスク氏が立ち上げたAIスタートアップのxAIが、名称を「SpaceXAI」に変更しました。 続きを読む..."
+    },
+    {
+      "id": "gigazine:5ab29e95",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "Microsoftが主にXBOXとコマーシャル部門で約4800人をレイオフ、4つのスタジオを手放し最高14階層ある管理層を削減して意思決定の迅速化を図る",
+      "url": "https://gigazine.net/news/20260707-microsoft-lay-off-4800/",
+      "publishedAt": "2026-07-07T02:32:00.000Z",
+      "excerpt": "20267月6日、Microsoftが全世界の従業員の約2.1％にあたる約4800名の人員を削減する方針を明らかにしました。即日、XBOX部門で約1600人が解雇されています。 続きを読む..."
+    },
+    {
+      "id": "gigazine:80047091",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "ボストン・ダイナミクスの人型ロボットAtlasがワールドカップデビュー",
+      "url": "https://gigazine.net/news/20260707-fifa-world-cup-2026-hyundai-atlas/",
+      "publishedAt": "2026-07-07T02:28:00.000Z",
+      "excerpt": "ボストン・ダイナミクスの人型ロボット「Atlas」が、アメリカ・カナダ・メキシコで共催されているFIFAワールドカップ2026に登場しました。 続きを読む..."
+    },
+    {
+      "id": "gigazine:d855439f",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "任天堂が交換可能バッテリー搭載のNintendo Switch 2などを欧州で順次投入、初代Nintendo Switchシリーズは2027年2月に販売終了",
+      "url": "https://gigazine.net/news/20260707-nintendo-switch-2-exchangable-battery/",
+      "publishedAt": "2026-07-07T01:54:00.000Z",
+      "excerpt": "任天堂は、2027年2月中旬に施行される欧州のバッテリー規制に対応するため、欧州で初代Nintendo Switchシリーズの販売を終了します。一方で、ユーザー自身が交換できるバッテリーを搭載したNintendo Switch 2本体や周辺機器を、2026年夏から2027年初頭にかけて順次販売します。 続きを読む..."
+    },
+    {
+      "id": "gigazine:362fd9fa",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "テンセントがAIモデル「Hy3」をオープンモデルとして公開、295BでGLM-5.2やDeepSeek-V4に匹敵＆科学タスクではGPT-5.5を上回る",
+      "url": "https://gigazine.net/news/20260707-tencent-ai-hy3/",
+      "publishedAt": "2026-07-07T01:51:00.000Z",
+      "excerpt": "中国の大手テクノロジー企業であるTencent(テンセント)がAIモデル「Hy3」を2026年7月6日に公開しました。Hy3はGLM-5.2やDeepSeek-V4-Proといったオープンモデルと比べて小規模なモデルで、はるかに大規模なモデルと同等クラスの性能を発揮するとアピールされています。 続きを読む..."
+    },
+    {
+      "id": "itmedia:1387ce7c",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "SpaceX、xAIの正式名称を「SpaceXAI」に　新ロゴも公開",
+      "url": "https://www.itmedia.co.jp/news/articles/2607/07/news084.html",
+      "publishedAt": "2026-07-07T01:50:00.000Z",
+      "excerpt": "SpaceXは、傘下のAI部門であるxAIの正式名称をSpaceXAIに変更し、新しいロゴを発表した。新ロゴはSpaceXの「X」の部分に「AI」が隠れるようなデザイン。今回の名称変更と統合により、衛星通信網Starlinkや大型ロケットStarshipの運用にxAIの技術を直接活用していく方針だ。"
+    },
+    {
+      "id": "itmedia:e729ce56",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "月初襲ったPASMO障害「定期買えず払った運賃」補償へ　申請→個別調査で「時間かかる」",
+      "url": "https://www.itmedia.co.jp/news/articles/2607/07/news079.html",
+      "publishedAt": "2026-07-07T01:11:00.000Z",
+      "excerpt": "6月30日～7月1日は月末月初で定期券更新のタイミングと重なっており、定期券購入を諦めてPASMOやSuicaの残高などから支払った乗客も多かったとみられる。"
+    },
+    {
+      "id": "itmedia:91427a7b",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "佃煮の日「クソダサポスター」ホントにAIに作れない？　GeminiとChatGPTに挑戦させてみた結果",
+      "url": "https://www.itmedia.co.jp/news/articles/2607/06/news053.html",
+      "publishedAt": "2026-07-07T01:00:00.000Z",
+      "excerpt": "農林水産省の公式Xが6月29日に投稿した「佃煮の日」ポスターが、良い意味で“クソダサい”と話題になった。コメント欄には「AIには出せない温かみがあって好き」「AI使わないところがほんと良い」という声が目立ったという。……でも待ってほしい。今のAIなら、こういう雰囲気も作れるのでは？ というわけで、AIにチャレンジさせてみた。"
+    },
+    {
+      "id": "gigazine:b4a4b662",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "長々と会議しているのになかなか物事を決められないのは「部屋の二酸化炭素濃度」のせいかもしれない",
+      "url": "https://gigazine.net/news/20260707-co2-decision-making-bottleneck/",
+      "publishedAt": "2026-07-07T00:50:00.000Z",
+      "excerpt": "有能な管理職や社員が何人も集まった会議なのに、要領を得ない会話ばかりがダラダラと続き、なかなか重要なことが決められなかった経験がある人は多いはず。ソフトウェア開発の知識と応用神経科学を組み合わせたコンサルティングを行うマイク・ボウラー氏が、「室内の空気」がこうした会議のボトルネックになっている可能性があると指摘しています。 続きを読む..."
+    },
     {
       "id": "gigazine:3995af98",
       "sourceId": "gigazine",
@@ -294,19 +564,10 @@
       "excerpt": "開発者のammaarreshi氏が、ゲーム「Command ＆ Conquer Generals Zero Hour」をMac・iPhone・iPadに移植しました。ammaarreshi氏はAIを活用したと述べています。 続きを読む..."
     },
     {
-      "id": "gigazine:5cb30948",
-      "sourceId": "gigazine",
-      "sourceName": "GIGAZINE",
-      "title": "Instagramが児童性的虐待コンテンツを宣伝する広告を掲載、「レイプ動画」や「児童動画」といった用語を使用しTelegramチャンネルへリンク",
-      "url": "https://gigazine.net/news/20260706-instagram-child-sexual-promoting/",
-      "publishedAt": "2026-07-06T06:40:00.000Z",
-      "excerpt": "BBCの調査で、インド向けに配信されたInstagram広告に児童性的虐待コンテンツが含まれていたことが分かりました。この調査が発表された後、インド政府がMetaの関係者を召喚して詳しい説明を求める方針を示したと伝えられました。 続きを読む..."
-    },
-    {
       "id": "itmedia:f0a47f15",
       "sourceId": "itmedia",
       "sourceName": "ITmedia NEWS",
-      "title": "アクションカムは「コンデジの夢」を見るか　見えてきたスナップカメラとしての可能性",
+      "title": "アクションから卒業する「アクションカメラ」は、新ジャンル「ミニカメラ」を形成するか",
       "url": "https://www.itmedia.co.jp/news/articles/2607/06/news103.html",
       "publishedAt": "2026-07-06T06:25:00.000Z",
       "excerpt": "アクションカメラはもはや、“アクションからの卒業”がテーマになりつつあるのではないか。そう感じるような変化が周辺機器市場を中心に起こりつつある。そして登場したのが「GoPro Mission 1」だった。"
@@ -321,15 +582,6 @@
       "excerpt": "日本での販売数がBMWを抜くなどオーナーが急増中のTesla。歓迎すべき人気の裏で、4年半乗る筆者のような既存オーナーの胸には、じわりと不安が兆し始めている。整備も車検も代車も追いつかない体制のまま台数だけが膨らめば、しわ寄せはどこへ向かうのか。6月末に発生した納車トラブルをきっかけに足元を見つめ直す。"
     },
     {
-      "id": "gigazine:be26e16d",
-      "sourceId": "gigazine",
-      "sourceName": "GIGAZINE",
-      "title": "スムージーにバナナを入れると健康に良い成分の体内濃度が低下する",
-      "url": "https://gigazine.net/news/20260706-banana-smoothie-flavanols/",
-      "publishedAt": "2026-07-06T05:00:00.000Z",
-      "excerpt": "スムージーはいろんな果物や野菜などを混ぜて楽しめる飲み物で、中でもバナナは「甘味を足す」「食感を滑らかにする」「全体的にマイルドな味にする」といった効果がある人気の食材です。ところが、2023年に英国王立化学会の学術誌であるFood & Functionに掲載された論文では「スムージーにバナナを入れると特定の成分の体内濃度が低下する」という研究結果が示されています。 続きを読む..."
-    },
-    {
       "id": "itmedia:3a323ff8",
       "sourceId": "itmedia",
       "sourceName": "ITmedia NEWS",
@@ -339,51 +591,6 @@
       "excerpt": "Sakana AIは7月6日、チャットサービス「Sakana Chat」で翻訳機能「Sakana Translate」の提供を始めた。日本語・英語・中国語の相互翻訳に対応し、翻訳・添削・質疑の3モードをアカウント登録だけで無料で使える。"
     },
     {
-      "id": "gigazine:e415a3ab",
-      "sourceId": "gigazine",
-      "sourceName": "GIGAZINE",
-      "title": "SpaceXが6カ月でStarlink衛星260基を大気圏で焼却処分していたことがFCC提出の半期報告書で明らかに",
-      "url": "https://gigazine.net/news/20260706-spacex-starlink-satelite/",
-      "publishedAt": "2026-07-06T04:56:00.000Z",
-      "excerpt": "SpaceXは2026年7月1日付でFCC(アメリカ連邦通信委員会)に提出した第1世代・第2世代Starlinkの半期報告書において、2025年12月から2026年5月までの間に260基のStarlink衛星を大気圏再突入によって処分したことを明らかにしました。 続きを読む..."
-    },
-    {
-      "id": "gigazine:a4d43529",
-      "sourceId": "gigazine",
-      "sourceName": "GIGAZINE",
-      "title": "CIA長官が高度なAIを核兵器と同等のレベルに位置づける",
-      "url": "https://gigazine.net/news/20260706-cia-boss-compare-ai-nuclear/",
-      "publishedAt": "2026-07-06T04:42:00.000Z",
-      "excerpt": "国家安全保障について語った中央情報局(CIA)のジョン・ラトクリフ長官が、高性能なAIモデルを核兵器になぞらえました。近年の高性能AIは既存のシステムから脆弱(ぜいじゃく)性を見つけ出す能力に優れたものもあり、金融や軍事システムなど国の中枢を成すシステムが脅かされています。 続きを読む..."
-    },
-    {
-      "id": "gigazine:d5179612",
-      "sourceId": "gigazine",
-      "sourceName": "GIGAZINE",
-      "title": "PC版「MARVEL Tōkon: Fighting Souls」が132カ国で販売ブロックされる、原因はPlaystation Networkの要件か",
-      "url": "https://gigazine.net/news/20260706-marvel-tokon-fighting-souls-blocks-132-countries/",
-      "publishedAt": "2026-07-06T04:41:00.000Z",
-      "excerpt": "ギルティギアシリーズの開発元として知られるアークシステムワークスが開発を担当した、マーベル・コミックの人気キャラクターによる格闘ゲーム「MARVEL Tōkon: Fighting Souls」は2026年8月7日発売予定です。Playstation 5(PS5)およびWindows向けにリリース予定の同作ですが、PC版は132カ国で販売がブロックされていることが明らかになり話題を呼んでいます。 続きを読む..."
-    },
-    {
-      "id": "gigazine:2ef3ff5b",
-      "sourceId": "gigazine",
-      "sourceName": "GIGAZINE",
-      "title": "中国のAIアプリから「人間っぽい相棒」が消える、ByteDanceとAlibabaが規制対応で機能停止へ",
-      "url": "https://gigazine.net/news/20260706-disable-custom-agents/",
-      "publishedAt": "2026-07-06T04:40:00.000Z",
-      "excerpt": "2026年7月15日から「人工知能擬人化インタラクションサービス管理暫定弁法」が施行されることを受け、中国の大手AIアプリであるByteDanceの「Doubao」とAlibabaの「Qwen」が人間のような性格や口調を持つカスタムAIエージェント機能を停止するとユーザーに通知しました。 続きを読む..."
-    },
-    {
-      "id": "gigazine:24ac1cc8",
-      "sourceId": "gigazine",
-      "sourceName": "GIGAZINE",
-      "title": "OpenAIが巨大データセンター建設計画「Stargate UK」で現地を一切視察していないことが明らかに",
-      "url": "https://gigazine.net/news/20260706-openai-data-center-stargate-uk/",
-      "publishedAt": "2026-07-06T04:30:00.000Z",
-      "excerpt": "OpenAIが推進するAIデータセンター建設計画「Stargate」のうち、イギリスの「Stargate UK」は一時停止中ですが、調査により、そもそもOpenAIは現地視察を一切行っていなかったことが指摘されています。また、イギリス政府はこの計画で300億ポンド(約6兆4800億円)規模の投資があると述べていましたが、そのうち少なくとも200億ポンド(約4兆3200億円)分は仮の数字だったとみられています。 続きを読む..."
-    },
-    {
       "id": "itmedia:fe78a23b",
       "sourceId": "itmedia",
       "sourceName": "ITmedia NEWS",
@@ -391,78 +598,6 @@
       "url": "https://www.itmedia.co.jp/news/articles/2607/06/news075.html",
       "publishedAt": "2026-07-06T03:18:00.000Z",
       "excerpt": "動画配信サービス「バンダイチャンネル」の会員約4万6800人を無断で退会させ、運営会社の業務を妨害したとして、警視庁は埼玉県所沢市の男子高校生（15）を偽計業務妨害の疑いで再逮捕した。生成AIの「ChatGPT」を使って不正なプログラムを自作したと供述しているという。"
-    },
-    {
-      "id": "gigazine:5968dd57",
-      "sourceId": "gigazine",
-      "sourceName": "GIGAZINE",
-      "title": "「フランス最大のトレントサイトの運営組織を摘発した」とフランス警察が発表",
-      "url": "https://gigazine.net/news/20260706-france-yggtorrent/",
-      "publishedAt": "2026-07-06T03:15:00.000Z",
-      "excerpt": "フランス語圏最大のトレントコミュニティ「YggTorrent」は2026年3月に壊滅的なハッキング被害を受けて閉鎖されました。それから約4カ月後には、フランス警察が「YggTorrentサイトを管理する組織の活動を終結させる国家司法作戦を実施した」と発表しています。 続きを読む..."
-    },
-    {
-      "id": "gigazine:1e28547f",
-      "sourceId": "gigazine",
-      "sourceName": "GIGAZINE",
-      "title": "男性だけでなく女性も「女性の顔の方が魅力的」と評価している",
-      "url": "https://gigazine.net/news/20260706-gender-attractiveness-gap-female-faces/",
-      "publishedAt": "2026-07-06T03:10:00.000Z",
-      "excerpt": "顔の魅力評価に関する52件の研究を統合した大規模分析で、男性だけでなく女性も「女性の顔を男性の顔より魅力的だと評価する傾向」が確認されたと、ドイツのマックス・プランク経験美学研究所などの研究チームが報告しました。 続きを読む..."
-    },
-    {
-      "id": "gigazine:fa291415",
-      "sourceId": "gigazine",
-      "sourceName": "GIGAZINE",
-      "title": "Amazonのクラウドソーシングプラットフォーム「Amazon Mechanical Turk」が新規顧客受け入れを停止",
-      "url": "https://gigazine.net/news/20260706-amazon-stop-accepting-customers-mechanical-turk/",
-      "publishedAt": "2026-07-06T03:07:00.000Z",
-      "excerpt": "遠隔地にいるクラウドワーカーを雇用することでオンデマンドタスクを実行できるというクラウドソーシングプラットフォームが「Amazon Mechanical Turk(MTurk)」です。Amazonは2026年7月30日をもってMTurkの新規顧客受付を停止すると発表しました。 続きを読む..."
-    },
-    {
-      "id": "gigazine:4572fe3b",
-      "sourceId": "gigazine",
-      "sourceName": "GIGAZINE",
-      "title": "人間が宇宙人と接触していないのは「宇宙人がAIを導入したから」ではないかという説",
-      "url": "https://gigazine.net/news/20260706-superintelligent-ai-explain-fermi-paradox/",
-      "publishedAt": "2026-07-06T03:05:00.000Z",
-      "excerpt": "フェルミのパラドックスとは、物理学者のエンリコ・フェルミが指摘した「宇宙には人類以外の知的生命体が存在する可能性が高いにもかかわらず、これまで人類と接触した宇宙人や地球外文明が存在しないという矛盾」のことです。この理由については「太陽系に訪れる価値がないから」「他の文明に滅ぼされるのを避けるため身を潜めているから(暗黒森林仮説)」などの説がありますが、新たに「宇宙人が宇宙開発にAIを導入したから」という説が提唱されました。 続きを読む..."
-    },
-    {
-      "id": "gigazine:b90e1959",
-      "sourceId": "gigazine",
-      "sourceName": "GIGAZINE",
-      "title": "ジム・ケラーの半導体製造スタートアップ企業「Fab2」が小型半導体ファブを大量生産するための工場を建設中",
-      "url": "https://gigazine.net/news/20260706-jim-keller-fab-2/",
-      "publishedAt": "2026-07-06T02:44:00.000Z",
-      "excerpt": "AppleのA4チップやAMDのZenマイクロアーキテクチャなどの設計で知られる半導体エンジニアでAIチップ開発スタートアップ・TenstorrentのCEOを務めるジム・ケラー氏と、自作半導体製造で知られるサム・ゼルーフ氏が設立したスタートアップ「Atomic Semi」が社名を「Fab2」に変更しました。Fab2は小型の半導体製造工場と、その内部で使う装置を量産する「fab fab」の構築を進めており、活動拠点もテキサス州へ移しています。 続きを読む..."
-    },
-    {
-      "id": "gigazine:ea03992b",
-      "sourceId": "gigazine",
-      "sourceName": "GIGAZINE",
-      "title": "メモリ企業が「家電製品の税控除」や「政府による選択的な市場介入の防止」を目指してロビー活動を展開",
-      "url": "https://gigazine.net/news/20260706-memory-chip-supply-lobbying/",
-      "publishedAt": "2026-07-06T02:42:00.000Z",
-      "excerpt": "AI需要によるメモリ不足が続く中、大手メモリ企業が参加する業界団体がアメリカのスコット・ベッセント財務長官に対して「政府による選択的な市場介入」を避けるように求める書簡を送付したことが明らかになりました。 続きを読む..."
-    },
-    {
-      "id": "gigazine:ccc2ef35",
-      "sourceId": "gigazine",
-      "sourceName": "GIGAZINE",
-      "title": "インドの裁判所が偽サイト対策のためWHOISのプライバシー保護を制限する動き、大手レジストラが反発",
-      "url": "https://gigazine.net/news/20260706-domain-india-privacy/",
-      "publishedAt": "2026-07-06T02:26:00.000Z",
-      "excerpt": "インドの裁判所が偽サイト対策として、ドメイン登録時に登録者情報を隠すWHOISプライバシー保護の扱いを大きく見直す判断を示しました。これに対して、世界最大級のドメイン登録事業者であるGoDaddyが、「インターネット全体に悪影響を及ぼす可能性がある」と懸念していることをロイターが報じました。 続きを読む..."
-    },
-    {
-      "id": "gigazine:5a6a79f1",
-      "sourceId": "gigazine",
-      "sourceName": "GIGAZINE",
-      "title": "画像生成AIを開発するMidjourneyが係争中のハリウッドの映画スタジオに対してAIの利用状況の詳細を明らかにするよう要求",
-      "url": "https://gigazine.net/news/20260706-midjourney-hollywood-studios-ai-usage/",
-      "publishedAt": "2026-07-06T02:08:00.000Z",
-      "excerpt": "画像生成AIを開発するMidjourneyがディズニー、ユニバーサル、ワーナーブラザース・ディスカバリー(WBD)の大手映画スタジオ3社との著作権訴訟において、スタジオ側のAI利用実態を開示するよう求めています。両者の対立は開示手続きの範囲を巡るものに移っており、担当判事は消費者向けの映像や画像に関する情報のみ開示対象とする判断を示していましたが、Midjourneyはこの制限の撤回を求める申立てを行いました。 続きを読む..."
     },
     {
       "id": "itmedia:c473dd1d",
@@ -769,51 +904,6 @@
       "url": "https://www.itmedia.co.jp/news/articles/2607/02/news074.html",
       "publishedAt": "2026-07-02T03:10:00.000Z",
       "excerpt": "障害の影響で、一部のiOS端末では、ウォレットアプリからSuicaが突然消えるケースもあったという。"
-    },
-    {
-      "id": "itmedia:43d0191d",
-      "sourceId": "itmedia",
-      "sourceName": "ITmedia NEWS",
-      "title": "東京ディズニーランド初のドローン演出　夜間エンタメ「Reach for the Stars」フィナーレ彩る",
-      "url": "https://www.itmedia.co.jp/news/articles/2607/02/news066.html",
-      "publishedAt": "2026-07-02T01:36:00.000Z",
-      "excerpt": "東京ディズニーリゾート（千葉県浦安市）で1日、スペシャルイベント「サマー・クールオフ at Tokyo Disney Resort」が報道陣に公開された。目玉は、9月14日に終了するナイトエンターテインメント「Reach for the Stars」の特別版「Reach for the Stars：Everlasting Dreams」。ショー本編に新たなエピローグを加え、東京ディズニーランドのエンターテインメントでは初となるドローン演出でフィナーレを飾る。"
-    },
-    {
-      "id": "itmedia:140867b9",
-      "sourceId": "itmedia",
-      "sourceName": "ITmedia NEWS",
-      "title": "浅田真央さんの旧ドメイン、GMOが「アフィサイトに」と販売で批判殺到【訂正あり】",
-      "url": "https://www.itmedia.co.jp/news/articles/2607/02/news059.html",
-      "publishedAt": "2026-07-02T00:19:00.000Z",
-      "excerpt": "浅田真央さんの旧公式サイトのドメイン（mao-asada.jp）が、「お名前.com」で「SEO効果を最大化」「アフィリエイトサイトに」などとうたって販売されていることに、批判が集まっている。"
-    },
-    {
-      "id": "itmedia:12538f1a",
-      "sourceId": "itmedia",
-      "sourceName": "ITmedia NEWS",
-      "title": "Googleの「Gemini Spark」がmacOSに対応──Canvaなど外部アプリとの連携も",
-      "url": "https://www.itmedia.co.jp/news/articles/2607/02/news058.html",
-      "publishedAt": "2026-07-02T00:13:00.000Z",
-      "excerpt": "Googleは、自律型AIエージェント「Gemini Spark」のアップデートを発表した。macOS版アプリへの対応に加え、CanvaやDropboxなど外部アプリとの連携を拡充。独自のMCPサーバの接続もサポートする。さらに、ニュースや天気、プロスポーツなどの情報をリアルタイムで検知して通知する機能を追加した。"
-    },
-    {
-      "id": "itmedia:109eb67b",
-      "sourceId": "itmedia",
-      "sourceName": "ITmedia NEWS",
-      "title": "「インターネットの父」ヴィント・サーフ氏、Googleを退任へ",
-      "url": "https://www.itmedia.co.jp/news/articles/2607/02/news057.html",
-      "publishedAt": "2026-07-01T23:16:00.000Z",
-      "excerpt": "Googleの副社長兼チーフ・インターネット・エバンジェリストを務めるヴィント・サーフ氏が、近く同社を退任することがカンファレンスで明らかになった。サーフ氏はTCP/IPを開発した「インターネットの父」の1人。在籍20年での退任となり、イベントではAIエージェントの標準規格化の必要性についても語った。"
-    },
-    {
-      "id": "itmedia:7555b5f6",
-      "sourceId": "itmedia",
-      "sourceName": "ITmedia NEWS",
-      "title": "AIに「相手に電気ショックを与えろ」と命じ続けたらボタンを押すのか？　11のLLMで“ミルグラム実験”　抵抗できたのは……",
-      "url": "https://www.itmedia.co.jp/news/articles/2607/02/news029.html",
-      "publishedAt": "2026-07-01T23:00:00.000Z",
-      "excerpt": "エストニアとフィリピンに住む独立系研究者らが発表した論文「Open-source LLMs administer maximum electric shocks in a Milgram-like obedience experiment」は、AIは権威からの残酷な命令を拒絶し続けられるのかを検証した研究報告だ。"
     },
     {
       "id": "publickey:9cb21a87",
