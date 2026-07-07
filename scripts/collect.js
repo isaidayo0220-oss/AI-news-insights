@@ -11,7 +11,7 @@ const ARCHIVE_DIR = path.join(DATA_DIR, "archive");
 const POLICY_FILE = path.resolve("config/prompt.md");
 const DEEP_DIVE_TEMPLATE_FILE = path.resolve("config/deep-dive-prompt.md");
 const ARTICLE_LIMIT = 100;
-const DEEP_DIVE_INTERVAL_MS = 5000; // Gemini無料枠のRPM制限対策として、詳細分析の呼び出し間隔を空ける
+const DEEP_DIVE_INTERVAL_MS = 25000; // Gemini無料枠の実効レート制限対策として、呼び出し間隔を十分に空ける(429の発生自体を減らす狙い)
 
 function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
@@ -71,6 +71,10 @@ async function main() {
   // 注目記事Top5それぞれについて、詳細分析(deep dive)を生成する。
   // 全記事に対して行うと呼び出し回数が増えすぎるため、注目記事のみに絞る。
   if (aiSummary.available && aiSummary.highlights.length > 0) {
+    // AI要約の呼び出し直後は無料枠のレート制限に引っかかりやすいため、
+    // 詳細分析ループに入る前にも同じ間隔を空ける。
+    await sleep(DEEP_DIVE_INTERVAL_MS);
+
     const template = await loadMarkedSection(
       DEEP_DIVE_TEMPLATE_FILE,
       "<!-- TEMPLATE:START -->",
@@ -79,7 +83,8 @@ async function main() {
     const articleMap = new Map(merged.map((a) => [a.id, a]));
     const articleByTitle = new Map(merged.map((a) => [a.title, a]));
 
-    for (const highlight of aiSummary.highlights) {
+    for (let i = 0; i < aiSummary.highlights.length; i++) {
+      const highlight = aiSummary.highlights[i];
       // AIがidを一部誤って出力するケースへの保険として、まずid完全一致、
       // 次にタイトル完全一致でフォールバックする(それでも見つからなければスキップ)。
       const article = articleMap.get(highlight.articleId) ?? articleByTitle.get(highlight.title);
@@ -95,9 +100,11 @@ async function main() {
         console.warn(`[collect] 詳細分析生成に失敗 (${article.id}): ${deepDive.error}`);
       }
 
-      // Gemini無料枠のRPM(1分あたりのリクエスト数)制限を避けるため、
-      // 詳細分析の呼び出し間に間隔を空ける(gemini-client.js側の429自動リトライと合わせた二重対策)。
-      await sleep(DEEP_DIVE_INTERVAL_MS);
+      // Gemini無料枠の実効レート制限を避けるため、詳細分析の呼び出し間に間隔を空ける
+      // (gemini-client.js側の429自動リトライと合わせた二重対策)。最後の1件の後は不要。
+      if (i < aiSummary.highlights.length - 1) {
+        await sleep(DEEP_DIVE_INTERVAL_MS);
+      }
     }
   }
 
