@@ -85,7 +85,7 @@ async function main() {
 
       const deepDive = await generateDeepDive(article, { template });
       if (deepDive.available) {
-        highlight.analysisMarkdown = deepDive.markdown;
+        highlight.analysis = deepDive.analysis;
       } else {
         console.warn(`[collect] 詳細分析生成に失敗 (${article.id}): ${deepDive.error}`);
       }
