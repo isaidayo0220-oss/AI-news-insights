@@ -16,6 +16,8 @@ const DEFAULT_EDITORIAL_POLICY =
  * @param {string} [options.model]
  * @param {typeof fetch} [options.fetchImpl] テスト用の差し替え
  * @param {string} [options.customInstructions] AIへの追加指示(config/prompt.mdから渡される)
+ * @param {number} [options.maxRetries] 429時の最大リトライ回数(callGeminiへそのまま橋渡し)
+ * @param {number} [options.retryDelayMs] 429時の基本待機時間ms(callGeminiへそのまま橋渡し)
  * @returns {Promise<AiSummary>}
  *
  * @typedef {Object} AiSummary
@@ -37,6 +39,8 @@ export async function generateDailySummary(articles, options = {}) {
       model: options.model,
       fetchImpl: options.fetchImpl,
       responseMimeType: "application/json",
+      maxRetries: options.maxRetries,
+      retryDelayMs: options.retryDelayMs,
     });
 
     const parsed = JSON.parse(text);
