@@ -11,7 +11,7 @@ const ARCHIVE_DIR = path.join(DATA_DIR, "archive");
 const POLICY_FILE = path.resolve("config/prompt.md");
 const DEEP_DIVE_TEMPLATE_FILE = path.resolve("config/deep-dive-prompt.md");
 const ARTICLE_LIMIT = 100;
-const DEEP_DIVE_INTERVAL_MS = 25000; // Gemini無料枠の実効レート制限対策として、呼び出し間隔を十分に空ける(429の発生自体を減らす狙い)
+const DEEP_DIVE_INTERVAL_MS = 40000; // Gemini無料枠の実効レート制限対策として、呼び出し間隔を十分に空ける(429の発生自体を減らす狙い)
 
 function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
