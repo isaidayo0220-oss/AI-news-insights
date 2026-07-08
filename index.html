@@ -29,10 +29,20 @@
     <section class="wire">
       <div class="wire__head">
         <h2 class="section-label">全記事</h2>
-        <div class="wire__filter" id="source-filter" role="tablist" aria-label="情報源で絞り込み">
-          <button class="chip chip--active" data-source="all" role="tab" aria-selected="true">すべて</button>
-        </div>
       </div>
+      <div class="wire__search">
+        <input
+          type="search"
+          id="keyword-search"
+          class="wire__search-input"
+          placeholder="キーワードで絞り込み(タイトル・本文)"
+          aria-label="キーワードで絞り込み"
+        />
+      </div>
+      <div class="wire__filter" id="source-filter" role="tablist" aria-label="情報源で絞り込み">
+        <button class="chip chip--active" data-source="all" role="tab" aria-selected="true">すべて</button>
+      </div>
+      <p class="wire__empty" id="wire-empty" hidden>該当する記事が見つかりませんでした。</p>
       <ul class="wire__list" id="article-list"></ul>
     </section>
   </main>
