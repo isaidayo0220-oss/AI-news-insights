@@ -7,11 +7,21 @@ const el = {
   highlightsList: document.getElementById("highlights-list"),
   sourceFilter: document.getElementById("source-filter"),
   articleList: document.getElementById("article-list"),
+  keywordSearch: document.getElementById("keyword-search"),
+  wireEmpty: document.getElementById("wire-empty"),
+};
+
+// 記事一覧の絞り込み状態(情報源チップ + キーワード検索)をまとめて保持する。
+// 2つの条件はAND(両方満たす行だけ表示)で組み合わせる。
+const filterState = {
+  source: "all",
+  keyword: "",
 };
 
 init();
 
 async function init() {
+  bindKeywordSearch();
   try {
     const report = await loadReport();
     renderMasthead(report);
@@ -133,7 +143,9 @@ function renderArticles(report) {
   el.articleList.innerHTML = articles
     .map(
       (a) => `
-      <li class="article-row" data-source="${escapeAttr(a.sourceId)}">
+      <li class="article-row" data-source="${escapeAttr(a.sourceId)}" data-search="${escapeAttr(
+        `${a.title} ${a.excerpt}`.toLowerCase(),
+      )}">
         <div class="article-row__time">
           <time datetime="${escapeAttr(a.publishedAt)}">${formatDateShort(a.publishedAt)}</time>
           <span class="article-row__source">${escapeHtml(a.sourceName)}</span>
@@ -145,6 +157,10 @@ function renderArticles(report) {
       </li>`,
     )
     .join("");
+
+  // 新しい記事一覧をレンダリングした直後は、現在の絞り込み条件を再適用する
+  // (検索ボックスに既に入力済みの状態でデータが読み込まれるケースへの対応)。
+  applyFilters();
 }
 
 function renderFilterChips(sources) {
@@ -156,7 +172,8 @@ function renderFilterChips(sources) {
   el.sourceFilter.addEventListener("click", (event) => {
     const btn = event.target.closest(".chip");
     if (!btn) return;
-    applyFilter(btn.dataset.source);
+    filterState.source = btn.dataset.source;
+    applyFilters();
 
     el.sourceFilter.querySelectorAll(".chip").forEach((c) => {
       const active = c === btn;
@@ -166,11 +183,36 @@ function renderFilterChips(sources) {
   });
 }
 
-function applyFilter(sourceId) {
-  el.articleList.querySelectorAll(".article-row").forEach((row) => {
-    const show = sourceId === "all" || row.dataset.source === sourceId;
-    row.hidden = !show;
+/**
+ * 検索ボックスの入力イベントを登録する。データ読み込みの成否に関わらず
+ * init()の先頭で必ず呼ばれるため、記事一覧がまだ空でも安全に動作する。
+ */
+function bindKeywordSearch() {
+  if (!el.keywordSearch) return;
+  el.keywordSearch.addEventListener("input", () => {
+    filterState.keyword = el.keywordSearch.value.trim().toLowerCase();
+    applyFilters();
   });
+}
+
+/**
+ * 情報源チップとキーワード検索、両方の絞り込み条件をAND評価して記事一覧に反映する。
+ */
+function applyFilters() {
+  const rows = el.articleList.querySelectorAll(".article-row");
+  let visibleCount = 0;
+
+  rows.forEach((row) => {
+    const matchesSource = filterState.source === "all" || row.dataset.source === filterState.source;
+    const matchesKeyword = !filterState.keyword || (row.dataset.search ?? "").includes(filterState.keyword);
+    const show = matchesSource && matchesKeyword;
+    row.hidden = !show;
+    if (show) visibleCount++;
+  });
+
+  if (el.wireEmpty) {
+    el.wireEmpty.hidden = rows.length === 0 || visibleCount > 0;
+  }
 }
 
 function renderLoadError() {
