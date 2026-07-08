@@ -1,3 +1,301 @@
+@import url("https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@500;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=IBM+Plex+Mono:wght@400;500&display=swap");
+
+/* ---- Design tokens ------------------------------------------------ */
+:root {
+  --ink: #11142a;
+  --ink-raised: #1a2040;
+  --ink-line: #2b3260;
+  --paper: #ece8dd;
+  --paper-dim: #b7b3a6;
+  --brass: #c9a24b;
+  --brass-bright: #e0bd6e;
+  --signal: #c1443c;
+  --muted: #8a8fae;
+
+  --font-display: "Zilla Slab", Georgia, serif;
+  --font-body: "Source Serif 4", Georgia, serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+
+  --radius: 2px;
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background: var(--ink);
+  color: var(--paper);
+  font-family: var(--font-body);
+  line-height: 1.65;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  * { animation: none !important; transition: none !important; }
+}
+
+/* ---- Masthead: the signature element ------------------------------ */
+.masthead {
+  position: relative;
+  padding: 3.5rem 1.5rem 2.75rem;
+  text-align: center;
+  background:
+    radial-gradient(ellipse at top, rgba(201, 162, 75, 0.14), transparent 60%),
+    var(--ink);
+  border-bottom: 1px solid var(--ink-line);
+  overflow: hidden;
+}
+
+.masthead::before {
+  /* teletype tape rule */
+  content: "";
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 3px;
+  background: repeating-linear-gradient(
+    90deg,
+    var(--brass) 0 18px,
+    transparent 18px 26px
+  );
+  opacity: 0.55;
+}
+
+.masthead__eyebrow {
+  margin: 0 0 0.6rem;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.32em;
+  color: var(--brass-bright);
+  text-transform: uppercase;
+}
+
+.masthead__title {
+  margin: 0;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(2.4rem, 6vw, 3.8rem);
+  letter-spacing: -0.01em;
+  color: var(--paper);
+}
+
+.masthead__sub {
+  margin: 0.85rem auto 0;
+  max-width: 32rem;
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.masthead__sub .dot {
+  color: var(--signal);
+}
+
+/* ---- Layout --------------------------------------------------------*/
+.desk {
+  max-width: 46rem;
+  margin: 0 auto;
+  padding: 2.25rem 1.25rem 4rem;
+}
+
+.section-label {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--brass-bright);
+  border-bottom: 1px solid var(--ink-line);
+  padding-bottom: 0.6rem;
+  margin: 0 0 1.1rem;
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+}
+
+.section-label__hint {
+  font-weight: 400;
+  color: var(--muted);
+  text-transform: none;
+  letter-spacing: 0;
+  font-size: 0.75rem;
+}
+
+/* ---- Summary panel --------------------------------------------------*/
+.summary-panel {
+  background: var(--ink-raised);
+  border: 1px solid var(--ink-line);
+  border-left: 3px solid var(--brass);
+  border-radius: var(--radius);
+  padding: 1.5rem 1.6rem;
+  margin-bottom: 2.25rem;
+  font-size: 1.02rem;
+}
+
+.summary-panel__loading,
+.summary-panel__error {
+  color: var(--muted);
+  font-family: var(--font-mono);
+  font-size: 0.88rem;
+  margin: 0;
+}
+
+.summary-panel__overview {
+  margin: 0;
+}
+
+/* ---- Highlights: stamped dispatch cards ---------------------------- */
+.highlights { margin-bottom: 2.5rem; }
+
+.highlights__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.9rem;
+}
+
+.highlight-card {
+  position: relative;
+  background: var(--ink-raised);
+  border: 1px solid var(--ink-line);
+  border-radius: var(--radius);
+  padding: 1.1rem 1.2rem 1.1rem 3.2rem;
+}
+
+.highlight-card::before {
+  content: attr(data-rank);
+  position: absolute;
+  left: 0.85rem;
+  top: 1.15rem;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--ink);
+  background: var(--brass-bright);
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+}
+
+.highlight-card__title {
+  margin: 0 0 0.35rem;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.08rem;
+}
+
+.highlight-card__title a { color: var(--paper); text-decoration: none; }
+.highlight-card__title a:hover { color: var(--brass-bright); }
+
+.highlight-card__reason {
+  margin: 0;
+  color: var(--paper-dim);
+  font-size: 0.92rem;
+}
+
+/* ---- Deep dive analysis (collapsible Markdown) --------------------- */
+.highlight-card__details {
+  margin-top: 0.75rem;
+  border-top: 1px dashed var(--ink-line);
+  padding-top: 0.6rem;
+}
+
+.highlight-card__details summary {
+  cursor: pointer;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--brass-bright);
+  list-style: none;
+}
+
+.highlight-card__details summary::-webkit-details-marker { display: none; }
+.highlight-card__details summary::before {
+  content: "▸ ";
+}
+.highlight-card__details[open] summary::before {
+  content: "▾ ";
+}
+
+.highlight-card__analysis {
+  margin-top: 0.85rem;
+  font-size: 0.92rem;
+  line-height: 1.7;
+}
+
+.highlight-card__analysis h4 {
+  font-family: var(--font-display);
+  color: var(--brass-bright);
+  font-size: 1rem;
+  margin: 1rem 0 0.4rem;
+}
+.highlight-card__analysis h4:first-child { margin-top: 0; }
+
+.highlight-card__analysis h5 {
+  font-family: var(--font-mono);
+  color: var(--paper);
+  font-size: 0.85rem;
+  margin: 0.75rem 0 0.3rem;
+}
+
+.highlight-card__analysis ul {
+  margin: 0 0 0.6rem;
+  padding-left: 1.2rem;
+}
+
+.highlight-card__analysis li { margin-bottom: 0.25rem; }
+
+.highlight-card__analysis p { margin: 0 0 0.6rem; }
+
+.highlight-card__analysis hr {
+  border: none;
+  border-top: 1px solid var(--ink-line);
+  margin: 0.75rem 0;
+}
+
+.highlight-card__analysis strong { color: var(--brass-bright); }
+
+.keyword-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.keyword-pill {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  background: rgba(201, 162, 75, 0.12);
+  border: 1px solid var(--ink-line);
+  color: var(--brass-bright);
+  border-radius: 999px;
+  padding: 0.2rem 0.65rem;
+}
+
+.stars {
+  color: var(--brass-bright);
+  letter-spacing: 0.1em;
+  font-size: 1rem;
+}
+
+/* ---- Wire: full article list --------------------------------------*/
+.wire__head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.wire__filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 1.1rem;
+}
+
 .wire__search {
   margin: 0.75rem 0 0.9rem;
 }
@@ -28,4 +326,90 @@
   color: var(--muted);
   padding: 1.5rem 0;
   text-align: center;
+}
+
+.chip {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  background: transparent;
+  color: var(--muted);
+  border: 1px solid var(--ink-line);
+  border-radius: 999px;
+  padding: 0.32rem 0.75rem;
+  cursor: pointer;
+}
+
+.chip:hover { border-color: var(--brass); color: var(--paper); }
+
+.chip--active {
+  background: var(--brass);
+  border-color: var(--brass);
+  color: var(--ink);
+  font-weight: 600;
+}
+
+.wire__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.article-row {
+  display: grid;
+  grid-template-columns: 6.5rem 1fr;
+  gap: 1rem;
+  padding: 0.95rem 0;
+  border-bottom: 1px solid var(--ink-line);
+}
+
+.article-row__time {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--muted);
+  padding-top: 0.2rem;
+}
+
+.article-row__source {
+  display: block;
+  color: var(--brass-bright);
+  margin-top: 0.25rem;
+}
+
+.article-row__title {
+  margin: 0 0 0.3rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.article-row__title a { color: var(--paper); text-decoration: none; }
+.article-row__title a:hover { color: var(--brass-bright); text-decoration: underline; }
+
+.article-row__excerpt {
+  margin: 0;
+  color: var(--paper-dim);
+  font-size: 0.9rem;
+}
+
+.article-row[hidden] { display: none; }
+
+/* ---- Footer ---------------------------------------------------------*/
+.colophon {
+  text-align: center;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--muted);
+  padding: 2rem 1.25rem 3rem;
+}
+
+/* ---- Focus visibility (a11y) -----------------------------------------*/
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--brass-bright);
+  outline-offset: 2px;
+}
+
+/* ---- Small screens ----------------------------------------------------*/
+@media (max-width: 30rem) {
+  .article-row { grid-template-columns: 1fr; }
+  .article-row__time { display: flex; gap: 0.5rem; }
 }
