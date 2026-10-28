@@ -1,0 +1,884 @@
+{
+  "generatedAt": "2026-10-28T00:10:11.715Z",
+  "sources": [
+    {
+      "id": "itmedia",
+      "name": "ITmedia NEWS",
+      "homepage": "https://www.itmedia.co.jp/news/"
+    },
+    {
+      "id": "publickey",
+      "name": "Publickey",
+      "homepage": "https://www.publickey1.jp/"
+    },
+    {
+      "id": "gigazine",
+      "name": "GIGAZINE",
+      "homepage": "https://gigazine.net/"
+    }
+  ],
+  "articleCount": 95,
+  "aiSummary": {
+    "available": false,
+    "overview": "",
+    "highlights": [],
+    "error": "Gemini APIエラー: HTTP 503"
+  },
+  "articles": [
+    {
+      "id": "gigazine:ece283f9",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "AIから園芸までGIGAZINE読者の「オタク趣味」調査結果まとめ、年代・性別・他の設問との関連など細かい分析もあり",
+      "url": "https://gigazine.net/news/20261028-gigazine-user-otaku/",
+      "publishedAt": "2026-10-28T00:00:00.000Z",
+      "excerpt": "GIGAZINEではガジェットやAI、ゲーム、アニメ、食などさまざまな分野の記事を掲載しています。そんなGIGAZINE読者がどんな分野に深く関心を持っているのかを調べるため、2026年夏に実施した読者アンケートで「あなたは何オタクですか？(複数選択可)」と質問。年代やゲーム・マンガとの関わりによる違いも分析してみました。 続きを読む..."
+    },
+    {
+      "id": "itmedia:de3f0141",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "NVIDIAとAMD、MetaとのAI分野での提携拡大を発表　「Muse」の強化や次世代インフラ構築で協力",
+      "url": "https://www.itmedia.co.jp/news/article/2610/28/2000002651/",
+      "publishedAt": "2026-10-27T23:55:26.000Z",
+      "excerpt": "NVIDIAとAMDは、MetaとのAI分野における戦略的提携拡大をそれぞれ発表した。AIエージェント「Muse」の開発・運用支援や次世代インフラ構築で協力し、Metaへの出資（NVIDIAが30億ドル、AMDが10億ドル）も表明。Metaは自社チップ開発と外部調達の両輪でインフラを強化する。"
+    },
+    {
+      "id": "gigazine:84208d4a",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "身近な物を説明するとAIが手描き風で実際に機能するボタン付きで描いてくれる「Colorfigures」",
+      "url": "https://gigazine.net/news/20261028-colorfigures/",
+      "publishedAt": "2026-10-27T23:00:00.000Z",
+      "excerpt": "「Colorfigures」は「コインを入れてレバーを回すガムボールマシン」「お湯を沸かし、沸騰したら自動的に電源が切れる電気ケトル」というように身近な物を説明すると手描き風のイラストを生成し、3Dでぐりぐり動かしたりボタンを押して実際に動作させたりできるClaude Codeのスキルです。Claude Codeのターミナルからスキルを追加できるほか、ブラウザからライブデモを確認することもできます。 続きを読む..."
+    },
+    {
+      "id": "itmedia:de3f0122",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "auメールで朝から障害　全国で利用しづらい状況に",
+      "url": "https://www.itmedia.co.jp/news/article/2610/28/2000002650/",
+      "publishedAt": "2026-10-27T22:51:10.000Z",
+      "excerpt": "原因は調査中。音声通話とデータ通信は問題なく利用できる。"
+    },
+    {
+      "id": "itmedia:de3efe78",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "Apple、M6搭載の14インチ「MacBook Pro」発表　AI性能向上、33万9800円から",
+      "url": "https://www.itmedia.co.jp/news/article/2610/28/2000002649/",
+      "publishedAt": "2026-10-27T22:30:52.000Z",
+      "excerpt": "Appleは、新型チップ「M6」を搭載した14インチ「MacBook Pro」を発表した。M6はCPU・GPUともに12コアで、AI処理やグラフィックス性能が向上。Wi-Fi 7対応や最大24時間のバッテリー駆動を実現した。日本での販売価格は33万9800円からで、11月6日発売の予定だ。"
+    },
+    {
+      "id": "gigazine:ce9f534b",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "AIによって脆弱性発見が爆増したことが一目で分かるグラフ「CVE Tracker」",
+      "url": "https://gigazine.net/news/20261028-cve-tracker/",
+      "publishedAt": "2026-10-27T22:00:00.000Z",
+      "excerpt": "AIの性能向上によってソフトウェアの脆弱性が続々と発見されるようになりました。@0x_Osprey氏が公開しているウェブアプリ「CVE Tracker」では2026年に入ってから脆弱性の報告件数が急増していることが読み取れます。 続きを読む..."
+    },
+    {
+      "id": "itmedia:de3efe59",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "Google DeepMind、ワールドモデル「Genie 4」発表　音声や会話もリアルタイム生成、Geminiと連携",
+      "url": "https://www.itmedia.co.jp/news/article/2610/28/2000002648/",
+      "publishedAt": "2026-10-27T21:53:37.000Z",
+      "excerpt": "Google DeepMindは、対話型の仮想世界をリアルタイム生成するAI「Genie 4」を発表した。映像品質や物理演算が向上し、環境音や会話音声の同時生成に対応。人物の自然な動作やテキストによる環境操作が可能となった。まずは研究プレビューとして提供し、順次「Google AI Ultra」加入者等へ展開する。"
+    },
+    {
+      "id": "gigazine:d6f4d83c",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "GLM-5.3 Workers AIモデルにおけるリクエスト間のKVキャッシュ漏洩とSGLangによる対策をCloudflareが解説",
+      "url": "https://gigazine.net/news/20261028-kv-cache-exposure-remediation/",
+      "publishedAt": "2026-10-27T21:00:00.000Z",
+      "excerpt": "2026年9月8日、Cloudflare Workers AIでホストされているGLM-5.3モデル(@cf/zai-org/glm-5.3)においていわゆる「テナント分離問題」が発生していることがセキュリティ研究者のガディ・エヴロン氏により報告されました。Cloudflareはこのインシデントを修正し、モデルは9月9日に復旧されました。インシデント情報開示の一環としてCloudflareによる解説が10月26日に公開されています。 続きを読む..."
+    },
+    {
+      "id": "publickey:16038530",
+      "sourceId": "publickey",
+      "sourceName": "Publickey",
+      "title": "Oracle CloudがGoogle TPU導入を発表、2027年に提供を開始。Oracle AI World 2026",
+      "url": "https://www.publickey1.jp/blog/26/oracle_cloudgoogle_tpu2027oracle_ai_world_2026.html",
+      "publishedAt": "2026-10-27T16:33:51.000Z",
+      "excerpt": "オラクルはGoogleが開発しているAI専用チップのGoogle TPUをOracle Cloud Infrastructure（以下、Oracle Cloud）に導入し、2027年からGoogle TPUのサービスを提供開始すると発表しました。 オラクルは日本時間10月27日から米国ラスベガスで年次イベント「Oracle AI World 2026」を開催しています。 Oracle CloudへのGoogle TPU導入は、このイベントの基調講演で発表されました（下記スライ……"
+    },
+    {
+      "id": "publickey:18d4d8ba",
+      "sourceId": "publickey",
+      "sourceName": "Publickey",
+      "title": "JavaScriptランタイムの「Bun」がPrettier互換で300倍以上高速なフォーマッタに。Prettier設定ファイルもそのまま利用可能",
+      "url": "https://www.publickey1.jp/blog/26/javascriptbunprettier300prettier.html",
+      "publishedAt": "2026-10-27T15:27:52.000Z",
+      "excerpt": "Anthropicが開発しているJavaScriptランタイムの「Bun」の新機能として、Prettier互換のフォーマッタ搭載が発表されました。 2026年10月22日付けでリリースされたBun v1.4.4に搭載されたPrettier互換のフォーマッタは「bun fmt」コマンドで起動します。 その上でPrettierの設定ファイルをそのまま利用でき、それでいてPrettierよりも最大で320倍も高速だと説明されています。 In the next version of ……"
+    },
+    {
+      "id": "gigazine:3a3ea08d",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "広瀬章人九段が王座を獲得、伊藤匠二冠は叡王の一冠に後退",
+      "url": "https://gigazine.net/news/20261027-hirose-akihito-ouza/",
+      "publishedAt": "2026-10-27T13:47:00.000Z",
+      "excerpt": "広瀬章人九段が伊藤匠王座に挑戦した第74期王座戦5番勝負は、両者2勝で迎えた第5局が山梨県甲府市の常磐ホテルで行われ、121手で広瀬九段が勝利を収めました。広瀬九段は初の王座獲得。伊藤匠王座は失冠により、保持するタイトルが叡王のみとなりました。 続きを読む..."
+    },
+    {
+      "id": "gigazine:bdb1fb3d",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "「ナイフと同じように刃物が往復運動する鉛筆削り」を自作した猛者が登場",
+      "url": "https://gigazine.net/news/20261027-reinventing-pencil-sharpener/",
+      "publishedAt": "2026-10-27T12:00:00.000Z",
+      "excerpt": "ほとんどの人は子どもの頃に鉛筆削りを使った経験があるはずですが、大人になってからはシャープペンやボールペンを使うようになり、ここ最近は使ってないという人もいるかもしれません。DIY系YouTubeチャンネルのChronova Engineeringが、「自分が考える理想の鉛筆削り」を自作したムービーがYouTubeで公開されています。 続きを読む..."
+    },
+    {
+      "id": "itmedia:efbbf75c",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "IPO目論見書に「AIは人類の存亡リスク」「コードの9割はClaude製」　Anthropicが示した規格外の見立て",
+      "url": "https://www.itmedia.co.jp/news/article/2610/27/2000002644/",
+      "publishedAt": "2026-10-27T11:30:12.000Z",
+      "excerpt": "米Anthropicは10月26日（現地時間）、IPOの目論見書（Form S-1）を米SECに提出した。社内コードの9割超をAIが書き、AI利用額が人件費を上回るといった活用の実態から、AIが人類にもたらし得るリスクまで、多岐にわたって言及している。"
+    },
+    {
+      "id": "gigazine:35ef0f15",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "AIが答えを教える代わりにあえて質問攻めにすることで開発者を鍛えるデバッグツール「Nietzschian Debugger」",
+      "url": "https://gigazine.net/news/20261027-nietzschian-debugger/",
+      "publishedAt": "2026-10-27T11:00:00.000Z",
+      "excerpt": "プログラムの不具合をAIに相談すると修正方法を教えてくれるのが一般的ですが、あえて答えを教えずに質問を繰り返すデバッグツール「Nietzschian Debugger」がGitHubで公開されています。開発者自身に不具合の原因を考えさせることで問題解決能力を鍛えるという、AIへの依存を減らすことを目指したツールとなっています。 続きを読む..."
+    },
+    {
+      "id": "itmedia:efbbf71e",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "GMO、不正アクセス実行犯の手がかりに懸賞金　1億5000万円規模",
+      "url": "https://www.itmedia.co.jp/news/article/2610/27/2000002642/",
+      "publishedAt": "2026-10-27T10:58:09.000Z",
+      "excerpt": "GMOインターネットグループが、傘下のGMOインターネットが提供するFX自動売買用VPS「お名前.com デスクトップクラウド」への不正アクセスを巡り、事態を解明する情報に総額100万ドル（約1億5000万円）の報奨金を支払う懸賞金制度を始めると発表した。"
+    },
+    {
+      "id": "itmedia:efbbf73d",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "So-net、会員情報約259万件が漏えい　一部メールサービスではパスワードも流出",
+      "url": "https://www.itmedia.co.jp/news/article/2610/27/2000002643/",
+      "publishedAt": "2026-10-27T10:48:13.000Z",
+      "excerpt": "ソニーネットワークコミュニケーションズは10月27日、「So-net」の会員データベースが第三者による不正アクセスを受け、すでに退会した元会員の情報を含む約259万件の会員情報が漏えいしたと発表した一部のメールサービスでは、約5万4000件のメールアドレスとパスワードの漏えいも確認したという。"
+    },
+    {
+      "id": "gigazine:b852ccdb",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "わらび餅がたっぷり1kg入った「業務用 本造り笑来美餅」を買ったので食べてみた、常温保存できる高品質わらび餅",
+      "url": "https://gigazine.net/news/20261027-bashoudo-warabimochi/",
+      "publishedAt": "2026-10-27T10:22:00.000Z",
+      "excerpt": "「本造り笑来美餅(わらび餅)」は明治元年創業の菓子店「芭蕉堂」が販売しているロングセラー商品です。そんな本造り笑来美餅が1kg入った「業務用 本造り笑来美餅」を食品見本市「FABEX関西」の会場で見つけたので、1袋買って食べてみました。 続きを読む..."
+    },
+    {
+      "id": "gigazine:d7a56bbf",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "「インクジェットプリンターが印刷している瞬間」の写真はどうやって撮影されたのか？",
+      "url": "https://gigazine.net/news/20261027-inkjet-printer-droplets-photomicrography/",
+      "publishedAt": "2026-10-27T10:00:00.000Z",
+      "excerpt": "ニコンが主催する光学顕微鏡クラスの微細な世界を撮影した動画・写真のコンテスト「Nikon Small World(ニコン・スモール・ワールド)」の2026年度最優秀賞作品に、「インクジェットプリンターが印刷している瞬間」を捉えた写真が選出されました。通常は見えないはずの瞬間をどのように撮影したのかを、撮影者がXで明らかにしています。 続きを読む..."
+    },
+    {
+      "id": "gigazine:ac500681",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "2026年10月27日のヘッドラインニュース",
+      "url": "https://gigazine.net/news/20261027-headline/",
+      "publishedAt": "2026-10-27T09:57:00.000Z",
+      "excerpt": "アニメ『プリキュア』シリーズのスピンオフ作品『デュアルシャドウ～Precure Villain Heroines～』が2027年に放送されることが発表されました。「――だって、わたしたちプリキュアじゃないし」というキャッチコピーが使われていて、英語副題からもシリーズのヴィランたちが主役になる作品とみられます。 続きを読む..."
+    },
+    {
+      "id": "itmedia:efbbf6e0",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "GMO、攻撃者の公開情報に「アクセスは絶対に控えて」　悪質な拡散者には法的措置を準備",
+      "url": "https://www.itmedia.co.jp/news/article/2610/27/2000002640/",
+      "publishedAt": "2026-10-27T08:58:00.000Z",
+      "excerpt": "GMOインターネットグループは10月27日、「お名前.com デスクトップクラウド」への不正アクセスを巡り、攻撃者が公開した情報と称するものにアクセスしないよう呼び掛けた。"
+    },
+    {
+      "id": "gigazine:4c3e17db",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "OBS Studio 33.0.0が登場、ブラウザ機能の修正やプラグイン管理の刷新など多数の改善",
+      "url": "https://gigazine.net/news/20261027-obs-studio-33-0-0-released/",
+      "publishedAt": "2026-10-27T08:47:00.000Z",
+      "excerpt": "動画配信・録画ソフトウェア「OBS Studio」のバージョン33.0.0が2026年10月24日にリリースされました。ブラウザ機能の基盤が約2年ぶりに大幅更新されたほか、プラグインの管理方式が刷新され、映像ソースの配置やゲームキャプチャー、音声関連機能なども改善されています。 続きを読む..."
+    },
+    {
+      "id": "gigazine:879731de",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "OpenAIが数学・コンピュータサイエンス・物理学における調和解析・計算複雑性理論・量子場理論に関する3つの新たな発見を発表、指数時間仮説は誤りである",
+      "url": "https://gigazine.net/news/20261027-openai-three-new-discoveries/",
+      "publishedAt": "2026-10-27T07:42:00.000Z",
+      "excerpt": "現地時間の2026年10月26日、OpenAIが数学・コンピューターサイエンス・物理学における調和解析・計算複雑性理論・場の量子論に関する新たな発見を発表しました。 続きを読む..."
+    },
+    {
+      "id": "itmedia:efbbf31f",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "GMO、攻撃者による情報公開を確認　顧客データ含むか調査中　追加の見舞金も検討",
+      "url": "https://www.itmedia.co.jp/news/article/2610/27/2000002630/",
+      "publishedAt": "2026-10-27T07:40:32.000Z",
+      "excerpt": "GMOインターネットグループは10月27日、FX自動売買用VPS「お名前.com デスクトップクラウド」への不正アクセスを巡り、攻撃者とみられる人物による、顧客に関する情報らしきものの公開を、同日午後0時30分に確認したと発表した。"
+    },
+    {
+      "id": "itmedia:efbbf037",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "タイムズカー、お見舞金3000円の算定基準は？　パーク24に聞いた",
+      "url": "https://www.itmedia.co.jp/news/article/2610/27/2000002627/",
+      "publishedAt": "2026-10-27T07:34:57.000Z",
+      "excerpt": "パーク24は、カーシェアリングサービス「タイムズカー」の情報漏えいを受けて対象者に支払う3000円相当のお見舞金について、利用者が取り得る対応やそれに伴う負担などを総合的に勘案して金額を設定したと、ITmedia NEWSの取材に回答した。"
+    },
+    {
+      "id": "itmedia:efbbf075",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "専門AIで肌カウンセリング、ファンケルが新サービス　チャットと顔画像解析で",
+      "url": "https://www.itmedia.co.jp/news/article/2610/27/2000002629/",
+      "publishedAt": "2026-10-27T07:24:32.000Z",
+      "excerpt": "ファンケルは10月27日、肌専門の人工知能（AI）を使った肌のカウンセリングサービスを始めた。スマートフォンなどで、同社の公式アプリから無料で利用できる。"
+    },
+    {
+      "id": "gigazine:963afced",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "無料で「絵画」をテレビに流し続けて絵がある日常に慣れるためのアプリ「えをみる」",
+      "url": "https://gigazine.net/news/20261027-ewomiru/",
+      "publishedAt": "2026-10-27T07:15:00.000Z",
+      "excerpt": "Google TV・Android TV・Fire TVで使うことができるアプリ「えをみる」は、テレビにパブリックドメインの絵を流しっぱなしにすることができます。使っていない間のテレビにずっと絵を表示することで、絵画という文化に慣れることを目的としています。 続きを読む..."
+    },
+    {
+      "id": "gigazine:f12f9db9",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "スイス全土をマインクラフトで実物大に再現した「Blocks」が公開される、標高4634mの山頂や巨大氷河も探索可能",
+      "url": "https://gigazine.net/news/20261027-minecraft-schweiz-blocks/",
+      "publishedAt": "2026-10-27T07:00:00.000Z",
+      "excerpt": "スイスの国土全域をサンドボックスゲーム「Minecraft(マインクラフト)」の世界に再現したプロジェクト「Blocks」が公開されました。スイスの公式地理データを使って約4万1285平方キロメートルの国土を実物大で再現しており、アルプスの山々や氷河、湖、森林などをゲーム内で自由に探索できます。 続きを読む..."
+    },
+    {
+      "id": "gigazine:3207c8f1",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "Anthropicが株式上場に向けてアメリカ証券委員会に登録届出書を提出、12兆円の赤字が事実であることが確定",
+      "url": "https://gigazine.net/news/20261027-anthropic-ipo-s1/",
+      "publishedAt": "2026-10-27T06:55:00.000Z",
+      "excerpt": "AnthropicがクラスA普通株式の新規株式公開(IPO)に関して、アメリカ証券取引委員会(SEC)に「フォームS-1」による登録届出書を提出したことを発表しました。 続きを読む..."
+    },
+    {
+      "id": "gigazine:d99a9f20",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "Intelが量子ソフトウェア企業のClassiqを買収、フルスタック型量子コンピューティング事業へ前進",
+      "url": "https://gigazine.net/news/20261027-intel-to-acquire-classiq-computing/",
+      "publishedAt": "2026-10-27T06:15:00.000Z",
+      "excerpt": "Intelが、量子ソフトウェアや量子コンピューティングプラットフォームの開発を手がけるClassiq Computingの買収契約を締結したと発表しました。 続きを読む..."
+    },
+    {
+      "id": "gigazine:f717b651",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "ベイブレードXの「ベイバトルパス」をリバースエンジニアリングして独自アプリを開発、AIがシュートの強さを評価してアドバイス",
+      "url": "https://gigazine.net/news/20261027-bayblade-x-reverse-engineering/",
+      "publishedAt": "2026-10-27T06:00:00.000Z",
+      "excerpt": "タカラトミーの玩具「ベイブレードX」でシュートの強さを記録できる周辺機器「ベイバトルパス」の通信データを解析し、シュートの結果をリアルタイムで表示する独自アプリを開発した人物がその制作過程を公開しました。 続きを読む..."
+    },
+    {
+      "id": "gigazine:f531079a",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "陰謀論を信じる人は「自分と同じ考えの人」の数を過大評価している、少数派だと知ると陰謀論への信念が低下することも判明",
+      "url": "https://gigazine.net/news/20261027-believe-conspiracy-theories-overestimate-others/",
+      "publishedAt": "2026-10-27T05:30:00.000Z",
+      "excerpt": "陰謀論者の中には「月面着陸は嘘」「地球は球体ではなく平面」「ディープステートが世界を動かしている」など、一見するとあり得ないような説を信じている人もいます。そんな陰謀論を信じる人々は、「自分と同じように陰謀論を信じている人」を過大評価しがちだとの研究結果が発表されました。 続きを読む..."
+    },
+    {
+      "id": "gigazine:8d835967",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "Microsoftが全従業員の4分の1に相当する6万人を対象とする自主退職制度を発表、AI投資による財政圧迫が理由か",
+      "url": "https://gigazine.net/news/20261027-microsoft-offers-buy-out-quarter-of-workforce/",
+      "publishedAt": "2026-10-27T05:23:00.000Z",
+      "excerpt": "MicrosoftはAIによる効率化推進の一環として、全従業員の4分の1に相当する約6万人の従業員向けに、自主退職制度を発表しました。 続きを読む..."
+    },
+    {
+      "id": "itmedia:efbbefda",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "GMO、ランサム被害にあった顧客に新しいPC提供へ　犯行グループは1人の顧客情報公開か",
+      "url": "https://www.itmedia.co.jp/news/article/2610/27/2000002624/",
+      "publishedAt": "2026-10-27T05:19:20.000Z",
+      "excerpt": "顧客から預かって既に解析を終えた端末からは、10月27日午前11時59時点で、ランサムウェアを含むマルウェアは確認していないという。"
+    },
+    {
+      "id": "gigazine:753966eb",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "GMOとその利用者に向けた脅迫文が読める「GMO不正アクセス犯の犯行声明文ビュアー」",
+      "url": "https://gigazine.net/news/20261027-gmo-hacker-seimei-viewer/",
+      "publishedAt": "2026-10-27T04:56:00.000Z",
+      "excerpt": "GMOインターネットグループ(GMO)が展開するFX自動売買専用VPS「お名前.com デスクトップクラウド」が第三者による不正アクセスの被害を受けました。この攻撃を実行したとされる者が公開している犯行声明を読めるようにした「GMO不正アクセス犯の犯行声明文ビュアー」が公開されています。 続きを読む..."
+    },
+    {
+      "id": "gigazine:117c7b32",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "ASUS製ノートPCがスリープ後に勝手に再起動する問題を3年越しで解決、原因はWi-Fiアダプター",
+      "url": "https://gigazine.net/news/20261027-asus-sleep-reboot-mediatek-wifi/",
+      "publishedAt": "2026-10-27T04:15:00.000Z",
+      "excerpt": "ソフトウェアエンジニアのイブラヒム・ディアロ氏は、ASUS製ノートPCをスリープさせると、いつの間にか再起動してしまう問題に3年間悩まされていました。ディアロ氏が、この不具合の原因と、設定を変更して解決するまでの経緯をブログにまとめています。 続きを読む..."
+    },
+    {
+      "id": "gigazine:83246b89",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "AIブームでデータセンター向け機材の窃盗が相次ぐ、被害総額は6月以降だけで150億円以上",
+      "url": "https://gigazine.net/news/20261027-ai-gear-stealing/",
+      "publishedAt": "2026-10-27T04:07:00.000Z",
+      "excerpt": "アメリカのNBCニュースが、「2026年6月以降、1億ドル(約157億円)以上のデータセンター向け機材が盗まれた」と報じました。NBCニュースは複数の関係者に取材してその手口を伝えています。 続きを読む..."
+    },
+    {
+      "id": "gigazine:6b9100f8",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "中国製AI「Qwen3.8」にセキュリティ対策を命じたら勝手に北京のサーバーへデータ送信を試みたことが判明",
+      "url": "https://gigazine.net/news/20261027-concerning-behaviour-open-weight-ai-model/",
+      "publishedAt": "2026-10-27T04:03:00.000Z",
+      "excerpt": "中国のアリババが開発したAIモデル「Qwen3.8-Flash-Next」にセキュリティ対策用のルールを作成させたところ、指示されていないコンピューター内部の調査を始め、中国・北京にあるサーバーへデータを送信しようとしたことが判明しました。 続きを読む..."
+    },
+    {
+      "id": "gigazine:a37a4293",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "ChatGPTがどんな仕事に使われているのかわかるレポートが公開される",
+      "url": "https://gigazine.net/news/20261027-chatgpt-work-report/",
+      "publishedAt": "2026-10-27T03:56:00.000Z",
+      "excerpt": "「ChatGPTがどんな業務に使われているか」の調査結果がOpenAIによって公開されました。日本を含む約100カ国を対象にした調査で、2025年第1四半期から2026年第3四半期にかけてのChatGPT利用実態がまとまっています。 続きを読む..."
+    },
+    {
+      "id": "gigazine:477e4df3",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "中国政府が公道での自動運転システムのテストをフォルクスワーゲンと小鵬に許可",
+      "url": "https://gigazine.net/news/20261027-vw-xpeng-autonomous-driving-test/",
+      "publishedAt": "2026-10-27T03:40:00.000Z",
+      "excerpt": "フォルクスワーゲンと中国のEVメーカー・小鵬汽車(Xpeng)が、中国国内の公道で自動運転システムのテストをする許可を取得したことがわかりました。フォルクスワーゲンは自動運転レベル3、小鵬は自動運転レベル4のテストを行うとみられます。 続きを読む..."
+    },
+    {
+      "id": "gigazine:c430df2f",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "Windows 11のインストーラーを700MBのCD-ROMに無駄なく収まるくらい圧縮する次世代ツールが登場",
+      "url": "https://gigazine.net/news/20261027-windows-11-installer-cd-rom-pico11/",
+      "publishedAt": "2026-10-27T03:30:00.000Z",
+      "excerpt": "Windows 11を軽量化するプロジェクト「Tiny11」の開発者として知られるNTDEVが、Windows 11のインストール用ISOイメージをCD-ROM1枚に収まる約700MBまで縮小したと報告しました。開発中のツール「Pico11」を使用した実験で、デスクトップ画面の表示や一部の標準アプリの動作にも成功しています。 続きを読む..."
+    },
+    {
+      "id": "itmedia:efbbef5e",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "政府、サイバー攻撃の「緊急対策パッケージ」来週中に策定へ　高市首相がサイバー閣僚会議の初会合で指示",
+      "url": "https://www.itmedia.co.jp/news/article/2610/27/2000002620/",
+      "publishedAt": "2026-10-27T03:18:21.000Z",
+      "excerpt": "政府は10月26日、「サイバーセキュリティに関する関係閣僚会議」の初会合を首相官邸で開いた。高市早苗首相は、企業への攻撃で大規模な情報漏えいが相次いでいるとして、来週中をめどに政府の「緊急対策パッケージ」を取りまとめるよう各大臣に指示した。"
+    },
+    {
+      "id": "itmedia:efbbecb4",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "貨物の搬送車両で自動運転「レベル4」　福岡空港、国内3カ所目",
+      "url": "https://www.itmedia.co.jp/news/article/2610/27/2000002619/",
+      "publishedAt": "2026-10-27T03:09:03.000Z",
+      "excerpt": "日本航空と福岡国際空港は10月26日、貨物コンテナを運搬する「トーイングトラクター」で「レベル4」の自動運転を始めた。国内では成田、羽田に続き3カ所目。"
+    },
+    {
+      "id": "itmedia:efbb8642",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "メアドを検索→AIで“その人専用フィッシングメール”を生成する手法、クリック率が約2.7倍に　7000人以上で実験",
+      "url": "https://www.itmedia.co.jp/news/article/2610/27/2000002550/",
+      "publishedAt": "2026-10-27T03:00:00.000Z",
+      "excerpt": "ドイツのベルリン工科大学などに所属する研究者らが発表した論文「A Large-Scale Study of Personalized Phishing using Large Language Models」は、AIが生成するスピアフィッシング攻撃の有効性を検証した研究報告だ。"
+    },
+    {
+      "id": "itmedia:efbb9220",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "「若手はAI使うな」は“老害”なのか？　新人教育で「AI禁止」した企業の1年後",
+      "url": "https://www.itmedia.co.jp/news/article/2610/27/2000002585/",
+      "publishedAt": "2026-10-27T03:00:00.000Z",
+      "excerpt": "約1年前、新人教育を目的にAI禁止施策を採用したいえらぶGROUP。現在の状況は……？"
+    },
+    {
+      "id": "gigazine:47278253",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "クモにも「寝不足」がある可能性、人間と同様にレム睡眠を経験しており睡眠が短いと睡眠負債が蓄積か",
+      "url": "https://gigazine.net/news/20261027-spiders-sleep-debt-two-stage-sleep/",
+      "publishedAt": "2026-10-27T03:00:00.000Z",
+      "excerpt": "8本の脚を持ち網状の巣を作って獲物を待ち構えるクモは、一見すると人間や哺乳類とはほど遠い生物に思えます。ところが新たな研究により、クモの一種が人間のようなレム睡眠を経験しており、寝不足になると睡眠負債が蓄積される可能性があることが判明しました。 続きを読む..."
+    },
+    {
+      "id": "itmedia:efbbec76",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "「自分の個人情報が漏えいした……どうすれば？」　IPAが対処法公開",
+      "url": "https://www.itmedia.co.jp/news/article/2610/27/2000002617/",
+      "publishedAt": "2026-10-27T02:51:20.000Z",
+      "excerpt": "メールアドレスや電話番号、住所、氏名が漏えいした場合は、突然届くメールやSMSは基本的にすべて詐欺の偽メールだと考えて、無視して削除するよう呼び掛けた。"
+    },
+    {
+      "id": "gigazine:46508792",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "InstagramがYouTube対抗の最大90分の長尺横型動画フォーマットをテスト中",
+      "url": "https://gigazine.net/news/20261027-instagram-test-long-form-video/",
+      "publishedAt": "2026-10-27T02:48:00.000Z",
+      "excerpt": "Metaの写真共有SNSであるInstagramが、YouTubeのような長尺動画をテスト中であると海外メディアのThe Hollywood Reporterが報じています。 続きを読む..."
+    },
+    {
+      "id": "gigazine:a463c4f4",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "英語以外の言語を使うとAIモデルのコストは高くなる",
+      "url": "https://gigazine.net/news/20261027-tokenizer-tax/",
+      "publishedAt": "2026-10-27T02:45:00.000Z",
+      "excerpt": "大手企業のAIはたいていの場合、主に英語のデータセットを中心に学習しています。新たな研究で、英語であれば適切に処理できるAIが、データが少ない少数言語を処理するときにコストが高くなってしまう可能性があることが示されました。 続きを読む..."
+    },
+    {
+      "id": "gigazine:b1dc0cea",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "AppleがiPhone Duoのディスプレイひび割れ報告に回答",
+      "url": "https://gigazine.net/news/20261027-apple-responds-iphone-duo-crack/",
+      "publishedAt": "2026-10-27T02:40:00.000Z",
+      "excerpt": "Apple初の折りたたみ式スマートフォン「iPhone Duo」の発売以降、一部のユーザーから内側のディスプレイにひび割れが生じるとの報告がありました。この報告に、Appleが声明を出しています。 続きを読む..."
+    },
+    {
+      "id": "itmedia:efbbec57",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "GMO、PCのバックアップと電源オフ呼びかけ　VPS利用者に　きょう正午の攻撃予告受け",
+      "url": "https://www.itmedia.co.jp/news/article/2610/27/2000002616/",
+      "publishedAt": "2026-10-27T02:32:21.000Z",
+      "excerpt": "GMOインターネットグループは10月27日、傘下のGMOインターネットが提供するFX自動売買用VPS「お名前.com デスクトップクラウド」への不正アクセスを巡り、利用者に対し、同日正午までにPCのデータをバックアップした上で、電源を切るよう呼び掛けた。攻撃者とみられる人物から、同時刻に顧客情報の公開とランサムウェア攻撃を行うとの予告を受けたとしている。"
+    },
+    {
+      "id": "itmedia:efbbec38",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "JR「スマートEX」会員メアドなど漏えい、約17万件か　ユミルリンクへの不正アクセスで",
+      "url": "https://www.itmedia.co.jp/news/article/2610/27/2000002615/",
+      "publishedAt": "2026-10-27T02:22:26.000Z",
+      "excerpt": "メール配信サービス提供元のユミルリンクが受けた不正アクセスを受けたため。JR東海が保有する両サービスのシステムからの漏えいは確認していないという。"
+    },
+    {
+      "id": "itmedia:efbbec19",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "NECのルータ「Aterm」、PHP脆弱性の影響なし　設定画面URLの「.php」は無関係",
+      "url": "https://www.itmedia.co.jp/news/article/2610/27/2000002614/",
+      "publishedAt": "2026-10-27T01:53:22.000Z",
+      "excerpt": "設定画面「クイック設定Web」のURLに「/index.php」と表示される場合があるが、PHPは使っていないため、今回の脆弱性による影響はないという。"
+    },
+    {
+      "id": "itmedia:efbbeb9d",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "GMO不正アクセス、犯人側は「27日に顧客のPC攻撃」予告　GMOが端末回収、ホワイトハッカーが解析中",
+      "url": "https://www.itmedia.co.jp/news/article/2610/27/2000002610/",
+      "publishedAt": "2026-10-27T00:07:08.000Z",
+      "excerpt": "GMOの従業員が全国に出向いて顧客の端末を預かり、グループのホワイトハッカーチームが調査・解析を進めているという。"
+    },
+    {
+      "id": "itmedia:efbbe8d4",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "「一番くじ ONLINE」の配送情報漏えいか　バンダイナムコの物流子会社に不正アクセス",
+      "url": "https://www.itmedia.co.jp/news/article/2610/27/2000002608/",
+      "publishedAt": "2026-10-26T23:07:15.000Z",
+      "excerpt": "バンダイロジパルが管理するシステムが不正アクセスを受け、「一番くじ ONLINE」の配送情報が漏えいした可能性。"
+    },
+    {
+      "id": "itmedia:efbbe8b5",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "Apple、「iPad mini」を大幅刷新　8.5インチOLEDとA20 Pro搭載、防水にも対応　11万9800円から",
+      "url": "https://www.itmedia.co.jp/news/article/2610/27/2000002607/",
+      "publishedAt": "2026-10-26T22:59:29.000Z",
+      "excerpt": "Appleは、「iPad mini」の新モデルを発表した。8.5インチ有機ELディスプレイや最新2nmチップ「A20 Pro」を搭載し、薄型・軽量化とともにシリーズ初のIP67耐水・防塵に対応する。次世代Apple IntelligenceやWi-Fi 7もサポートし、Wi-Fiモデルは11万9800円から。"
+    },
+    {
+      "id": "itmedia:efbbe896",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "「楽天トラベル」に不正アクセス　顧客情報最大約260万件など流出か　予約者約3.6万件のクレカ情報も",
+      "url": "https://www.itmedia.co.jp/news/article/2610/27/2000002606/",
+      "publishedAt": "2026-10-26T22:44:55.000Z",
+      "excerpt": "海外予約サイトの一部ページと、楽天グループが運営する多言語予約サイトが対象。最大約3万6000件の予約者のクレジットカード下4ケタや名義、有効期限などの情報が流出した可能性。"
+    },
+    {
+      "id": "itmedia:efbbe877",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "Meta、AI投資拡大に向け最大950億ドル規模の株式発行計画　NVIDIA、AMD、Broadcomも出資に関心",
+      "url": "https://www.itmedia.co.jp/news/article/2610/27/2000002605/",
+      "publishedAt": "2026-10-26T22:26:55.000Z",
+      "excerpt": "Metaは、AIインフラとパーソナル超知能への投資を支えるため、総額約950億ドル（約15兆円）規模の株式発行による資金調達計画を発表した。まず普通株式と預託株式で約350億ドルを公募し、NVIDIAなど半導体3社も出資意向を示す。2027年には最大600億ドルの段階的売却プログラムも計画する。"
+    },
+    {
+      "id": "itmedia:efbbe858",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "Microsoft、約6万人対象の希望退職制度を発表　巨額のAI投資で経費抑制か",
+      "url": "https://www.itmedia.co.jp/news/article/2610/27/2000002604/",
+      "publishedAt": "2026-10-26T21:53:53.000Z",
+      "excerpt": "Microsoftは、金銭やキャリア形成を支援する新たな希望退職制度を米英加印で導入すると発表した。対象は特定部門の一定職位以下で、報道によると全従業員の約27％に当たる約6万人規模。巨額のAI設備投資が続く中での経費抑制策とみられるが、同社はAI投資との関係を公表していない。"
+    },
+    {
+      "id": "itmedia:efbbe839",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "Anthropic、IPOを正式申請　上半期売上高は約14倍、純損失807億ドル",
+      "url": "https://www.itmedia.co.jp/news/article/2610/27/2000002603/",
+      "publishedAt": "2026-10-26T21:28:38.000Z",
+      "excerpt": "AnthropicはSECにForm S-1を提出し、NasdaqへのIPOを正式申請した。ティッカーは「ANT」。2026年上半期の売上高は前年同期比約14倍の163億ドルに急伸した。上場後も創業者グループが50.1％の議決権を保持し、長期利益信託が取締役選任権を持つガバナンス体制を継続する。"
+    },
+    {
+      "id": "publickey:944a9839",
+      "sourceId": "publickey",
+      "sourceName": "Publickey",
+      "title": "AWSとGoogle Cloudが「PyTorch」のAWS Trainium、Google Cloud TPU対応版をオープンソースで公開。NVIDIAからの移行に挑む",
+      "url": "https://www.publickey1.jp/blog/26/awsgoogle_cloudpytorchaws_trainiumgoogle_cloud_tpunvidia.html",
+      "publishedAt": "2026-10-26T15:59:52.000Z",
+      "excerpt": "10月20日と21日に米カリフォルニア州で行われたイベント「PyTorch Conference 2026」において、AWSとGoogle Cloudが相次いでPyTorchの自社AIプロセッサ対応版をオープンソースとして発表しました。 AWSがパブリックベータとして公開したのはAWS Trainiumに対応した「TorchNeuron」、Google Cloudが発表したのはGoogle Cloud TPUに対応した「TorchTPU」です。 TorchNeuron is ……"
+    },
+    {
+      "id": "itmedia:138e17a",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "ジョーシンへの不正アクセス、最大623万件漏えいか　運転免許証2件・マイナカード1件なども",
+      "url": "https://www.itmedia.co.jp/news/article/2610/26/2000002601/",
+      "publishedAt": "2026-10-26T11:06:41.000Z",
+      "excerpt": "ジョーシンを運営するJoshinは10月26日、不正アクセスにより最大約623万件の会員情報等が漏えいした可能性を発表。氏名・住所のほか運転免許証画像やマイナンバー情報、ログイン情報なども含み、影響範囲は調査中。カード情報は保持していない。"
+    },
+    {
+      "id": "itmedia:1388fbd",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "タイムズカー流出で顧客らが損害賠償求め運営会社提訴へ　サイト開設の弁護士が記者会見",
+      "url": "https://www.itmedia.co.jp/news/article/2610/26/2000002598/",
+      "publishedAt": "2026-10-26T09:58:14.000Z",
+      "excerpt": "カーシェアリングサービス「タイムズカー」の個人情報漏えい問題で、集団訴訟を呼びかけていた牧野裕貴弁護士は10月26日、運営する「パーク24」などを相手取り、被害者1人当たり3万?5万円の損害賠償を求めて東京地裁に提訴すると発表した。"
+    },
+    {
+      "id": "itmedia:1388f9e",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "「年齢は合ってますが、人間ではありません」　6歳の飼い猫に届いた“進研ゼミの案内”　なぜ届いたのかベネッセに聞いた",
+      "url": "https://www.itmedia.co.jp/news/article/2610/26/2000002597/",
+      "publishedAt": "2026-10-26T09:41:28.000Z",
+      "excerpt": "「飼い猫宛てに進研ゼミの案内が届いた」という投稿が10月20日ごろにXで話題になった。この案内を巡り、投稿した飼い主と発行元のベネッセコーポレーションに話を聞いた。"
+    },
+    {
+      "id": "itmedia:1388ee4",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "野村総研、サイバー攻撃時の「能動的なシステム停止」を支援する新サービス",
+      "url": "https://www.itmedia.co.jp/news/article/2610/26/2000002591/",
+      "publishedAt": "2026-10-26T09:15:49.000Z",
+      "excerpt": ""
+    },
+    {
+      "id": "itmedia:138881c",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "グッスマに不正アクセス、公式EC閉鎖　会員の住所や注文履歴など漏えいか　再開目処立たず",
+      "url": "https://www.itmedia.co.jp/news/article/2610/26/2000002577/",
+      "publishedAt": "2026-10-26T03:33:18.000Z",
+      "excerpt": "グッドスマイルカンパニーは10月23日、同社が運営するECサイト「グッドスマイルカンパニー公式ショップ」で不正アクセスが発生し、会員の個人情報などが第三者に閲覧されたと発表した。サイトは現在閉鎖しており、再開時期は未定としている。原因については、システムの脆弱性を悪用されたとみて調査を進めている。"
+    },
+    {
+      "id": "itmedia:138139e",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "「漏えい」の一言で素通り客が振り返る──相次ぐ情報流出の中で開幕のセキュリティ展示会　来場者の態度も激変",
+      "url": "https://www.itmedia.co.jp/news/article/2610/26/2000002476/",
+      "publishedAt": "2026-10-26T03:11:36.000Z",
+      "excerpt": "国内企業で不正アクセスや情報漏えいが相次ぐ中、幕張メッセで「情報セキュリティEXPO」が開催された。出展企業からは、来場者の関心の高まりに加え、9月下旬以降、問い合わせが急増し、経営層からの相談も増えたとの声が上がった。現場の変化を聞いた。"
+    },
+    {
+      "id": "itmedia:138885a",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "Xの「いいね」長押しで1ドル送金　マスク氏が“投げ銭”機能を予告",
+      "url": "https://www.itmedia.co.jp/news/article/2610/26/2000002579/",
+      "publishedAt": "2026-10-26T03:05:32.000Z",
+      "excerpt": "イーロン・マスク氏は10月25日（現地時間）、Xの「いいね」ボタンに、長押しで決済サービス「X Money」を通じて相手に1ドルを送れる機能を追加すると明らかにした。X Moneyは米国で提供中のサービスで、日本では現在利用できない。"
+    },
+    {
+      "id": "itmedia:138883b",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "米国のデータセンター急増、AI需要で巨大化　受電容量「ギガ時代」に　中間選挙争点にも",
+      "url": "https://www.itmedia.co.jp/news/article/2610/26/2000002578/",
+      "publishedAt": "2026-10-26T02:52:26.000Z",
+      "excerpt": "米国でデータセンター（DC）建設が急ピッチで進んでいる。米OpenAIや米Anthropicなどの人工知能（AI）開発大手が建設計画を主導し、施設数・規模とも他国を大きく引き離す「DC大国」ぶりをみせている。"
+    },
+    {
+      "id": "itmedia:1388762",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "GMO熊谷代表「社内ホワイトハッカーが事前に指摘」も対策遅れ、国に「能動的サイバー防御」要請　「責任転嫁では」SNSで批判も",
+      "url": "https://www.itmedia.co.jp/news/article/2610/26/2000002571/",
+      "publishedAt": "2026-10-26T02:17:32.000Z",
+      "excerpt": "課題を潰せず攻撃を許した理由は、「サービスの可用性への影響や他の対処事項との優先順位を考慮しながら慎重に対応を進めた結果」だという。"
+    },
+    {
+      "id": "itmedia:13887bf",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "ジャック・ドーシー氏率いるBlock、音声だけで学習した全二重音声モデル「Dessa」発表　「人と話しているよう」",
+      "url": "https://www.itmedia.co.jp/news/article/2610/26/2000002574/",
+      "publishedAt": "2026-10-26T02:04:33.000Z",
+      "excerpt": "Block（旧Square）は、テキストや事前学習モデルを使わず、人間の会話音声のみで学習させた全二重音声モデル「Dessa」の研究プレビューを発表した。相づちや感情の抑揚を直接聞き取り表現できるのが特徴で、NVIDIAのラック1台で学習されており、MacBook Proでローカル実行できる。一般提供時期は未定。"
+    },
+    {
+      "id": "itmedia:13887a0",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "OpenAI、フロンティアモデルの学習中はインターネットに接続させない方針　学習中のAIが隔離環境を抜け出した件も公表",
+      "url": "https://www.itmedia.co.jp/news/article/2610/26/2000002573/",
+      "publishedAt": "2026-10-26T01:10:56.000Z",
+      "excerpt": "OpenAIは、安全対策が十分に進歩するまでフロンティアモデルの学習時にネット接続を遮断する方針を発表した。キャッシュによるオフライン環境を用意していたが、9月にモデルがネットに一時接続する事案が発生。調査の過程で多くのソフトに影響する圧縮ライブラリ「Brotli」の深刻な脆弱性も判明した。"
+    },
+    {
+      "id": "itmedia:1388743",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "Google、プライバシーポリシーに「Gmail」「Googleフォト」のデータを広告に使う例外を追加　回避方法は",
+      "url": "https://www.itmedia.co.jp/news/article/2610/26/2000002570/",
+      "publishedAt": "2026-10-25T23:28:28.000Z",
+      "excerpt": "Googleはプライバシーポリシーを更新し、検索やGeminiにGmailやフォトなどのアクセスを許可した場合、そのデータが広告のパーソナライズに使われる例外規定を明記した。背景には「パーソナルインテリジェンス」機能があり、連携を解除しても検索履歴に残ったデータは削除されない。"
+    },
+    {
+      "id": "publickey:94bc816c",
+      "sourceId": "publickey",
+      "sourceName": "Publickey",
+      "title": "「DuckDB 2.0 LTS」正式リリース。Quackプロトコルによるクライアント/サーバ機能や非同期処理による高速化など",
+      "url": "https://www.publickey1.jp/blog/26/duckdb_20_ltsquack.html",
+      "publishedAt": "2026-10-25T15:44:47.000Z",
+      "excerpt": "DuckDB Foundationは、シングルバイナリで高速なデータ分析を実現するOLAP型データベース「DuckDB 2.0 LTS」（コード名：Cinnamon Teal）の正式リリースを発表しました。 Announcing DuckDB 2.0.0 LTS “Cinnamon Teal” We are proud to release DuckDB 2.0.0, named after the cinnamon teal (Spatula cyanoptera), a……"
+    },
+    {
+      "id": "itmedia:12b57e18",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "「5年でバッテリーが使い物にならなくなる」は本当か　テスラ「モデル3」5年目点検で分かったこと",
+      "url": "https://www.itmedia.co.jp/news/article/2610/25/2000002569/",
+      "publishedAt": "2026-10-25T11:37:30.000Z",
+      "excerpt": "納車から5年、4万km余りを走った筆者のTesla「Model 3」が2回目の車検を迎えました。ユーザー車検に臨む前に点検整備を受けたところ、バッテリーの状態や維持費に具体的な数字が出ました。欧州車を30年乗り継ぎ、トラブルと出費に身構えてきた筆者には、同じ距離を走った前の愛車との違いが際立って見えます。アプリを軸に進む点検の流れと併せてお伝えします。"
+    },
+    {
+      "id": "itmedia:12b57df9",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "たばこ休憩なき時代の“一服”をどう取るか　温熱と“聞こえない音”で休む、JT子会社のアイマスクを試す",
+      "url": "https://www.itmedia.co.jp/news/article/2610/25/2000002568/",
+      "publishedAt": "2026-10-25T01:00:00.000Z",
+      "excerpt": "仕事の合間のリフレッシュといえば、かつては「たばこ休憩」だった。では、たばこを吸わなくなった今、私たちはどう休めばいいのか。JTのグループ会社が出した答えは、耳に聞こえない超高周波音と温熱で目元を包む“スピード休息アイマスク”だった。10分の休憩と二度寝の場面で1週間試してみると、確かな手応えと同時に、惜しい点も見えてきた。"
+    },
+    {
+      "id": "itmedia:12b57a57",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "B級感がたまらない？　映画「ストリートファイター」の魅力と原作ゲームの歴史、ゲーマーマンガ家が熱弁",
+      "url": "https://www.itmedia.co.jp/news/article/2610/25/2000002559/",
+      "publishedAt": "2026-10-24T22:15:00.000Z",
+      "excerpt": "映画「ストリートファイター／ザ・ムービー」を見てきました。今回は原作ゲームの歴史と共に、映画の面白さを解説します。"
+    },
+    {
+      "id": "itmedia:24327759",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "GMO、「能動的サイバー防御」発動を政府に要請　「お名前.com」FX用VPSへの攻撃で",
+      "url": "https://www.itmedia.co.jp/news/article/2610/24/2000002567/",
+      "publishedAt": "2026-10-24T09:10:34.000Z",
+      "excerpt": "「お名前.com デスクトップクラウド」の不正アクセスが、「一般国民の取引口座を標的とした不正操作・資産き損」という「極めて悪質かつ前例のない手口」と主張している。"
+    },
+    {
+      "id": "itmedia:2432773a",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "GMO、不正取引の被害額を補償へ　見舞金5000円も　「お名前.com」FX用VPSへのサイバー攻撃で",
+      "url": "https://www.itmedia.co.jp/news/article/2610/24/2000002566/",
+      "publishedAt": "2026-10-24T08:51:04.000Z",
+      "excerpt": "全ユーザーに「お見舞金」として5000円を支払う他、不正取引で発生した損失を補償する。「攻撃者からの要求には応じない」"
+    },
+    {
+      "id": "itmedia:243276fc",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "「Claude Mythos 5」、危害の兆候を顧みず実在の開発者を標的に──AnthropicとAISIが分析結果を公開",
+      "url": "https://www.itmedia.co.jp/news/article/2610/24/2000002564/",
+      "publishedAt": "2026-10-23T22:28:08.000Z",
+      "excerpt": "Anthropicと英AI安全保障研究所AISIは、「Claude Mythos 5」がサイバー能力評価中に実在の開発者を標的とした事案の分析報告を公開した。GitHub経由で無許可の攻撃を行い偽身元で承認を迫った経緯を報告。実在の人物と認識しても攻撃を正当化して続行する傾向が確認され、評価手法の見直しが進む。"
+    },
+    {
+      "id": "itmedia:35af703d",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "パナソニックHD子会社、使用禁止の生成AIに従業員約33万人分の個人情報をアップロード",
+      "url": "https://www.itmedia.co.jp/news/article/2610/23/2000002562/",
+      "publishedAt": "2026-10-23T12:48:45.000Z",
+      "excerpt": "パナソニックホールディングス傘下のパナソニック オペレーショナルエクセレンス（大阪府門真市）は10月23日、社内プロジェクトに携わる社員が、パナソニックグループの従業員や元従業員、その家族ら計約33万4000人分の個人情報を含むデータを、社内で利用を禁止している外部の生成AIサービスにアップロードしていたと発表した。"
+    },
+    {
+      "id": "itmedia:35af6d36",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "タイムズカー、3000円の見舞金支払いへ　免許証画像漏えいの146万件対象　55億円の特損計上",
+      "url": "https://www.itmedia.co.jp/news/article/2610/23/2000002558/",
+      "publishedAt": "2026-10-23T10:05:39.000Z",
+      "excerpt": "パーク24は10月23日、グループ会社のタイムズモビリティ（東京都品川区）が運営するカーシェアリングサービス「タイムズカー」で9月に発覚した個人情報漏えいを巡り、一部利用者に3000円相当の見舞金を渡すと発表した。"
+    },
+    {
+      "id": "itmedia:35af6d17",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "「チケット当選」装う詐欺メールが急増中──イープラスやローチケ、ぴあかたる手口　フィッシングの専門家に対策を聞いた",
+      "url": "https://www.itmedia.co.jp/news/article/2610/23/2000002557/",
+      "publishedAt": "2026-10-23T09:40:58.000Z",
+      "excerpt": "イープラスを装い、チケットの抽選に当選したとして支払いを迫る偽メールがXで拡散している。ローチケやチケットぴあをかたる同種のメールも10月に入って相次いでいる。フィッシング対策協議会によると、イープラスをかたるフィッシングの報告は直近1カ月で約6.5倍に増えた。"
+    },
+    {
+      "id": "itmedia:35af6cf8",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "11月中に「ホワイトハッカー」のチームを立ち上げへ　サイバー攻撃に対抗　赤沢経産相",
+      "url": "https://www.itmedia.co.jp/news/article/2610/23/2000002556/",
+      "publishedAt": "2026-10-23T08:51:56.000Z",
+      "excerpt": "赤沢亮正経済産業相は23日の閣議後記者会見で、国内でサイバー攻撃による被害が相次いでいることを踏まえ、サイバー攻撃とその防御に詳しいエンジニア「ホワイトハッカー」を集めた対策チームを11月中に立ち上げる方針を明らかにした。"
+    },
+    {
+      "id": "itmedia:35af6c9b",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "佐川への不正アクセス、最大5323万件の個人情報流出か　9月末のサイバー攻撃で続報",
+      "url": "https://www.itmedia.co.jp/news/article/2610/23/2000002553/",
+      "publishedAt": "2026-10-23T08:38:23.000Z",
+      "excerpt": "佐川急便は10月23日、9月30日に公表した「お荷物問い合わせサービス」への不正アクセスについて、最大約5323万件の個人情報が外部に流出した可能性があると明らかにした。10月1日には個人情報流出の可能性を発表していたが、今回の第5報で対象件数が判明。あわせて、停止していた荷物追跡サービスも23日に再開した。"
+    },
+    {
+      "id": "publickey:6b0b3a71",
+      "sourceId": "publickey",
+      "sourceName": "Publickey",
+      "title": "Cloudflare、TypeScriptをRustに移植した「tsrs」を発表。TypeScript 7より最大で70％少ないメモリで8倍速。今後、LSPなどTypeScriptの全機能をサポート予定",
+      "url": "https://www.publickey1.jp/blog/26/cloudflaretypescriptrusttsrstypescript_7708lsptypescript.html",
+      "publishedAt": "2026-10-21T15:42:36.000Z",
+      "excerpt": "Cloudflareは、TypeScriptをRustに移植した「tsrs」を発表しました。 下記は、Cloudflareに買収されたVoidZeroによるtsrsに関するポストです。VoidZeroもこのtsrsの開発に関わっています。 Introducing tsrs: a Rust port of the TypeScript compiler We are not forking TypeScript! ◆ In close collaborating with t……"
+    },
+    {
+      "id": "publickey:87356cee",
+      "sourceId": "publickey",
+      "sourceName": "Publickey",
+      "title": "「Cloudflare OS」のマネージドサービス提供へ。GitHubとの接続やGmailとの連携強化など",
+      "url": "https://www.publickey1.jp/blog/26/cloudflare_osgithubgmail.html",
+      "publishedAt": "2026-10-20T15:10:05.000Z",
+      "excerpt": "Cloudflareは、AIを活用した業務のためのプラットフォームとなる「Cloudflare OS」のマネージドサービスを発表しました。現在ウェイティングリストへの登録を募集しています。 AIを活用した業務アプリのプラットフォーム Cloudflare OSは今年（2026年）8月にCloudflareがオープンソースとして公開したソフトウェアです。Cloudflare環境だけでなくオンプレミスやクラウドなどさまざまな環境にデプロイ可能です。 Cloudflare OSは、……"
+    },
+    {
+      "id": "publickey:24becdad",
+      "sourceId": "publickey",
+      "sourceName": "Publickey",
+      "title": "AWS LambdaでNext.jsやHonoなどNode.jsフレームワークとアプリをそのままデプロイ、実行できる「AWS Lambda Web Functions」発表",
+      "url": "https://www.publickey1.jp/blog/26/aws_lambdanextjshononodejsaws_lambda_web_functions.html",
+      "publishedAt": "2026-10-19T15:49:22.000Z",
+      "excerpt": "Amazon Web Services（AWS）は、サーバレス基盤のAWS Lambda上でNext.jsやExpress、Hono、FastifyなどのNode.js用フレームワークとそのアプリケーションをそのままデプロイして実行できる新機能「AWS Lambda Web Functions」を発表しました。 従来のAWS Lambdaは、HTTPのリクエストを受けて関数を実行し、レスポンスをHTTPで返す機能が備わっていましたが、AWS Lambdaの関数の実行とHTTP……"
+    },
+    {
+      "id": "publickey:8d0b2356",
+      "sourceId": "publickey",
+      "sourceName": "Publickey",
+      "title": "AWS Transform、Azure Functions用のコードをAWS Lambda用に変換など、Microsoft AzureからAWSへの移行に対応",
+      "url": "https://www.publickey1.jp/blog/26/aws_transformazure_functionsaws_lambdamicrosoft_azureaws.html",
+      "publishedAt": "2026-10-19T15:47:48.000Z",
+      "excerpt": "Amazon Web Services（AWS）は、Azure SDKで書かれた.NETアプリケーションをAWS SDKを用いたコードに変換する新機能をAWS Transformに搭載したと発表しました。 これによりMicrosoft Azureネイティブな.NETアプリケーションを簡単にAWSへ移行させることが容易になります。 Azure Blob StorageのコードをAmazon S3用に変換など 一般にMicrosoft Azureに対応する目的でAzure SDK……"
+    },
+    {
+      "id": "publickey:e670096e",
+      "sourceId": "publickey",
+      "sourceName": "Publickey",
+      "title": "マイクロソフト、.NETのツールチェーンマネージャ「dotnetup」プレビュー公開。複数バージョンの.NET環境を管理可能",
+      "url": "https://www.publickey1.jp/blog/26/netdotnetupnet.html",
+      "publishedAt": "2026-10-18T15:35:52.000Z",
+      "excerpt": "マイクロソフトは、.NETの各種コマンドラインツールやC#コンパイラ、ビルドエンジン、ランタイムなどを含む.NETのツールチェーンをまとめてインストールし、バージョン管理などができるツールチェーンマネージャ「dotnetup」をパブリックプレビューとして公開しました。 Rust言語やNode.js環境では、ツールチェーンマネージャと呼ばれるコマンドが存在します。Rustでは「rustup」、Node.jsでは「nvm」がそれです。 ツールチェーンマネージャは単にコマンド一発で……"
+    },
+    {
+      "id": "publickey:60b68113",
+      "sourceId": "publickey",
+      "sourceName": "Publickey",
+      "title": "Linuxカーネルの深刻な脆弱性「PwnEscape」（CVE-2026-99999）、ゲストの仮想マシンからホスト側Linux OSに不正なコードを実行できる可能性",
+      "url": "https://www.publickey1.jp/blog/26/linuxpwnescapecve-2026-99999linux_os.html",
+      "publishedAt": "2026-10-17T15:27:18.000Z",
+      "excerpt": "悪意のある攻撃者がLinuxの仮想マシンを不正に操作することで、仮想マシンの境界を抜けてホスト側のLinux OSで不正なコードを実行できる可能性がある脆弱性「PwnEscape」（CVE-2026-99999）の情報が公開されています。 対象はLinuxカーネルで、脆弱性の深刻度を1から10の値で表すスコアは9.3で「Critical」（緊急）と非常に高くなっています。 PwnEscapeはLinuxカーネルのネットワーク処理の欠陥 PwnEscapeの技術的な内容について……"
+    },
+    {
+      "id": "publickey:ee124112",
+      "sourceId": "publickey",
+      "sourceName": "Publickey",
+      "title": "AnthropicのBun、TypeScript 7よりも3倍以上高速なTypeScript型チェッカーを搭載。Bunの新バージョン1.4.3で",
+      "url": "https://www.publickey1.jp/blog/26/anthropicbuntypescript_73typescriptbun143.html",
+      "publishedAt": "2026-10-15T15:21:12.000Z",
+      "excerpt": "Anthropicが開発しているJavaScriptランタイム「Bun」は、10月10日付けで新バージョン「Bun v1.4.3」がリリースされました。 Bun v1.4.3の最大の特徴として示されたのが、Go言語で実装されたTypeScript 7よりも3倍以上高速だとするTypeScript型チェッカーです。 TypeScriptもバージョン7ではGo言語による実装で高速化がはかられましたが、Bunはそれを大きく上回るとしています。 BunはJavaScriptだけでなく……"
+    },
+    {
+      "id": "publickey:ba5296dc",
+      "sourceId": "publickey",
+      "sourceName": "Publickey",
+      "title": "Windows上でAIエージェントの実行を安全に隔離する「Microsoft Execution Containers」（MXC）正式リリース。ファイルやネットワークなどの境界を柔軟にカスタマイズ",
+      "url": "https://www.publickey1.jp/blog/26/windowsaimicrosoft_execution_containersmxc.html",
+      "publishedAt": "2026-10-14T15:57:19.000Z",
+      "excerpt": "マイクロソフトはWindows 11上でAIエージェントを安全に動かすための隔離環境「Microsoft Execution Containers」（以下、MXC）の正式リリースを発表しました。 MXC is now GA on Windows 11. Define which files and networks agents can access, with policies enforced at runtime. It’s part of how Windows i……"
+    },
+    {
+      "id": "publickey:c86da8a0",
+      "sourceId": "publickey",
+      "sourceName": "Publickey",
+      "title": "Webアプリフレームワークの「SvelteKit 3」正式リリース。設定をViteに集約、型安全やエラー処理の改善など",
+      "url": "https://www.publickey1.jp/blog/26/websveltekit_3vite.html",
+      "publishedAt": "2026-10-13T15:26:33.000Z",
+      "excerpt": "Webアプリケーションフレームワーク「SvelteKit 3」正式版がリリースされました。 SvelteKitは、Web UIフレームワークの「Svelte」とビルドツールの「Vite」を基盤とし、ルーティング、サーバサイドレンダリング（SSR）、データベースやAPIとの接続、フォーム処理、エラー処理、デプロイ機能などを統合したものです。WebサイトやWebアプリケーションの構築、展開などを可能にします。 下記はSvelteおよびSvelteKitの開発者の一人であるSimo……"
+    },
+    {
+      "id": "publickey:1ab85a94",
+      "sourceId": "publickey",
+      "sourceName": "Publickey",
+      "title": "「情シスって楽しい」がテーマ。チームみらい安野党首、ひろゆき氏、OpenID Foundation崎村氏らが登壇。BTCONJP 2026［PR］",
+      "url": "https://www.publickey1.jp/blog/26/openid_foundationbtconjp2026.html",
+      "publishedAt": "2026-10-12T16:11:37.000Z",
+      "excerpt": "進化し続けるITを企業において最適な形で取り入れ続け、ビジネスと統合していく情報システム部門の役割は、AIの登場でビジネスそのものが大きな変革の波を受けざるを得ない現在、ますます重要さを増しています。 その情報システム部門に在籍している有志によって運営され、今年で4回目を迎える「Business Technology Conference Japan 2026 〜情シスカンファレンス〜」（以下、BTCONJP 2026）は、ITをビジネステクノロジーの領域に昇華し、日本のあら……"
+    },
+    {
+      "id": "publickey:4aa7716f",
+      "sourceId": "publickey",
+      "sourceName": "Publickey",
+      "title": "Deno開発元がCloudflareに合流。Denoの開発は終了へ、今後はCloudflare WorkersとDurable Objectsのオープンソース実装に注力",
+      "url": "https://www.publickey1.jp/blog/26/denocloudflaredenocloudflare_workersdurable_objects.html",
+      "publishedAt": "2026-10-12T15:46:53.000Z",
+      "excerpt": "JavaScriptランタイム「Deno」の開発元であるDeno LandとCloudflareは、Deno LandがCloudflareに合流すると発表しました。CloudflareによるDeno Landの買収と見られます（Deno Landの発表、Cloudflareの発表）。 We are excited to announce that Deno is joining Cloudflare! https://t.co/hC5HOUb8t4— Deno……"
+    }
+  ]
+}
