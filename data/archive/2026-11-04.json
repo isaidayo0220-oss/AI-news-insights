@@ -1,0 +1,1089 @@
+{
+  "generatedAt": "2026-11-04T01:02:48.213Z",
+  "sources": [
+    {
+      "id": "itmedia",
+      "name": "ITmedia NEWS",
+      "homepage": "https://www.itmedia.co.jp/news/"
+    },
+    {
+      "id": "publickey",
+      "name": "Publickey",
+      "homepage": "https://www.publickey1.jp/"
+    },
+    {
+      "id": "gigazine",
+      "name": "GIGAZINE",
+      "homepage": "https://gigazine.net/"
+    }
+  ],
+  "articleCount": 95,
+  "aiSummary": {
+    "available": true,
+    "overview": "本日のIT/テクノロジー分野のニュースは、大規模な情報漏えい事件が複数報告され、サイバーセキュリティの脅威が顕在化しています。一方で、AI技術の進化と普及に関するニュースも多く、特に開発効率の向上や新たなビジネスモデルへの影響が注目されます。また、MicrosoftやGitHubといった主要ベンダーからのパフォーマンス改善や新機能発表も目立ち、ユーザー体験の向上と開発環境の進化が期待されます。",
+    "highlights": [
+      {
+        "title": "セブン-イレブン「7NOW」の利用者情報16万件超漏えい　配達委託先に不正アクセス、出前館でも約800件",
+        "reason": "大手コンビニエンスストアの利用者情報が大規模に漏えいした事件であり、広範なユーザーに影響を与えるサイバーセキュリティ上の重大な問題です。",
+        "articleId": "itmedia:420a1abb",
+        "analysis": {
+          "summary": "セブン-イレブンが提供する「7NOW」の利用者情報16万件超が、配達委託先の「ピックゴー」への不正アクセスにより漏洩した。同様の不正アクセスは出前館でも約800件発生しており、複数のプラットフォームに影響が及んでいる。漏洩した情報には氏名、住所、電話番号などが含まれる。",
+          "keyPoints": [
+            "セブン-イレブン「7NOW」の利用者情報16万件超が漏洩した。",
+            "漏洩元は配達委託先の「ピックゴー」への不正アクセスである。",
+            "出前館でも約800件の利用者情報漏洩が確認されており、同様の不正アクセスが複数サービスに影響を与えている。"
+          ],
+          "keywords": [
+            "情報漏洩",
+            "不正アクセス",
+            "7NOW",
+            "ピックゴー",
+            "出前館"
+          ],
+          "category": "DX",
+          "importanceStars": 4,
+          "importanceReason": "大手小売とデリバリープラットフォームにおける大規模な個人情報漏洩は、企業信頼性、セキュリティ対策、およびサプライチェーンリスク管理の重要性を浮き彫りにするため。",
+          "consultantPoints": [
+            "委託先を含めたサプライチェーン全体のセキュリティガバナンス強化策をどう構築するか。",
+            "顧客情報漏洩時の緊急対応プロトコルとコミュニケーション戦略をどう改善するか。",
+            "再発防止策として、多要素認証導入や定期的なセキュリティ監査をどのように義務付けるか。"
+          ],
+          "issue": "デリバリープラットフォームにおける委託先経由の個人情報漏洩リスクへの対策が不十分である。",
+          "hypotheses": [
+            "今後、他のデリバリーサービスやプラットフォームでも同様の不正アクセスによる情報漏洩が発覚する可能性がある。",
+            "企業は委託先のセキュリティ基準をより厳格化し、契約内容にセキュリティ監査義務を盛り込む動きが加速するだろう。",
+            "消費者のデリバリーサービス利用におけるセキュリティ意識が高まり、サービス選択基準にセキュリティ対策が加わる可能性がある。"
+          ],
+          "businessImpact": {
+            "company": "セブン-イレブン、出前館、ピックゴーはブランドイメージと顧客信頼性の低下に直面し、損害賠償や再発防止のためのシステム投資が必要となる。特にピックゴーは事業継続性に影響が出る可能性。",
+            "consumer": "氏名、住所、電話番号などの個人情報が漏洩した利用者は、詐欺や悪用などの二次被害のリスクに晒される。サービス利用への不安感が増大する。",
+            "market": "デリバリー業界全体でセキュリティ対策の強化が求められ、委託先管理の厳格化が進む。セキュリティ投資の増加や、より安全なプラットフォームへの顧客流出が発生する可能性。",
+            "economy": "直接的な日本経済への大きな影響は限定的だが、デジタルサービスにおける信頼性低下は、DX推進の足かせとなるリスクがある。セキュリティ関連産業の需要は増加する可能性。"
+          },
+          "actions": [
+            "自社の委託先管理体制とセキュリティポリシーを再評価する。",
+            "情報漏洩発生時の緊急対応計画（IRP）と顧客コミュニケーション戦略を確認・更新する。",
+            "サプライチェーン全体のセキュリティリスク評価と対策強化のためのベンダー選定基準を見直す。"
+          ],
+          "readingNotes": {
+            "learning": "委託先経由の情報漏洩は、自社だけでなくサプライチェーン全体のセキュリティ対策が重要であることを再認識した。特に個人情報を扱うプラットフォームでは、そのリスクが顕在化しやすい。",
+            "insight": "複数のサービスで同時期に同様の不正アクセスが発生していることから、特定の脆弱性や攻撃手法が広範に利用されている可能性が高い。これは業界全体で共有すべき脅威である。",
+            "tomorrow": "自社が利用している、または提供しているサービスにおける委託先のセキュリティ対策状況を棚卸し、リスク評価を行う。特に個人情報を取り扱う業務委託契約におけるセキュリティ条項を再確認する。"
+          }
+        }
+      },
+      {
+        "title": "ノジマオンライン、会員情報約700万件漏えい　不正アクセスでサイト休止、再開未定",
+        "reason": "約700万件という非常に大規模な会員情報漏えいであり、多くの個人に直接的な影響を及ぼす深刻なセキュリティインシデントです。",
+        "articleId": "itmedia:420a17b4",
+        "analysis": {
+          "summary": "ノジマオンラインが不正アクセスを受け、会員情報約700万件が漏えいした。これに伴いサイトは休止しており、再開時期は未定である。原因究明とセキュリティ強化が急務となっている。",
+          "keyPoints": [
+            "ノジマオンラインで約700万件の会員情報漏えいが発生した。",
+            "不正アクセスが原因で、サイトは現在休止中であり、再開時期は未定である。",
+            "個人情報保護委員会への報告と警察への相談が行われている。"
+          ],
+          "keywords": [
+            "ノジマオンライン",
+            "情報漏えい",
+            "不正アクセス",
+            "個人情報",
+            "サイト休止"
+          ],
+          "category": "DX",
+          "importanceStars": 4,
+          "importanceReason": "大規模な個人情報漏えいは、企業ブランド、顧客信頼、およびサイバーセキュリティ対策の重要性を示すため。",
+          "consultantPoints": [
+            "情報漏えい発生時の顧客コミュニケーション戦略とブランドイメージ回復策をどう構築するか。",
+            "再発防止のためのセキュリティシステムと運用体制の抜本的見直しをどう進めるか。",
+            "事業継続計画（BCP）におけるサイバー攻撃への対応とサービス復旧のロードマップをどう策定するか。"
+          ],
+          "issue": "大規模な個人情報漏えいが発生した企業は、顧客信頼の回復と事業継続をいかに両立させるか。",
+          "hypotheses": [
+            "ノジマオンラインは、セキュリティ対策の不備を指摘され、顧客からの信頼回復に時間を要するだろう。",
+            "類似のECサイト運営企業は、自社のセキュリティ体制を緊急で見直し、対策を強化する動きが加速するだろう。",
+            "情報漏えいによる損害賠償請求や集団訴訟のリスクが高まり、法的・経済的負担が増大する可能性がある。"
+          ],
+          "businessImpact": {
+            "company": "ノジマオンラインは、ブランドイメージの失墜、顧客離れ、売上減少、復旧費用、法的費用など多大な影響を受ける。",
+            "consumer": "会員は個人情報が悪用されるリスクに晒され、不安や不便を感じる。他のECサイト利用への警戒心が高まる。",
+            "market": "EC業界全体でセキュリティ対策への意識が高まり、投資が加速する可能性がある。セキュリティ関連サービス市場は拡大する。",
+            "economy": "直接的な日本経済への大きな影響は限定的だが、デジタルサービスにおける信頼性低下は消費行動に影響を与える可能性がある。"
+          },
+          "actions": [
+            "ノジマオンラインの今後の対応（原因究明、再発防止策、サイト再開時期）に関する公式発表を追跡する。",
+            "自社の情報セキュリティ体制、特に外部からの不正アクセス対策と個人情報管理の現状を監査する。",
+            "情報漏えい発生時の顧客対応、広報戦略、法務対応に関する社内ガイドラインやBCPを見直す。"
+          ],
+          "readingNotes": {
+            "learning": "大規模な情報漏えいは、技術的な問題だけでなく、顧客との信頼関係、ブランド価値、事業継続性といった経営全体に影響を及ぼすことを再認識した。",
+            "insight": "不正アクセスはいつどの企業にも起こり得るリスクであり、事前の対策だけでなく、発生時の迅速かつ誠実な対応が企業の命運を分けるという気づきを得た。",
+            "tomorrow": "自社が扱う顧客データの種類と量を再確認し、現在のセキュリティ対策が十分か、また万が一の事態に備えた対応計画があるかを担当部署に確認する。"
+          }
+        }
+      },
+      {
+        "title": "AIモデルのコモディティ化で富は開発企業から流通・決済システムへ移るという予測「The Commanding Heights」",
+        "reason": "AI産業の将来的な経済構造の変化を予測するもので、AI技術が社会に浸透するにつれて、ビジネスモデルや市場の勢力図が大きく変わる可能性を示唆しています。",
+        "articleId": "gigazine:9aa63123",
+        "analysis": {
+          "summary": "AIモデルの性能向上と低価格化に伴い、AIが生み出す富がモデル開発企業からAIの流通・決済システムを支配する企業へ移行するという予測「The Commanding Heights」が発表されました。この論考は、過去の技術革新を例に、AI開発競争、米中関係、世界経済の変化を分析しています。AIのコモディティ化が富の源泉を変化させる可能性を指摘しています。",
+          "keyPoints": [
+            "AIモデルのコモディティ化により、富の源泉が開発企業から流通・決済システムへ移行する。",
+            "過去の技術革新の事例を基に、AI開発競争、米中関係、世界経済の動向が分析されている。",
+            "AIの普及を担うインフラやプラットフォームの重要性が増大する見込み。"
+          ],
+          "keywords": [
+            "AIコモディティ化",
+            "富の移行",
+            "流通システム",
+            "決済システム",
+            "The Commanding Heights"
+          ],
+          "category": "AI",
+          "importanceStars": 4,
+          "importanceReason": "AI産業の将来的な収益構造と競争環境の根本的な変化を示唆しており、多くの企業戦略に影響を与えるため。",
+          "consultantPoints": [
+            "自社のAI戦略において、モデル開発と流通・プラットフォーム戦略のどちらに注力すべきか再評価する。",
+            "AIモデルのコモディティ化を見据え、付加価値の高いサービスやソリューションへの転換を検討する。",
+            "AIエコシステムにおける自社のポジショニングを再定義し、新たなパートナーシップやM&Aの機会を探る。"
+          ],
+          "issue": "AIモデルのコモディティ化が進む中で、企業はどこで競争優位性を確立し、収益を上げていくべきか。",
+          "hypotheses": [
+            "大手クラウドプロバイダーや既存のプラットフォーマーがAI流通・決済の覇権を握る可能性が高い。",
+            "特定の産業に特化したAIソリューションや垂直統合型ビジネスモデルが新たな富の源泉となる可能性がある。",
+            "AIモデルのオープンソース化がさらに進み、モデル自体の価値がさらに低下する可能性がある。"
+          ],
+          "businessImpact": {
+            "company": "AI開発企業は収益モデルの見直しを迫られ、流通・プラットフォーム企業は新たな成長機会を得る。多くの企業はAI活用戦略の再構築が必要となる。",
+            "consumer": "AIサービスがより安価に、広範に利用できるようになる一方で、特定のプラットフォームへの依存度が高まる可能性がある。",
+            "market": "AI関連市場のバリューチェーンにおける富の配分が大きく変化し、M&Aや業界再編が加速する可能性がある。",
+            "economy": "AIによる生産性向上が加速する一方で、富の集中が一部企業に偏り、経済格差が拡大するリスクがある。"
+          },
+          "actions": [
+            "主要なAIプラットフォーム企業の戦略と投資動向を調査する。",
+            "AIモデルのコモディティ化が自社の事業に与える影響を具体的に分析する。",
+            "AIを活用した新たなビジネスモデルや収益源の可能性についてブレインストーミングを行う。"
+          ],
+          "readingNotes": {
+            "learning": "AIの進化が技術開発フェーズから普及・活用フェーズへと移行する中で、富の源泉も変化するという視点は重要。",
+            "insight": "過去の技術革新（例：PC、インターネット）が示唆するように、インフラやプラットフォームを支配する者が最終的に大きな利益を得るというパターンがAIでも繰り返される可能性が高い。",
+            "tomorrow": "自社がAIエコシステムのどのレイヤーで価値を提供できるかを再検討し、流通・プラットフォーム戦略の強化または連携を検討する。"
+          }
+        }
+      },
+      {
+        "title": "GitHubが従来比180倍のスループット性能向上を実現へ、来年初頭に。AIエージェント時代に対応。GitHub Universe 2026",
+        "reason": "開発者にとって不可欠なプラットフォームであるGitHubの大幅な性能向上は、AIエージェントを活用した開発プロセスの効率化を加速させ、ソフトウェア開発全体に大きな影響を与えます。",
+        "articleId": "publickey:4cb71505"
+      },
+      {
+        "title": "Microsoft、メモリ8GBのWindows 11 PCを高速化　マルチタスク処理は最大40％向上",
+        "reason": "多くのユーザーが利用するWindows PCのパフォーマンスが改善されることで、特に一般的なスペックのPC利用者の体験が向上し、生産性向上に寄与する可能性があります。",
+        "articleId": "itmedia:420a1a9c",
+        "analysis": {
+          "summary": "MicrosoftはWindows 11のパフォーマンス改善を発表しました。特にメモリ8GBのPCを対象に、メモリ圧縮の最適化とバックグラウンド処理の抑制により、操作応答速度とマルチタスク処理が最大40%向上します。この改善はWindows 11バージョン26H2の特定のビルド以降で利用可能です。",
+          "keyPoints": [
+            "MicrosoftがWindows 11のパフォーマンス改善を発表。",
+            "メモリ8GBのPCに特化し、マルチタスク処理が最大40%向上。",
+            "改善適用にはWindows 11バージョン26H2ビルド26300.9818以降への更新が必要。"
+          ],
+          "keywords": [
+            "Microsoft",
+            "Windows 11",
+            "パフォーマンス改善",
+            "メモリ8GB",
+            "マルチタスク"
+          ],
+          "category": "DX",
+          "importanceStars": 3,
+          "importanceReason": "既存のPCユーザー体験を向上させる直接的な改善であり、DX推進の基盤となるOSの効率化に繋がるため。",
+          "consultantPoints": [
+            "企業内PCのOSアップデート計画と展開戦略の見直し。",
+            "従業員の生産性向上に対する具体的な効果測定とROI分析。",
+            "低スペックPCの買い替えサイクルへの影響とIT予算の再配分可能性。"
+          ],
+          "issue": "既存のPC資産を最大限に活用し、従業員の生産性を向上させるためのOSアップデート戦略をどう策定するか。",
+          "hypotheses": [
+            "この改善により、企業におけるPCの買い替えサイクルが長期化する可能性がある。",
+            "Microsoftは、より多くのユーザーにWindows 11への移行を促す狙いがあると考えられる。",
+            "競合OS（macOS, ChromeOS）に対するWindowsの競争力強化に寄与する可能性がある。"
+          ],
+          "businessImpact": {
+            "company": "既存PCのパフォーマンス向上による従業員生産性向上、IT投資の最適化（買い替えサイクル延長の可能性）。",
+            "consumer": "メモリ8GBのPCユーザーは、買い替えなしでPC体験が向上し、より快適な操作が可能になる。",
+            "market": "PC市場における低価格帯モデルの需要維持、Windows 11への移行加速、中古PC市場への影響。",
+            "economy": "日本企業全体のデジタル生産性向上に寄与する可能性があり、DX推進の一助となる。"
+          },
+          "actions": [
+            "Windows 11の最新アップデート適用状況と社内PCのスペック分布を確認する。",
+            "このパフォーマンス改善が業務アプリケーションの動作に与える影響を評価する。",
+            "従業員へのアップデート推奨と、そのメリットに関する情報提供計画を策定する。"
+          ],
+          "readingNotes": {
+            "learning": "OSの最適化がハードウェアスペックの限界を補い、ユーザー体験を向上させる重要な手段であること。",
+            "insight": "Microsoftが既存ユーザーの満足度向上とWindows 11への移行促進を両立させようとしている戦略が見える。",
+            "tomorrow": "自社または顧客企業のIT資産管理担当者と連携し、Windows 11アップデートのメリットと計画について議論する。"
+          }
+        }
+      }
+    ]
+  },
+  "articles": [
+    {
+      "id": "gigazine:447c61e6",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "TVアニメ放送から2年を経て劇場版新作『ガールズバンドクライ THE MOVIE』特報映像公開、「怒りも喜びも哀しさも全部ぶちこめ。」",
+      "url": "https://gigazine.net/news/20261104-girls-band-cry-the-movie/",
+      "publishedAt": "2026-11-04T00:15:00.000Z",
+      "excerpt": "2024年春に放送されたTVアニメ『ガールズバンドクライ』の劇場版新作『ガールズバンドクライ THE MOVIE』が2027年5月21日に公開されることになり、ティザービジュアルと特報映像が公開されました。 続きを読む..."
+    },
+    {
+      "id": "itmedia:420a1abb",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "セブン-イレブン「7NOW」の利用者情報16万件超漏えい　配達委託先に不正アクセス、出前館でも約800件",
+      "url": "https://www.itmedia.co.jp/news/article/2611/04/2000002852/",
+      "publishedAt": "2026-11-04T00:09:00.000Z",
+      "excerpt": "登録ドライバーから条件に合う人を選び、配送を依頼できるプラットフォーム「ピックゴー」が不正アクセスを受けた。"
+    },
+    {
+      "id": "gigazine:9bddd323",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "スマホの容量足りてる？クラウドは利用してる？どんなサービスを利用してる？",
+      "url": "https://gigazine.net/news/20261104-gigazine-smartphone-cloud-storage/",
+      "publishedAt": "2026-11-04T00:00:00.000Z",
+      "excerpt": "長年スマートフォンを利用していると、溜まりに溜まった写真のデータや大容量アプリがストレージを圧迫してしまい、泣く泣くしばらく使っていないアプリや写真を削除せざるを得なくなってしまった、という人も少なくないはず。そんなスマートフォンの容量問題について、GIGAZINEで年に3回実施しているプレゼントアンケートで読者に聞いてみました。 続きを読む..."
+    },
+    {
+      "id": "itmedia:420a1a9c",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "Microsoft、メモリ8GBのWindows 11 PCを高速化　マルチタスク処理は最大40％向上",
+      "url": "https://www.itmedia.co.jp/news/article/2611/04/2000002851/",
+      "publishedAt": "2026-11-03T23:33:38.000Z",
+      "excerpt": "Microsoftは、メモリ容量8GBの「Windows 11」搭載PCを対象としたパフォーマンス改善を発表した。メモリ圧縮の最適化やバックグラウンド処理の抑制により、操作の応答速度やマルチタスク処理が大幅に向上する。これらの改善を利用するには、Windows 11バージョン26H2のビルド26300.9818以降に更新する必要がある。"
+    },
+    {
+      "id": "itmedia:420a1a7d",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "GMOペイメント、決済支援システムで「不正なユーザーによる行為」　「Vプリカ」69件漏えい、3件はセキュリティコードも",
+      "url": "https://www.itmedia.co.jp/news/article/2611/04/2000002850/",
+      "publishedAt": "2026-11-03T23:22:40.000Z",
+      "excerpt": "3件は、クレジットカード番号に相当する「Vプリカ番号」（16桁）と、専用のセキュリティコード、有効期限、氏名がそろって盗み取られた可能性がある。"
+    },
+    {
+      "id": "gigazine:f6bf3446",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "Hacker Newsのコメント3万9834件から収集した6454本の動画をYouTube風のUIで表示する「HackerTube」",
+      "url": "https://gigazine.net/news/20261104-hacker-tube/",
+      "publishedAt": "2026-11-03T23:00:00.000Z",
+      "excerpt": "「HackerTube」はソーシャルニュースサイトのHacker Newsで推奨された動画のみを集め、YouTube風のUIで表示することができるサイトです。 続きを読む..."
+    },
+    {
+      "id": "itmedia:420a17d3",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "Google、学校の生徒向けAI機能を原則オフへ　「AIなしのGoogle検索」は選べず批判も",
+      "url": "https://www.itmedia.co.jp/news/article/2611/04/2000002849/",
+      "publishedAt": "2026-11-03T22:31:04.000Z",
+      "excerpt": "Googleは、K-12（幼稚園から高校まで）の生徒向けアカウントで生成AI「Gemini」や「Google検索」などを原則オフにすると発表した。管理者が有効化できるが、検索のAI機能のみを無効にはできず、AIを禁じる学校では検索自体が利用不可となる点が批判を集めている。"
+    },
+    {
+      "id": "itmedia:420a17b4",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "ノジマオンライン、会員情報約700万件漏えい　不正アクセスでサイト休止、再開未定",
+      "url": "https://www.itmedia.co.jp/news/article/2611/04/2000002848/",
+      "publishedAt": "2026-11-03T22:04:35.000Z",
+      "excerpt": ""
+    },
+    {
+      "id": "gigazine:9aa63123",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "AIモデルのコモディティ化で富は開発企業から流通・決済システムへ移るという予測「The Commanding Heights」",
+      "url": "https://gigazine.net/news/20261104-the-commanding-heights/",
+      "publishedAt": "2026-11-03T22:00:00.000Z",
+      "excerpt": "AIモデルの性能向上と低価格化が進むにつれて、AIが生み出す富はモデルを開発する企業ではなく、AIを社会に普及させる流通網や決済システムなどを支配する企業に集中するという予測をまとめた論考「The Commanding Heights」が、2026年10月29日に公開されました。マニディス氏とロバーツ氏は過去の技術革新を例に挙げ、AI開発競争や米中関係、世界経済の今後の変化を分析しています。 続きを読む..."
+    },
+    {
+      "id": "itmedia:420a1795",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "Aterm設定画面、「PHP使ってないのに.php」なぜ？　NECに聞いた",
+      "url": "https://www.itmedia.co.jp/news/article/2611/04/2000002847/",
+      "publishedAt": "2026-11-03T21:32:05.000Z",
+      "excerpt": "PHPから移行したわけでもなく、「過去にPHPを使っていた名残」との見方も否定した。では、なぜ？"
+    },
+    {
+      "id": "publickey:4cb71505",
+      "sourceId": "publickey",
+      "sourceName": "Publickey",
+      "title": "GitHubが従来比180倍のスループット性能向上を実現へ、来年初頭に。AIエージェント時代に対応。GitHub Universe 2026",
+      "url": "https://www.publickey1.jp/blog/26/github180aigithub_universe_2026.html",
+      "publishedAt": "2026-11-03T15:16:22.000Z",
+      "excerpt": "GitHubは、米サンフランシスコで10月28日と29日の2日間開催した年次イベント「GitHub Universe 2026」で、AIエージェント時代に対応した大幅な性能向上を実現することを明らかにしました。 性能向上はGitHubの基盤をMicrosoft Azureへ移行し、コンピュートとストレージを分離する新アーキテクチャの採用と、ロックをリポジトリ単位からブランチ単位へと変更する改善などにより実現すると説明されました。 基調講演から、GitHubの性能向上についての……"
+    },
+    {
+      "id": "publickey:2dbdf1da",
+      "sourceId": "publickey",
+      "sourceName": "Publickey",
+      "title": "GitHub、より高度なコードレビューを行う「Copilot Code Review Max」発表。GitHub Universe 2026",
+      "url": "https://www.publickey1.jp/blog/26/githubcopilot_code_review_maxgithub_universe_2026.html",
+      "publishedAt": "2026-11-03T15:14:57.000Z",
+      "excerpt": "GitHubは、米サンフランシスコで10月28日と29日の2日間開催した年次イベント「GitHub Universe 2026」で、より高度なコードレビューを行う新機能「Copilot Code Review Max」を発表しました。 GitHub Copilotは以前からコードレビューのための機能「Copilot Code Review」を提供しており、バグの検出などのコードレビューを行い、結果を開発者に提供してきました。 しかしAIエージェントを活用したコードの生成やプル……"
+    },
+    {
+      "id": "gigazine:539318ed",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "歩くのと同じくらいゆっくりなランニングでも気分が良くなって認知機能が向上する",
+      "url": "https://gigazine.net/news/20261103-very-slow-running-benefit-brain/",
+      "publishedAt": "2026-11-03T13:00:00.000Z",
+      "excerpt": "ランニングは手軽に取り入れやすい運動のひとつですが、「すぐに疲れてしまうのでゆっくりでしか走れない」という悩みを抱えている人もいるはず。ところが、筑波大学などの研究チームが行った実験では、歩くのと同じくらいゆっくりなランニングであっても、メンタルヘルスや脳に良い影響が生じるとの結果が報告されています。 続きを読む..."
+    },
+    {
+      "id": "gigazine:287ee7f5",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "Uberはリトライストームからどのように身を守っているのか",
+      "url": "https://gigazine.net/news/20261103-protecting-against-retry-storms/",
+      "publishedAt": "2026-11-03T12:00:00.000Z",
+      "excerpt": "Uberのエンジニアリングチームは、複雑に絡み合うサービス間依存関係を持つシステムで発生する「リトライストーム」現象によりビジネス運用やブランド信頼が受ける悪影響に対処するため、「エラーオーナーシップ」という概念に基づいたソリューションを開発・実装しました。このアプローチは、単一のサービス障害が連鎖的な障害を引き起こし、システム全体に波及する「ドミノ効果」を防ぐことを目的としています。 続きを読む..."
+    },
+    {
+      "id": "gigazine:d7a56dbf",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "車で踏んでも壊れないLEDテープライトを買ったので実際に車で踏んでみた",
+      "url": "https://gigazine.net/news/20261103-hataya-led-light/",
+      "publishedAt": "2026-11-03T11:00:00.000Z",
+      "excerpt": "GIGAZINE編集部は地域のイベントなどに参加して物販テントを設営することがあります。夜間に物品を明るく照らせるように使い心地のいい照明を探していたところ、明るくて丈夫なテープ型ライト「温度センサー付LEDテープライト(片面発光タイプ)」を発見。「車で踏んでも壊れない」という頼りになりそうなアピールもされていたので実際に買って使ってみました。 続きを読む..."
+    },
+    {
+      "id": "gigazine:51cd97a8",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "バックグラウンドで動作するAIエージェント用のメールっぽい受信箱「Pizza Bot」、Windows/macOS/Linuxに対応したセルフホスト型のデスクトップアプリでローカルAIモデルなどあらゆるAIモデルに対応して通知によるアクション管理が可能",
+      "url": "https://gigazine.net/news/20261103-pizza-bot/",
+      "publishedAt": "2026-11-03T09:00:00.000Z",
+      "excerpt": "複数のAIエージェントに作業を依頼する場合、途中の承認状態に気付かず作業が中断したり、作業が終了したことに気付かず次の指示待ちで放置されるなど作業効率が悪くなる場合があります。こうした無駄を無くすためAIエージェントをバックグラウンドで実行し、作業完了の通知や承認待ちの依頼をメールのような受信箱にまとめて管理できるほか、Windows・macOS・LinuxやローカルAIモデルにも対応する無料アプリが「Pizza Bot」です。 続きを読む..."
+    },
+    {
+      "id": "gigazine:eb0479a7",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "アメリカ産基板を中国産の2倍の速さで爆速納品可能な工業規模ロボット「The Grid」、注文に応じて回路基板を製造可能",
+      "url": "https://gigazine.net/news/20261103-circuithub-the-grid/",
+      "publishedAt": "2026-11-03T03:00:00.000Z",
+      "excerpt": "電子回路基板の製造サービスを提供するCircuitHubが、アメリカ国内で中国・深圳の工場よりも約2倍速く回路基板を納品できるという製造システム「The Grid」を2026年10月26日に発表しました。The Gridは工場全体を1つの巨大なロボットとして動かし、注文ごとに設計が異なる回路基板を自動で製造できます。 続きを読む..."
+    },
+    {
+      "id": "gigazine:4e334b5a",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "Appleが2026年度第4四半期の業績を発表、前年同期比で12％増の18兆円超の売上高を記録",
+      "url": "https://gigazine.net/news/20261103-apple-2026q4-earnings-reports/",
+      "publishedAt": "2026-11-03T01:00:00.000Z",
+      "excerpt": "現地時間の2026年11月2日、Appleが2026年度第4四半期(7～9月)の業績を発表しました。 続きを読む..."
+    },
+    {
+      "id": "itmedia:5387103b",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "Apple、第4四半期として過去最高の増収増益　ターナスCEO初の決算「Siri AIはずっと望んでいたSiri」",
+      "url": "https://www.itmedia.co.jp/news/article/2611/03/2000002840/",
+      "publishedAt": "2026-11-03T00:44:48.000Z",
+      "excerpt": "Appleの7月?9月期決算は、売上高が前年同期比12％増、純利益も12％増となり、共に同四半期の過去最高を記録した。通期でも過去最高を更新した。新CEOのジョン・ターナス氏による初の会見で、折りたたみ型「iPhone Duo」やAI戦略「Siri AI」の進捗を報告。次期も増収を見込む。"
+    },
+    {
+      "id": "itmedia:538709d0",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "渦中のGMO記者会見、責任の所在はどこに？　熊谷代表が語った“グループ内の力関係”",
+      "url": "https://www.itmedia.co.jp/news/article/2611/03/2000002829/",
+      "publishedAt": "2026-11-03T00:00:00.000Z",
+      "excerpt": "GMOインターネットグループが11月2日に開いた記者会見では、過去に指摘された脆弱性への対応の遅れや、熊谷正寿代表のSNS発信、経営責任などを巡り質問が相次いだ。報道陣の質問に経営陣はどう答えたのか。"
+    },
+    {
+      "id": "gigazine:dbab738f",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "GoogleとAppleの電子書籍ストア開設したので90％オフの記念セール実施中！【2026年11月10日(火)まで】",
+      "url": "https://gigazine.net/news/20261103-ebook-google-apple/",
+      "publishedAt": "2026-11-03T00:00:00.000Z",
+      "excerpt": "GIGAZINEでは電子書籍をAmazonのKindleストアのみで販売してきましたが、この度新たに「Google Play ブックス」と「Apple Books」にもリリースしました。新しいストア開設を記念して、「Google Play ブックス」と「Apple Books」では電子書籍を90％オフにしているので、ぜひこの機会にゲットしてみてください。リリースしたばかりの段階のため、実際に購入した書籍に不具合や表示ミスがあった場合は、マンガ感想・意見フォームから問題の指摘にご協力いただけますと幸いです。 続きを読む..."
+    },
+    {
+      "id": "itmedia:53870c99",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "Anthropic、IPO申請書を修正　7?9月売上高は約170億ドル、インフラ契約額は約8954億ドル",
+      "url": "https://www.itmedia.co.jp/news/article/2611/03/2000002831/",
+      "publishedAt": "2026-11-02T23:20:20.000Z",
+      "excerpt": "Anthropicは、証券取引委員会（SEC）にIPOに向けた登録届出書の修正版を提出した。第3四半期の売上高は前年同期比約12.3倍の約169億ドルに拡大した一方、営業損益は赤字に転落。また、AI計算資源やインフラに関する将来の支出約束額が約8954億ドルに上ることも明らかにした。"
+    },
+    {
+      "id": "gigazine:86be7950",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "猛スピードで海面に突撃する鳥の背骨はなぜ折れないのか？",
+      "url": "https://gigazine.net/news/20261103-plunge-diving-seabirds-without-breaking-neck/",
+      "publishedAt": "2026-11-02T23:00:00.000Z",
+      "excerpt": "魚を狙って上空から海面に突撃する海鳥のスピードは時速100kmを超えることもあります。こんなに速いのにもかかわらず、なぜ海鳥の背骨は海に飛び込む際に折れないのかを、科学者らが調査しました。 続きを読む..."
+    },
+    {
+      "id": "itmedia:53870c7a",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "Marvell、光通信技術のLumentumを約18兆円で買収　AIデータセンターの高速化に対応",
+      "url": "https://www.itmedia.co.jp/news/article/2611/03/2000002830/",
+      "publishedAt": "2026-11-02T22:07:56.000Z",
+      "excerpt": "半導体大手のMarvell Technologyは、光通信関連製品を手掛けるLumentum Holdingsを買収することで合意したと発表した。買収額は約1150億ドル。AIデータセンターで急増するデータ通信需要に対応するため、自社の半導体技術とLumentumの光通信技術を統合し、次世代AI接続技術の提供を目指す。"
+    },
+    {
+      "id": "gigazine:16e9cb02",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "Evernoteの大幅値上げの裏では200回超の実験を通じて料金や機能の調整が進められていた",
+      "url": "https://gigazine.net/news/20261103-evernote-pricing-experiments/",
+      "publishedAt": "2026-11-02T21:00:00.000Z",
+      "excerpt": "メモアプリ「Evernote」では有料プランの再編によって一部のユーザーの利用料金が大きく上がっています。そんなEvernoteについて、ニュースサイトのArs Technicaが長年使い続けるユーザーを収益増につなげる料金戦略を分析しています。 続きを読む..."
+    },
+    {
+      "id": "publickey:ef58f2bd",
+      "sourceId": "publickey",
+      "sourceName": "Publickey",
+      "title": "GitHub、「Copilot Fusion」正式リリース。タスクに応じて最適なAIモデル選択で高性能かつ低コストに。GitHub Universe 2026",
+      "url": "https://www.publickey1.jp/blog/26/githubcopilot_fusionaigithub_universe_2026.html",
+      "publishedAt": "2026-11-02T14:36:38.000Z",
+      "excerpt": "GitHubは、米サンフランシスコで10月28日と29日の2日間開催した年次イベント「GitHub Universe 2026」で、新機能「GitHub Copilot Fusion」の正式リリースを発表しました。 Copilot Fusionは、与えられたタスクの特性に応じて、単一または複数のAIモデルを組み合わせて実行するマルチモデル対応の機能です。 推論、コード生成、デバッグ、ツールの利用など、タスクごとに必要な能力を評価し、AIモデルをどのように組み合わせて利用するか……"
+    },
+    {
+      "id": "gigazine:a941d444",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "nanochatの日本語版フォーク「nanochat-jp」、トークナイザ学習・事前学習・SFT・RL・評価・推論を単一リポジトリで完結させ、SentencePiece Unigram トークナイザ・日本語コーパスと日本語 SFT/RL データ・日本語ベンチマーク（CORE / ChatCORE）・HuggingFace形式への変換器あり",
+      "url": "https://gigazine.net/news/20261102-nanochat-jp/",
+      "publishedAt": "2026-11-02T14:00:00.000Z",
+      "excerpt": "日本語を扱うAIモデルを一から開発する際には学習用の文章を集めるだけでなく、文章を細かく分割するトークナイザの作成や追加学習・性能の評価などの工程が必要です。こうした作業を個別に組み合わせる手間を減らし、日本語の学習データや評価用のプログラムをまとめて利用できるようにしたのが「nanochat」の日本語版フォーク「nanochat-jp」です。 続きを読む..."
+    },
+    {
+      "id": "gigazine:f8a9e771",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "Hacker Newsで言及された1万5000冊超の書籍をランキングにした「Hacker Books」トップ10、テクノロジー愛好家が好きな本とは？",
+      "url": "https://gigazine.net/news/20261102-hackerbooks-mentioned-books-hacker-news/",
+      "publishedAt": "2026-11-02T13:00:00.000Z",
+      "excerpt": "Hacker Newsはスタートアップ企業への投資を行うYコンビネータが運営するソーシャルニュースサイトで、主にテクノロジーやスタートアップを中心にさまざまなトピックが議論されています。そんなHacker Newsで言及された1万5000冊超の書籍を集計し、言及したユーザー数やオススメしたユーザー数のランキングが見られるウェブサイトが「Hacker Books」です。 続きを読む..."
+    },
+    {
+      "id": "gigazine:82f5890",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "Cursor公式マーケットプレイスの「Claude Code」にSSHバックドアが発見される",
+      "url": "https://gigazine.net/news/20261102-official-claude-code-extension-compromise/",
+      "publishedAt": "2026-11-02T12:45:00.000Z",
+      "excerpt": "AI搭載コードエディター「Cursor」の公式拡張機能マーケットプレイスで配布されていた「Claude Code」の一部バージョンにPCへの不正アクセスを可能にするSSHバックドアが仕込まれていた問題について、セキュリティ企業のPhorionが2026年10月30日に詳細な分析結果を公開しました。 続きを読む..."
+    },
+    {
+      "id": "itmedia:65040330",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "「命の砂時計」連呼のGMO会見──熊谷代表の発言にXではツッコミ続出",
+      "url": "https://www.itmedia.co.jp/news/article/2611/02/2000002828/",
+      "publishedAt": "2026-11-02T11:57:33.000Z",
+      "excerpt": "GMOインターネットグループの熊谷正寿代表は11月2日の記者会見で、AIの説明に時間を割いた理由を記者が尋ねると、自身の「命の砂時計」をインターネットとグループに捧げていると語った。Xでの発信を一定期間休止することも表明した。"
+    },
+    {
+      "id": "gigazine:ea39c704",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "屋根裏部屋で見つけた謎の種を植えてみたところ「聖書」に出てくる古代の小麦が芽を出す",
+      "url": "https://gigazine.net/news/20261102-unknown-seeds-almost-biblical/",
+      "publishedAt": "2026-11-02T11:00:00.000Z",
+      "excerpt": "イタリアのパルマ近郊で暮らすクラウディオ・グロッシ氏が自宅の屋根裏部屋で発見した謎の種を畑に植えたところ、聖書に出てくる小麦が生えたと報告しています。 続きを読む..."
+    },
+    {
+      "id": "itmedia:65040295",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "GMO熊谷代表、涙の謝罪会見でも“熊谷節”さく裂──「31年間、もうけるという言葉は使ったことがない」",
+      "url": "https://www.itmedia.co.jp/news/article/2611/02/2000002823/",
+      "publishedAt": "2026-11-02T10:27:04.000Z",
+      "excerpt": "GMOインターネットグループの熊谷正寿代表は11月2日、「お名前.com デスクトップクラウド」への不正アクセスに関する説明会で、身代金を支払わない理由や、AI時代のサイバー攻撃への危機感を語った。"
+    },
+    {
+      "id": "itmedia:6503fb70",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "GMO熊谷代表、会見で改めて謝罪　SNS投稿巡り「配慮が欠けていた」",
+      "url": "https://www.itmedia.co.jp/news/article/2611/02/2000002806/",
+      "publishedAt": "2026-11-02T10:20:14.000Z",
+      "excerpt": "GMOインターネットグループの熊谷正寿代表は11月2日、FX自動売買用VPS「お名前.com デスクトップクラウド」への不正アクセスを巡る記者会見で謝罪した。"
+    },
+    {
+      "id": "gigazine:bbcbcc",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "得票数で負けている陣営を選挙区の区切り方だけで勝たせる無料ゲーム「elect.horse」を実際にプレイしてみた",
+      "url": "https://gigazine.net/news/20261102-elect-horse/",
+      "publishedAt": "2026-11-02T10:00:00.000Z",
+      "excerpt": "特定の候補者や政党が有利になるように選挙区を区切る手法「ゲリマンダー」を再現した無料ブラウザゲーム「elect.horse」が登場したのでプレイしてみました。 続きを読む..."
+    },
+    {
+      "id": "gigazine:a2f8447f",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "2026年11月2日のヘッドラインニュース",
+      "url": "https://gigazine.net/news/20261102-headline/",
+      "publishedAt": "2026-11-02T09:25:00.000Z",
+      "excerpt": "カゴメディアが2024年3月に企画を発表しわずか10分で3500台が完売した「きのこの山ワイヤレスイヤホン」がパワーアップして復活する「きのこの山ワイヤレスイヤホン Pro(2027年モデル)」プロジェクトが発表されました。 続きを読む..."
+    },
+    {
+      "id": "gigazine:6f4d0d51",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "ビル・ゲイツが「アルツハイマー病の血液検査手法や治療法が登場しているが患者に十分に届いていない」とするブログ記事を投稿",
+      "url": "https://gigazine.net/news/20261102-alzheimer-blood-test-bill-gates/",
+      "publishedAt": "2026-11-02T08:20:00.000Z",
+      "excerpt": "アルツハイマー病は認知症を引き起こす病気であり、長らく早期発見や治療は困難であるとされてきました。このアルツハイマー病について、ビル・ゲイツ氏が「効果的な検査方法や治療方法が開発されているが、アクセスが限られている」とするブログ記事を投稿しました。 続きを読む..."
+    },
+    {
+      "id": "gigazine:91ec07bd",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "スマホで360度の立体音響を誰でも簡単に録音できるソニーのプラグインマイク「ECM-AX10」を使ってみた",
+      "url": "https://gigazine.net/news/20261102-sony-ecm-ax10-usage/",
+      "publishedAt": "2026-11-02T08:10:00.000Z",
+      "excerpt": "スマートフォンに接続するだけで、前後左右だけでなく上下方向の音まで立体的に録音できるのがソニーのプラグインタイプマイクロホン「ECM-AX10」です。4基のマイクを搭載し、空間オーディオ規格「Eclipsa Audio」に対応した動画も作成可能。実際にECM-AX10を使ってさまざまな方向から音を鳴らしたり屋外に持ち出したりしてどんな感じで録画できるのかをチェックしてみました。 続きを読む..."
+    },
+    {
+      "id": "gigazine:b35d7c79",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "ハーゲンダッツの「クリスピーサンド『栗とカシスのパフェ』」試食レビュー、まろやかな栗の甘みとカシスの華やかな風味が楽しめる",
+      "url": "https://gigazine.net/news/20261102-haagen-dazs-crispy-sand-marron-cassis/",
+      "publishedAt": "2026-11-02T08:00:00.000Z",
+      "excerpt": "栗の甘さとカシスの酸味が重なったハーゲンダッツのクリスピーサンド「栗とカシスのパフェ」が、2026年11月3日(火)から期間限定で登場します。パフェのような味わいを楽しめるというクリスピーサンドが編集部に届いたので、一足先に食べてみました。 続きを読む..."
+    },
+    {
+      "id": "gigazine:91f95587",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "音声ファイルから雑音を除去してクリアな音声にできるAI「NemotronLabs-RE-USE」をNVIDIAが公開",
+      "url": "https://gigazine.net/news/20261102-nvidia-nemotronlabs-re-use/",
+      "publishedAt": "2026-11-02T07:09:00.000Z",
+      "excerpt": "音声ファイルからノイズを除去できるAIモデル「NemotronLabs-RE-USE」をNVIDIAが公開しました。コンテンツ制作用の音声素材の補正や、音声AIモデル用の学習データ作成に役立つとされています。 続きを読む..."
+    },
+    {
+      "id": "gigazine:5886cea3",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "「ポイ活」「プレイするだけで現金ゲット」をうたうアプリの人気が爆増、しかし実際にゲットするまでにとんでもない労力を費やさないといけない",
+      "url": "https://gigazine.net/news/20261102-new-way-to-make-money/",
+      "publishedAt": "2026-11-02T07:00:00.000Z",
+      "excerpt": "「アンケートに答えるだけ」「ゲームをプレイするだけ」で現金を得られるとうたうアプリの人気が世界中で爆発的に上昇していることが分かりました。不景気の中で少額でもいいから稼ごうとする人々が増えているということですが、こうしたアプリで実際に現金を得るためには大変な時間と労力が必要で、逆にお金を消費してしまうという問題も報告されています。 続きを読む..."
+    },
+    {
+      "id": "gigazine:ec440ff1",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "日本語特化で高速かつ高精度な文字起こしAI「Haas-ja-v1.0」が登場、オープンモデルの中で最高性能を記録",
+      "url": "https://gigazine.net/news/20261102-haas-ja-v1-asr/",
+      "publishedAt": "2026-11-02T06:24:00.000Z",
+      "excerpt": "日本のAI企業であるThird Intelligenceが日本語特化の音声認識モデル「Haas-ja-v1.0」を公開しました。パラメーター数6億1580万の軽量モデルで、精度の高さと処理の速さを両立していることがアピールされています。 続きを読む..."
+    },
+    {
+      "id": "itmedia:6503fab6",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "山岳救助を迅速化へ　兵庫県警が登山アプリ「ヤマップ」と協定締結",
+      "url": "https://www.itmedia.co.jp/news/article/2611/02/2000002800/",
+      "publishedAt": "2026-11-02T06:10:17.000Z",
+      "excerpt": "山岳救助の強化のため兵庫県警は30日、登山アプリ「YAMAP（ヤマップ）」を運営するヤマップ（福岡市）と協定を締結した。登山計画を記入する「登山届」の情報共有などを通して山岳遭難の未然防止や救助活動の迅速化につなげる。"
+    },
+    {
+      "id": "gigazine:7800824f",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "トランプ大統領に「便所」と罵倒されたノルウェー政府が「世界最高のトイレ」ページを開設し文化の力を見せつける",
+      "url": "https://gigazine.net/news/20261102-norway-toilet/",
+      "publishedAt": "2026-11-02T06:00:00.000Z",
+      "excerpt": "アメリカのドナルド・トランプ大統領が2026年10月25日の集会で、ノルウェーからの移民を受け入れたくないと述べた上で、「ノルウェーは屋外便所のような国」と発言しました。これを受けてノルウェー政府観光局「Visit Norway」が「素晴らしい景色の中にある屋外トイレ集」を公開しています。 続きを読む..."
+    },
+    {
+      "id": "itmedia:6503a8bb",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "アットコスメ、会員約300万人分の情報漏えい　不正アクセスで",
+      "url": "https://www.itmedia.co.jp/news/article/2611/02/2000002795/",
+      "publishedAt": "2026-11-02T05:40:09.000Z",
+      "excerpt": "「@cosme共通ID」に登録された会員情報の一部・約300万人分が漏えいした。名前や住所、生年月日、肌質、髪質などが含まれている。"
+    },
+    {
+      "id": "gigazine:c4b48b57",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "盗んだ個人情報をAIに分析させて被害者の「金銭的価値」を格付けするマルウェアが発見される",
+      "url": "https://gigazine.net/news/20261102-ai-model-driven-victim-prioritization/",
+      "publishedAt": "2026-11-02T05:40:00.000Z",
+      "excerpt": "セキュリティ企業Ciscoの脅威分析部門であるCisco Talosが、パスワードやクレジットカード情報などを盗み出した後にAIを使って被害者の金銭的な価値を評価するマルウェア「VOLTA-AUTODOXER」を発見したと報告しました。VOLTAは盗んだ情報をAIに分析させることで攻撃者が優先的に狙うべき被害者を判断できるように設計されているとのことです。 続きを読む..."
+    },
+    {
+      "id": "gigazine:4f18e3fd",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "仮想通貨取引所のBinanceが盗まれた9900億円相当の仮想通貨の90％を既に補填済みと発表",
+      "url": "https://gigazine.net/news/20261102-binance-replenished/",
+      "publishedAt": "2026-11-02T05:15:00.000Z",
+      "excerpt": "世界最大級の仮想通貨取引所であるBinanceは2026年10月30日、攻撃者がサービスコンテナにアクセスして、総額約63億ドル(約9900億円)が不正に出金された可能性があると明かしました。Binanceは10月31日には「資金の90％が既に補充されており、残りの10％についても補塡(ほてん)する予定」と述べ、一時停止されていた出金も再開していることを発表しています。 続きを読む..."
+    },
+    {
+      "id": "gigazine:37d1e864",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "DeepSeekがGitHubを監視してコーディングの問題を検出し解決策を提案するコーディングエージェントの研究プロトタイプ「dsh-superagent」をオープンソース化",
+      "url": "https://gigazine.net/news/20261102-deepseek-dsh-superagent/",
+      "publishedAt": "2026-11-02T05:05:00.000Z",
+      "excerpt": "「できる限り人の注意を引かず、できる限り多くの価値を提供する」という基本原則の下に作られたコーディングエージェント「dsh-superagent」が公開されました。 続きを読む..."
+    },
+    {
+      "id": "gigazine:de9a7bea",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "男性はおしっこする時に立った方がいいのかそれとも座った方がいいのか？",
+      "url": "https://gigazine.net/news/20261102-men-pee-sitting-or-standing/",
+      "publishedAt": "2026-11-02T05:00:00.000Z",
+      "excerpt": "多くの男性は「立って排尿するべきなのか、それとも座って排尿するべきなのか」と考えたことがあるはず。この疑問を科学的な観点から調べるため、排尿する時の姿勢によって尿の勢いや総量がどのように変化するのかを実験で比べた結果が報告されています。 続きを読む..."
+    },
+    {
+      "id": "itmedia:6503a519",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "ニコニコレンタカー、免許証画像の事前登録を廃止　保存済み画像も全削除　サイバー攻撃の増加受け",
+      "url": "https://www.itmedia.co.jp/news/article/2611/02/2000002786/",
+      "publishedAt": "2026-11-02T03:23:04.000Z",
+      "excerpt": "ニコニコレンタカーは10月27日、公式アプリ「ニコパス」での運転免許証画像の事前登録機能を廃止すると発表した。これまで預かっていた画像データは全て削除済みという。"
+    },
+    {
+      "id": "itmedia:6503a4fa",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "楽天証券、顧客情報362件が漏えいか　NTTデータ委託先に不正アクセス",
+      "url": "https://www.itmedia.co.jp/news/article/2611/02/2000002785/",
+      "publishedAt": "2026-11-02T03:02:40.000Z",
+      "excerpt": "漏えいした可能性がある項目は明らかにしていない。"
+    },
+    {
+      "id": "itmedia:6503a4bc",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "ワールド子会社に不正アクセス、会員情報のべ約120万件が流出の可能性　「RAGTAG」運営元",
+      "url": "https://www.itmedia.co.jp/news/article/2611/02/2000002783/",
+      "publishedAt": "2026-11-02T02:06:13.000Z",
+      "excerpt": "氏名、住所、電話番号、生年月日、性別、メールアドレスを含む。"
+    },
+    {
+      "id": "itmedia:6503a49d",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "クラブツーリズムに不正アクセス　個人情報約432万件漏えいの可能性、サイト停止",
+      "url": "https://www.itmedia.co.jp/news/article/2611/02/2000002782/",
+      "publishedAt": "2026-11-02T01:48:11.000Z",
+      "excerpt": "氏名、国籍、性別、生年月日・年齢、住所、電話番号、メールアドレス、会員ID、緊急連絡先が対象。"
+    },
+    {
+      "id": "itmedia:6503a45f",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "ロゴ画像用の公開領域に顧客ファイルも保存　GMO系シングルサインオン、4.5万人分漏えい",
+      "url": "https://www.itmedia.co.jp/news/article/2611/02/2000002780/",
+      "publishedAt": "2026-11-02T01:23:14.000Z",
+      "excerpt": "顧客情報を含む一時ファイルなどを、ロゴ画像と同じ公開領域に保存する設計になっていたことで、約9年間にわたり外部から取得できる状態だったことが原因。"
+    },
+    {
+      "id": "itmedia:6503a1b5",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "Google、宇宙のTPUから初のAI応答を受信　「Project Suncatcher」試作衛星で「Gemma 4」が俳句を詠む",
+      "url": "https://www.itmedia.co.jp/news/article/2611/02/2000002779/",
+      "publishedAt": "2026-11-01T23:59:31.000Z",
+      "excerpt": "Googleは、宇宙AIデータセンター構想「Project Suncatcher」の試作衛星に搭載したTPUから、AIによる最初の応答を受信したと発表した。軌道上のオープンモデル「Gemma 4」にプロンプトを送信し、応答を確認した。今後は宇宙空間でのTPUの動作評価試験を進める。"
+    },
+    {
+      "id": "itmedia:6503a196",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "FBI、Binanceからの60億ドル超の暗号資産窃盗は北朝鮮「TraderTraitor」の犯行と発表",
+      "url": "https://www.itmedia.co.jp/news/article/2611/02/2000002778/",
+      "publishedAt": "2026-11-01T22:28:21.000Z",
+      "excerpt": "FBIは、暗号資産取引所Binanceから60億ドル超の暗号資産が盗まれた事件を北朝鮮のサイバー攻撃活動「TraderTraitor」による犯行と発表した。FBIなどは民間事業者に資金洗浄の阻止を要請。なお、Binance Japanは日本の顧客資産は安全に保管されていると報告し、影響はないとしている。"
+    },
+    {
+      "id": "itmedia:6503a177",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "Anthropic、「Claude」の「Max 20x」を「Ultra」に名称変更　月200ドルで5時間ごとの利用制限を撤廃",
+      "url": "https://www.itmedia.co.jp/news/article/2611/02/2000002777/",
+      "publishedAt": "2026-11-01T22:00:23.000Z",
+      "excerpt": "Anthropicは、「Claude」の個人向け有料プランの名称を変更し、月額100ドルの「Max 5x」を「Max」に、月額200ドルの「Max 20x」を「Ultra」にした。料金は据え置き。Ultraでは確認済みアカウントを対象に、5時間ごとの利用制限を撤廃した。週ごとの制限は変わらない。"
+    },
+    {
+      "id": "itmedia:76809ad7",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "AI学習への利用拒否をrobots.txtで一括指定へ　OpenAIやGoogleなどが対応表明",
+      "url": "https://www.itmedia.co.jp/news/article/2611/01/2000002776/",
+      "publishedAt": "2026-10-31T23:31:07.000Z",
+      "excerpt": "OpenAI、Google、Microsoftは、Webサイト運営者がAI学習へのコンテンツ利用に関する意向を一括で指定できる共通の仕組みへの対応を発表した。Anthropicも担当者が個人名義で実装を表明している。robots.txtに共通トークンを記述するだけで、AI各社のAIクローラーを一元管理できるようになる。"
+    },
+    {
+      "id": "itmedia:4c050f74",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "総務省、GMO攻撃者サイトの「ブロッキング」を通信各社に要請　報道",
+      "url": "https://www.itmedia.co.jp/news/article/2610/30/2000002765/",
+      "publishedAt": "2026-10-31T10:02:50.000Z",
+      "excerpt": "総務省が10月27日付で、GMOインターネットへの不正アクセス問題を巡り、攻撃者のものとみられるWebサイトの「ブロッキング」を通信事業者に要請していたことが、朝日新聞や読売新聞などの報道で分かった。"
+    },
+    {
+      "id": "itmedia:3a8819b6",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "Binanceの約1兆円流出、北朝鮮ハッカー集団「TraderTraitor」の犯行か",
+      "url": "https://www.itmedia.co.jp/news/article/2610/31/2000002775/",
+      "publishedAt": "2026-10-30T22:13:43.000Z",
+      "excerpt": "Binanceから約60億ドルの暗号資産が流出した事件で、TRM LabsとChainalysisは北朝鮮のサイバー集団「TraderTraitor」の関与を指摘した。過去最大規模の被害に対し、盗難資産の分散洗浄が進む一方、当局や発行元による迅速な資産凍結も進められている。"
+    },
+    {
+      "id": "itmedia:4c050fb2",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "「低評価でキャラが悲しげな目」　モスバーガーのアンケートがSNSで話題　運営会社に狙いを聞いた",
+      "url": "https://www.itmedia.co.jp/news/article/2610/30/2000002767/",
+      "publishedAt": "2026-10-30T09:05:54.000Z",
+      "excerpt": "モスバーガーの顧客アンケートで、評価する数字に応じてキャラクターの表情が変わる画面設計がX上で話題だ。好意的な反応が目立つ一方、「回答者の評価に影響するのではないか」と懸念する声もみられる。どのような狙いで採用したのか。モスバーガーを運営するモスフードサービスに聞いた。"
+    },
+    {
+      "id": "itmedia:4c050fd1",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "セガのスマホゲーム「チェンクロ」、セキュリティ問題で1?2カ月の長期メンテ　13年続く長寿タイトル",
+      "url": "https://www.itmedia.co.jp/news/article/2610/30/2000002768/",
+      "publishedAt": "2026-10-30T09:00:59.000Z",
+      "excerpt": "セガが運営するスマホRPG「チェインクロニクル」で、10月23日から緊急メンテナンスが続いている。同社は30日、一部システムでセキュリティ上の問題を確認したため、少なくとも1?2カ月、メンテナンスが続く見通しだと発表した。"
+    },
+    {
+      "id": "itmedia:4c050f93",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "「ITノウハウ持つ人材少なく」　PHP脆弱性問題、31市町村でサイト一時停止継続",
+      "url": "https://www.itmedia.co.jp/news/article/2610/30/2000002766/",
+      "publishedAt": "2026-10-30T08:38:01.000Z",
+      "excerpt": "プログラミング言語「PHP」に重大な脆弱（ぜいじゃく）性が見つかった問題で、少なくとも全国31市町村がWebサイトの公開を一時停止・縮小していることが10月30日、分かった。"
+    },
+    {
+      "id": "itmedia:4c050bd2",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "無印良品、不正アクセスで最大2726万件の会員情報漏えいか　退会済みのユーザーも対象",
+      "url": "https://www.itmedia.co.jp/news/article/2610/30/2000002756/",
+      "publishedAt": "2026-10-30T06:18:29.000Z",
+      "excerpt": "「無印良品」を展開する良品計画は、同社が運営する「MUJIアプリ」の顧客情報が最大約2726万件流出した可能性があると発表した。退会済みの利用者の情報も含まれる。会員向けセール「無印良品週間」の開催期間中の公表となった。"
+    },
+    {
+      "id": "itmedia:4c050b75",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "松屋のアプリに不正アクセス、約238万件の個人情報が漏えい　停止中の補償も予定",
+      "url": "https://www.itmedia.co.jp/news/article/2610/30/2000002753/",
+      "publishedAt": "2026-10-30T05:17:49.000Z",
+      "excerpt": "松屋フーズホールディングスは10月30日、公式アプリの管理システムへの不正アクセスで、約238万件の個人情報が漏えいしたと発表した。アプリ会員には、サービス停止期間中の補償をする予定という。"
+    },
+    {
+      "id": "itmedia:4c050b37",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "イオン、フィジカルAIで物流改革　配送拠点の自動化率5割達成　深刻な人手不足に対応",
+      "url": "https://www.itmedia.co.jp/news/article/2610/30/2000002751/",
+      "publishedAt": "2026-10-30T04:24:33.000Z",
+      "excerpt": "イオンとロボット制御ソフトのMujin（ムジン）は10月29日、人工知能（AI）で機械を自律的に動かす「フィジカルAI」を搭載したロボットを活用する配送拠点「イオン川口東XD（クロスドック）」（埼玉県川口市）を報道陣に公開した。"
+    },
+    {
+      "id": "itmedia:4c04a6d4",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "誤訳で“違う製品”を作りかけた？　ベトナム工場への指示書、通訳よりGeminiの方が伝わったワケ",
+      "url": "https://www.itmedia.co.jp/news/article/2610/30/2000002699/",
+      "publishedAt": "2026-10-30T04:00:00.000Z",
+      "excerpt": "グローバルニッチは高い技術力を持つ一方で、知名度が実力に比べて劣り、ITを駆使して海外でのブランディングや販売に生かしていることも多い。この連載では、こうした企業のIT戦略をインタビューで深堀りする。今回は搬送ロボットなど産業機械の製造・販売を手掛けるニチエツを取り上げる。"
+    },
+    {
+      "id": "itmedia:4c050830",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "「本会議場にタブレット持ち込み可能に」自民の提言案にチームみらい安野党首「うおおおおお」",
+      "url": "https://www.itmedia.co.jp/news/article/2610/30/2000002747/",
+      "publishedAt": "2026-10-30T03:59:21.000Z",
+      "excerpt": "本会議場へのタブレット端末の持ち込みを認める一方、質疑者や答弁者などは外部からの干渉を防ぐため、通信機能を搭載した端末は認めないという。"
+    },
+    {
+      "id": "itmedia:4c05086e",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "暗号資産取引所Binance、ハッキングで約1兆円の被害か　入出金を全面停止",
+      "url": "https://www.itmedia.co.jp/news/article/2610/30/2000002749/",
+      "publishedAt": "2026-10-30T03:52:04.000Z",
+      "excerpt": "暗号資産取引所で世界最大手のBinanceは10月30日、セキュリティ上の問題で推定約63億ドルの被害が出たと発表した。初期調査では、エンジニアのノートPCを起点に攻撃者が不正な出金を実行した可能性があるという。"
+    },
+    {
+      "id": "itmedia:4c04a278",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "Meta Ray-Banで向かいの席から撮影→指の動きからスマホのパスワードを解読する盗み見攻撃",
+      "url": "https://www.itmedia.co.jp/news/article/2610/30/2000002684/",
+      "publishedAt": "2026-10-30T03:00:00.000Z",
+      "excerpt": "イスラエルのテルアビブ大学に所属する研究者らが発表した論文「Watch and Crack: Password Inference from Smart-Glasses Video」は、スマートグラスで撮影された指の動きから、パスワードを解読する手法を実証した研究報告だ。"
+    },
+    {
+      "id": "itmedia:4c04ffd5",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "PHP脆弱性でいち早くサービス停止、コドモン経営判断の舞台裏　実はオンラインイベントの真っ最中だった",
+      "url": "https://www.itmedia.co.jp/news/article/2610/30/2000002720/",
+      "publishedAt": "2026-10-30T03:00:00.000Z",
+      "excerpt": "多くの情報セキュリティ担当者が対応に追われ、今なお爪痕が残るプログラミング言語「PHP」の脆弱性。いち早くサービス停止を判断し、注目を浴びたコドモンに、当時の判断について聞いた。"
+    },
+    {
+      "id": "itmedia:4c04a259",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "“AI面接官”は人間より内定を出しやすい？　定着率も18％増　約7万人で実験",
+      "url": "https://www.itmedia.co.jp/news/article/2610/30/2000002683/",
+      "publishedAt": "2026-10-30T03:00:00.000Z",
+      "excerpt": "米カーネギーメロン大学などに所属する研究者らが発表した論文「Voice AI in Firms: A Natural Field Experiment on Automated Job Interviews」は、AI面接が内定率や入社後の定着率にどう影響するのかを調査した研究報告だ。"
+    },
+    {
+      "id": "itmedia:4c0503f3",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "AIが突き崩す「不動産価格の壁」　なぜマンションに定価がないのか",
+      "url": "https://www.itmedia.co.jp/news/article/2610/30/2000002733/",
+      "publishedAt": "2026-10-30T03:00:00.000Z",
+      "excerpt": "不動産の「ミステリー」を専門家がわかりやすく読み解き、AIをはじめITを活用した不動産の近未来を探る。第7回は「なぜ不動産には一律の価格がないのか」「AIは不動産価格をどう変えるのか」を深掘りする。"
+    },
+    {
+      "id": "itmedia:4c0504ad",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "ヤクルト本社、個人情報約4万件漏えい　公式サイトへの不正アクセスで",
+      "url": "https://www.itmedia.co.jp/news/article/2610/30/2000002739/",
+      "publishedAt": "2026-10-30T01:27:47.000Z",
+      "excerpt": "問い合わせフォームの利用者に加え、栄養士向けに給食レシピなどを紹介する会員制サイト「たのしい給食」会員の情報などが漏えいしたという。"
+    },
+    {
+      "id": "itmedia:4c05046f",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "アイリスオーヤマの通販サイトに不正アクセス　情報漏えいは「調査中」",
+      "url": "https://www.itmedia.co.jp/news/article/2610/30/2000002737/",
+      "publishedAt": "2026-10-30T00:43:10.000Z",
+      "excerpt": "現時点の調査では、クレジットカード情報の漏えいは確認していない。その他の情報については引き続き調べる。"
+    },
+    {
+      "id": "itmedia:4c050450",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "Amazon決算、AWS売上高が39.3％増で約5年ぶりの高成長　フリーキャッシュフローは大幅悪化",
+      "url": "https://www.itmedia.co.jp/news/article/2610/30/2000002736/",
+      "publishedAt": "2026-10-30T00:14:48.000Z",
+      "excerpt": "Amazonの7月?9月期決算は、売上高が前年同期比12％増で過去最高を記録した。AWS売上高は39.3％増と加速し、受注残は5780億ドルに達した。一方、前年計上したAnthropic評価益の反動で純利益は微減。巨額の設備投資によりフリーキャッシュフローは大幅な赤字となった。"
+    },
+    {
+      "id": "itmedia:4c050431",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "OpenAI、AIの行動指針「Model Spec」を改定　“記憶”の使い方や人間による監督を明記",
+      "url": "https://www.itmedia.co.jp/news/article/2610/30/2000002735/",
+      "publishedAt": "2026-10-29T23:24:32.000Z",
+      "excerpt": "OpenAIは、AIの振る舞い指針「Model Spec」の改定版を公開した。全体を5つの価値観に沿って再構成し、メモリや会話履歴の適切な扱い、エージェント自律動作時の人間による監督への服従などを規定。一方で人格設定や詳細な文体規定の大半を削除し、モデル呼称を「the assistant」から「GPT」に改めた。"
+    },
+    {
+      "id": "itmedia:4c050412",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "ウクライナで拡散するAI偽情報　「本物の映像」をどう証明するか、AIと戦争が変えた「C2PA」の意義",
+      "url": "https://www.itmedia.co.jp/news/article/2610/30/2000002734/",
+      "publishedAt": "2026-10-29T23:02:40.000Z",
+      "excerpt": "偽物を見破る技術として期待されたC2PAだが、生成AIが本物と見分けの付かない映像を生む今、その役割は裏返りつつある。戦時下のウクライナで公共放送が直面した偽情報の“本当の狙い”と、そこで下した決断。そして放送波に載せられない日本の放送が抱える課題。Media Provenance Summit Tokyo 2026で見えた、C2PAの現在地を整理する。"
+    },
+    {
+      "id": "itmedia:ccc27480",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "不正アクセスによる漏えい人数、半年余りでのべ2億6000万人に　日本人口の2倍超",
+      "url": "https://www.itmedia.co.jp/news/article/2610/29/2000002730/",
+      "publishedAt": "2026-10-29T10:18:19.000Z",
+      "excerpt": "個人情報保護委員会によると、2026年4月1日から10月16日までに報告された不正アクセスによる個人情報の漏えい、または漏えいの恐れがある事案について、対象者数は延べ約2億6000万人だったという。これは、同年10月1日時点の日本の総人口の2倍以上に相当する。"
+    },
+    {
+      "id": "itmedia:ccc271d6",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "楽天カード、本人認証をワンタイムパスワードに統一　27年2月から順次",
+      "url": "https://www.itmedia.co.jp/news/article/2610/29/2000002729/",
+      "publishedAt": "2026-10-29T09:57:37.000Z",
+      "excerpt": ""
+    },
+    {
+      "id": "itmedia:ccc27198",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "神奈川・鎌倉市が「公共ライドシェア」実証実験見送り　路線バス大幅減便で代替運行に注力",
+      "url": "https://www.itmedia.co.jp/news/article/2610/29/2000002727/",
+      "publishedAt": "2026-10-29T08:14:22.000Z",
+      "excerpt": "神奈川県鎌倉市は、「交通空白」地域の解消に向けJR大船駅周辺と西鎌倉地区で11月から予定していた公共ライドシェアの実証実験について、26年度の実施を見送ると発表した。"
+    },
+    {
+      "id": "itmedia:ccc2711c",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "ローソン・郵便局が「ドローン基地」に　回線はStarlinkで　ドローンインフラを急ピッチで作るKDDI",
+      "url": "https://www.itmedia.co.jp/news/article/2610/29/2000002723/",
+      "publishedAt": "2026-10-29T07:58:02.000Z",
+      "excerpt": "KDDIスマートドローンは10月28日、ビジネスイベント「KDDI SUMMIT 2026」でドローンの全国展開に向けた取り組みを紹介した。物流や地域の見守り、インフラ点検、災害対応などを人に代わって担う「空のAI労働力」の実現を目指す。"
+    },
+    {
+      "id": "itmedia:ccc270fd",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "ANAの予約情報に不正アクセス、JALと同じ委託先経由で　個人情報をのぞき見た痕跡も",
+      "url": "https://www.itmedia.co.jp/news/article/2610/29/2000002722/",
+      "publishedAt": "2026-10-29T07:37:03.000Z",
+      "excerpt": "全日本空輸（ANA）は10月29日、Amadeusが提供する旅客サービスシステムへの不正アクセスで、一部顧客の個人情報を第三者が参照した形跡があると発表した。同じシステムを使う日本航空も28日、約9万2000人分の予約情報への不正アクセスを公表している。"
+    },
+    {
+      "id": "itmedia:ccc26dd7",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "ソニー生命に不正アクセス、個人情報約38.5万件漏えい　氏名や住所、契約内容など",
+      "url": "https://www.itmedia.co.jp/news/article/2610/29/2000002717/",
+      "publishedAt": "2026-10-29T06:21:40.000Z",
+      "excerpt": "氏名、生年月日、性別、住所、電話番号、証券番号、契約内容が流出した。"
+    },
+    {
+      "id": "publickey:bf174aab",
+      "sourceId": "publickey",
+      "sourceName": "Publickey",
+      "title": "オラクル、社員が業務アプリをAIで自動作成、Oracle Cloud上で共有できる「Oracle App Composer」発表。Oracle AI World 2026",
+      "url": "https://www.publickey1.jp/blog/26/aioracle_cloudoracle_app_composeroracle_ai_world_2026.html",
+      "publishedAt": "2026-10-28T15:39:53.000Z",
+      "excerpt": "オラクルは、社員が業務アプリをAIで自動的に生成しOracle Cloudにデプロイして利用できる「Oracle App Composer」を、米国ラスベガスで開催中の年次イベント「Oracle AI World 2026」で発表しました。 Oracle App Composerで開発された業務アプリケーションは社内で共有して利用できるうえに、情報部門がOracle App Composerを一括管理し、責任者の設定、使われていない業務アプリケーションの廃止などの操作が可能で……"
+    },
+    {
+      "id": "publickey:16038530",
+      "sourceId": "publickey",
+      "sourceName": "Publickey",
+      "title": "Oracle CloudがGoogle TPU導入を発表、2027年に提供を開始。Oracle AI World 2026",
+      "url": "https://www.publickey1.jp/blog/26/oracle_cloudgoogle_tpu2027oracle_ai_world_2026.html",
+      "publishedAt": "2026-10-27T16:33:51.000Z",
+      "excerpt": "オラクルはGoogleが開発しているAI専用チップのGoogle TPUをOracle Cloud Infrastructure（以下、Oracle Cloud）に導入し、2027年からGoogle TPUのサービスを提供開始すると発表しました。 オラクルは日本時間10月27日から米国ラスベガスで年次イベント「Oracle AI World 2026」を開催しています。 Oracle CloudへのGoogle TPU導入は、このイベントの基調講演で発表されました（下記スライ……"
+    },
+    {
+      "id": "publickey:18d4d8ba",
+      "sourceId": "publickey",
+      "sourceName": "Publickey",
+      "title": "JavaScriptランタイムの「Bun」がPrettier互換で300倍以上高速なフォーマッタに。Prettier設定ファイルもそのまま利用可能",
+      "url": "https://www.publickey1.jp/blog/26/javascriptbunprettier300prettier.html",
+      "publishedAt": "2026-10-27T15:27:52.000Z",
+      "excerpt": "Anthropicが開発しているJavaScriptランタイムの「Bun」の新機能として、Prettier互換のフォーマッタ搭載が発表されました。 2026年10月22日付けでリリースされたBun v1.4.4に搭載されたPrettier互換のフォーマッタは「bun fmt」コマンドで起動します。 その上でPrettierの設定ファイルをそのまま利用でき、それでいてPrettierよりも最大で320倍も高速だと説明されています。 In the next version of ……"
+    },
+    {
+      "id": "publickey:944a9839",
+      "sourceId": "publickey",
+      "sourceName": "Publickey",
+      "title": "AWSとGoogle Cloudが「PyTorch」のAWS Trainium、Google Cloud TPU対応版をオープンソースで公開。NVIDIAからの移行に挑む",
+      "url": "https://www.publickey1.jp/blog/26/awsgoogle_cloudpytorchaws_trainiumgoogle_cloud_tpunvidia.html",
+      "publishedAt": "2026-10-26T15:59:52.000Z",
+      "excerpt": "10月20日と21日に米カリフォルニア州で行われたイベント「PyTorch Conference 2026」において、AWSとGoogle Cloudが相次いでPyTorchの自社AIプロセッサ対応版をオープンソースとして発表しました。 AWSがパブリックベータとして公開したのはAWS Trainiumに対応した「TorchNeuron」、Google Cloudが発表したのはGoogle Cloud TPUに対応した「TorchTPU」です。 TorchNeuron is ……"
+    },
+    {
+      "id": "publickey:94bc816c",
+      "sourceId": "publickey",
+      "sourceName": "Publickey",
+      "title": "「DuckDB 2.0 LTS」正式リリース。Quackプロトコルによるクライアント/サーバ機能や非同期処理による高速化など",
+      "url": "https://www.publickey1.jp/blog/26/duckdb_20_ltsquack.html",
+      "publishedAt": "2026-10-25T15:44:47.000Z",
+      "excerpt": "DuckDB Foundationは、シングルバイナリで高速なデータ分析を実現するOLAP型データベース「DuckDB 2.0 LTS」（コード名：Cinnamon Teal）の正式リリースを発表しました。 Announcing DuckDB 2.0.0 LTS “Cinnamon Teal” We are proud to release DuckDB 2.0.0, named after the cinnamon teal (Spatula cyanoptera), a……"
+    },
+    {
+      "id": "publickey:6b0b3a71",
+      "sourceId": "publickey",
+      "sourceName": "Publickey",
+      "title": "Cloudflare、TypeScriptをRustに移植した「tsrs」を発表。TypeScript 7より最大で70％少ないメモリで8倍速。今後、LSPなどTypeScriptの全機能をサポート予定",
+      "url": "https://www.publickey1.jp/blog/26/cloudflaretypescriptrusttsrstypescript_7708lsptypescript.html",
+      "publishedAt": "2026-10-21T15:42:36.000Z",
+      "excerpt": "Cloudflareは、TypeScriptをRustに移植した「tsrs」を発表しました。 下記は、Cloudflareに買収されたVoidZeroによるtsrsに関するポストです。VoidZeroもこのtsrsの開発に関わっています。 Introducing tsrs: a Rust port of the TypeScript compiler We are not forking TypeScript! ◆ In close collaborating with t……"
+    },
+    {
+      "id": "publickey:87356cee",
+      "sourceId": "publickey",
+      "sourceName": "Publickey",
+      "title": "「Cloudflare OS」のマネージドサービス提供へ。GitHubとの接続やGmailとの連携強化など",
+      "url": "https://www.publickey1.jp/blog/26/cloudflare_osgithubgmail.html",
+      "publishedAt": "2026-10-20T15:10:05.000Z",
+      "excerpt": "Cloudflareは、AIを活用した業務のためのプラットフォームとなる「Cloudflare OS」のマネージドサービスを発表しました。現在ウェイティングリストへの登録を募集しています。 AIを活用した業務アプリのプラットフォーム Cloudflare OSは今年（2026年）8月にCloudflareがオープンソースとして公開したソフトウェアです。Cloudflare環境だけでなくオンプレミスやクラウドなどさまざまな環境にデプロイ可能です。 Cloudflare OSは、……"
+    },
+    {
+      "id": "publickey:24becdad",
+      "sourceId": "publickey",
+      "sourceName": "Publickey",
+      "title": "AWS LambdaでNext.jsやHonoなどNode.jsフレームワークとアプリをそのままデプロイ、実行できる「AWS Lambda Web Functions」発表",
+      "url": "https://www.publickey1.jp/blog/26/aws_lambdanextjshononodejsaws_lambda_web_functions.html",
+      "publishedAt": "2026-10-19T15:49:22.000Z",
+      "excerpt": "Amazon Web Services（AWS）は、サーバレス基盤のAWS Lambda上でNext.jsやExpress、Hono、FastifyなどのNode.js用フレームワークとそのアプリケーションをそのままデプロイして実行できる新機能「AWS Lambda Web Functions」を発表しました。 従来のAWS Lambdaは、HTTPのリクエストを受けて関数を実行し、レスポンスをHTTPで返す機能が備わっていましたが、AWS Lambdaの関数の実行とHTTP……"
+    },
+    {
+      "id": "publickey:8d0b2356",
+      "sourceId": "publickey",
+      "sourceName": "Publickey",
+      "title": "AWS Transform、Azure Functions用のコードをAWS Lambda用に変換など、Microsoft AzureからAWSへの移行に対応",
+      "url": "https://www.publickey1.jp/blog/26/aws_transformazure_functionsaws_lambdamicrosoft_azureaws.html",
+      "publishedAt": "2026-10-19T15:47:48.000Z",
+      "excerpt": "Amazon Web Services（AWS）は、Azure SDKで書かれた.NETアプリケーションをAWS SDKを用いたコードに変換する新機能をAWS Transformに搭載したと発表しました。 これによりMicrosoft Azureネイティブな.NETアプリケーションを簡単にAWSへ移行させることが容易になります。 Azure Blob StorageのコードをAmazon S3用に変換など 一般にMicrosoft Azureに対応する目的でAzure SDK……"
+    },
+    {
+      "id": "publickey:e670096e",
+      "sourceId": "publickey",
+      "sourceName": "Publickey",
+      "title": "マイクロソフト、.NETのツールチェーンマネージャ「dotnetup」プレビュー公開。複数バージョンの.NET環境を管理可能",
+      "url": "https://www.publickey1.jp/blog/26/netdotnetupnet.html",
+      "publishedAt": "2026-10-18T15:35:52.000Z",
+      "excerpt": "マイクロソフトは、.NETの各種コマンドラインツールやC#コンパイラ、ビルドエンジン、ランタイムなどを含む.NETのツールチェーンをまとめてインストールし、バージョン管理などができるツールチェーンマネージャ「dotnetup」をパブリックプレビューとして公開しました。 Rust言語やNode.js環境では、ツールチェーンマネージャと呼ばれるコマンドが存在します。Rustでは「rustup」、Node.jsでは「nvm」がそれです。 ツールチェーンマネージャは単にコマンド一発で……"
+    },
+    {
+      "id": "publickey:60b68113",
+      "sourceId": "publickey",
+      "sourceName": "Publickey",
+      "title": "Linuxカーネルの深刻な脆弱性「PwnEscape」（CVE-2026-99999）、ゲストの仮想マシンからホスト側Linux OSに不正なコードを実行できる可能性",
+      "url": "https://www.publickey1.jp/blog/26/linuxpwnescapecve-2026-99999linux_os.html",
+      "publishedAt": "2026-10-17T15:27:18.000Z",
+      "excerpt": "悪意のある攻撃者がLinuxの仮想マシンを不正に操作することで、仮想マシンの境界を抜けてホスト側のLinux OSで不正なコードを実行できる可能性がある脆弱性「PwnEscape」（CVE-2026-99999）の情報が公開されています。 対象はLinuxカーネルで、脆弱性の深刻度を1から10の値で表すスコアは9.3で「Critical」（緊急）と非常に高くなっています。 PwnEscapeはLinuxカーネルのネットワーク処理の欠陥 PwnEscapeの技術的な内容について……"
+    },
+    {
+      "id": "publickey:ee124112",
+      "sourceId": "publickey",
+      "sourceName": "Publickey",
+      "title": "AnthropicのBun、TypeScript 7よりも3倍以上高速なTypeScript型チェッカーを搭載。Bunの新バージョン1.4.3で",
+      "url": "https://www.publickey1.jp/blog/26/anthropicbuntypescript_73typescriptbun143.html",
+      "publishedAt": "2026-10-15T15:21:12.000Z",
+      "excerpt": "Anthropicが開発しているJavaScriptランタイム「Bun」は、10月10日付けで新バージョン「Bun v1.4.3」がリリースされました。 Bun v1.4.3の最大の特徴として示されたのが、Go言語で実装されたTypeScript 7よりも3倍以上高速だとするTypeScript型チェッカーです。 TypeScriptもバージョン7ではGo言語による実装で高速化がはかられましたが、Bunはそれを大きく上回るとしています。 BunはJavaScriptだけでなく……"
+    }
+  ]
+}
