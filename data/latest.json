@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T01:16:54.515Z",
+  "generatedAt": "2026-11-24T05:05:55.786Z",
   "sources": [
     {
       "id": "itmedia",
@@ -25,6 +25,303 @@
     "error": "Gemini APIエラー: HTTP 503"
   },
   "articles": [
+    {
+      "id": "gigazine:308683d6",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "独自開発のブラウザエンジンを搭載した独立系ウェブブラウザ「Ladybird」のアルファ版が登場",
+      "url": "https://gigazine.net/news/20261124-ladybird-now-alpha/",
+      "publishedAt": "2026-11-24T05:00:00.000Z",
+      "excerpt": "Google ChromeやMicrosoft Edge、Opera、Braveといったウェブブラウザは、Googleが開発とメンテナンスを主導するChromiumをベースとしています。こういったGoogleのエコシステムから離れた、独自開発のウェブブラウザが「Ladybird」です。そんなLadybirdのアルファ版がついに登場しました。 続きを読む..."
+    },
+    {
+      "id": "gigazine:580c21c3",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "GTA6のXBOX版実行ファイルが第三者により公開される",
+      "url": "https://gigazine.net/news/20261124-gta6-xbox-build-leaked/",
+      "publishedAt": "2026-11-24T04:38:00.000Z",
+      "excerpt": "2026年11月19日に「グランド・セフト・オートVI(GTA6)」のPlayStation 5(PS5)およびXBOX Series X|S版が発売されて以降、このゲームを公式より先にPCへ移植しようとする試みが進められています。新たにXBOX版の実行ファイルがリリースされ、以前にリリースされたXBOX版ビルドが完成したことが分かりました。 続きを読む..."
+    },
+    {
+      "id": "gigazine:b444dc20",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "AIがプルリクエストのレビューや修正を行い自動承認までしてくれる「Claude Ship」が登場",
+      "url": "https://gigazine.net/news/20261124-claude-ship/",
+      "publishedAt": "2026-11-24T04:15:00.000Z",
+      "excerpt": "AI企業のAnthropicが日本時間の2026年11月24日に、プルリクエストのレビューや問題の修正、承認をAIに任せられる「Claude Ship」のベータ版を発表しました。開発チームがあらかじめ定めたルールに従ってAIが変更内容を承認することも可能で、コードを記述してから変更内容が取り込まれるまでの時間を短縮できるとのことです。 続きを読む..."
+    },
+    {
+      "id": "gigazine:710f34ce",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "OpenAIがAIの進化を測る内部指標「パープレキシティ」を公開、2027年の技術革新ラッシュを見据え開発制限を提唱",
+      "url": "https://gigazine.net/news/20261124-openai-perplexity/",
+      "publishedAt": "2026-11-24T03:40:00.000Z",
+      "excerpt": "OpenAIが、AIモデルがデータをどれだけ正確に予測できるかを示す指標「パープレキシティ」の内部測定結果を2026年11月22日付けで公開しました。OpenAIのチーフサイエンティストを務めるヤクブ・パチョッキ氏は「2027年にもAIの事前学習に関する技術革新が雪崩のように起こる可能性がある」と指摘し、安全性を確保するためにAI業界全体で共通の開発制限を設けることを提唱しています。 続きを読む..."
+    },
+    {
+      "id": "gigazine:89c7074d",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "GoogleがAIの性能測定ツール「gBench」をオープンソース化",
+      "url": "https://gigazine.net/news/20261124-google-gbench-benchmarking-framework/",
+      "publishedAt": "2026-11-24T03:40:00.000Z",
+      "excerpt": "GoogleがAIモデルの性能を測定するためのベンチマークフレームワーク「gBench」をオープンソース化しました。 続きを読む..."
+    },
+    {
+      "id": "gigazine:90b51748",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "トランプ大統領がジェンスン・フアンのCEO復帰について「私が説得した」と発言、フアンがブラジャーを掲げるAI画像を投稿し復帰を歓迎",
+      "url": "https://gigazine.net/news/20261124-jensen-huang-nvidia-return-trump-behest/",
+      "publishedAt": "2026-11-24T03:33:00.000Z",
+      "excerpt": "2026年11月23日夜、不倫問題で辞任していたNVIDIAのジェンスン・フアン氏がCEOに再任されました。この件で、ドナルド・トランプ大統領が横やりを入れていたことが明らかになりました。 続きを読む..."
+    },
+    {
+      "id": "gigazine:7b568b86",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "teenage engineeringがCDをむき出しで回転させるCDプレーヤー「EP/BC-1」を発表",
+      "url": "https://gigazine.net/news/20261124-teenage-engineering-ep-bc-1/",
+      "publishedAt": "2026-11-24T03:30:00.000Z",
+      "excerpt": "スウェーデンの電子楽器メーカーであるteenage engineeringが、CDプレーヤー「EP/BC-1」を2026年11月20日に発表しました。CDをむき出しの状態で回転させる独特なデザインを採用しており、Bluetoothによる音声出力や再生速度の変更、CDの音楽データをUSB経由で取り込む機能などを備えています。 続きを読む..."
+    },
+    {
+      "id": "gigazine:96d2cfd4",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "超党派議員グループがジェンスン・フアンのNVIDIA復帰を非難、中国への半導体輸出規制法案を議会が可決すべきと主張",
+      "url": "https://gigazine.net/news/20261124-us-lawmakers-criticiza-nvidia/",
+      "publishedAt": "2026-11-24T03:23:00.000Z",
+      "excerpt": "2026年11月23日、NVIDIAの取締役会が不倫騒動で辞任したジェンスン・フアン氏をCEOの座に呼び戻しました。この件を受け、一部の超党派議員が復職に反対したと報じられています。 続きを読む..."
+    },
+    {
+      "id": "gigazine:24058650",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "Qwen3.8 27Bより高性能なアメリカ製オープンモデル「Inkling 2 Mini」が公開される＆メモリ16GBで実行できる量子化版も登場",
+      "url": "https://gigazine.net/news/20261124-inkling-2-mini/",
+      "publishedAt": "2026-11-24T03:20:00.000Z",
+      "excerpt": "アメリカに拠点を置くAI開発企業のThinking Machines LabがAIモデル「Inkling 2 Mini」を公開しました。ベンチマークテストではQwen3.8 27Bを上回っています。 続きを読む..."
+    },
+    {
+      "id": "gigazine:1a281c95",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "幼少期の砂糖摂取量が少なかった人は50代になった時点での「生物学的年齢」が若い可能性がある",
+      "url": "https://gigazine.net/news/20261124-sugar-early-life-biologically-younger/",
+      "publishedAt": "2026-11-24T03:00:00.000Z",
+      "excerpt": "砂糖の摂り過ぎは健康によくないとされており、一部の親は子どもに甘い物を食べさせすぎないように気を配っています。かつてイギリスで導入されていた「砂糖の配給制とその撤廃」に着目した研究では、幼少期に砂糖の配給制を経験していた人々は、50代になった時点での生物学的年齢が若い可能性があるとの結果が示されました。 続きを読む..."
+    },
+    {
+      "id": "gigazine:6df2180c",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "OpenAIがシステムを停止せずに脆弱性を悪用した攻撃を防ぐ「Shirudo」を発表",
+      "url": "https://gigazine.net/news/20261124-openai-shirudo/",
+      "publishedAt": "2026-11-24T02:50:00.000Z",
+      "excerpt": "OpenAIがネットワーク機器大手のCiscoと共同で、Linuxシステムを稼働させたままサイバー攻撃から保護できるオープンソースのソフトウェア「Shirudo」を発表しました。Shirudoを使うことで、脆弱(ぜいじゃく)性が発見されてから修正パッチが適用されるまでの間もシステムを保護することが可能になるとのことです。 続きを読む..."
+    },
+    {
+      "id": "gigazine:3c7c0148",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "「Grokが児童性的虐待画像や非同意性的画像を生成している」とバージニア州とオレゴン州がSpaceXを提訴",
+      "url": "https://gigazine.net/news/20261124-states-sue-spacex-grok-generating-child-sex-images/",
+      "publishedAt": "2026-11-24T02:30:00.000Z",
+      "excerpt": "現地時間の2026年11月23日(月)、アメリカのバージニア州とオレゴン州が「Grokが女性や子どもの写真を何の制約もなく性的に描写し続けている」として、SpaceXを提訴しました。 続きを読む..."
+    },
+    {
+      "id": "gigazine:43e5dd34",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "AIモデル「GLM-5.4」が登場、各層を2回ずつ実行する「Loop Transformer」で性能を底上げし近日中にオープンウェイトモデルとして公開予定",
+      "url": "https://gigazine.net/news/20261124-glm-5-4/",
+      "publishedAt": "2026-11-24T01:47:00.000Z",
+      "excerpt": "中国に拠点を置くAI企業のZ.aiが「GLM-5.4」を発表しました。「Loop Transformer」と呼ばれるアーキテクチャーによって性能を向上させているのが大きな特徴で、近日中にオープンウェイトモデルとして公開される予定です。 続きを読む..."
+    },
+    {
+      "id": "gigazine:34665d78",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "「『GTA6』のディスクがないならチキンを入れればいいじゃない」とKFCがフライドチキン製ディスクを無料配布",
+      "url": "https://gigazine.net/news/20261124-replacement-disc-kfc-gta-6/",
+      "publishedAt": "2026-11-24T01:41:00.000Z",
+      "excerpt": "2026年11月19日に発売された「グランド・セフト・オートVI(GTA6)」には、ゲームディスクが付属しないパッケージ版が用意されています。これを受けて、スペインのケンタッキーフライドチキン(KFC)がディスク型のフライドチキンを無料配布するキャンペーン「The Replacement Disc」を実施したと報じられています。 続きを読む..."
+    },
+    {
+      "id": "gigazine:4e1ea329",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "【ブラックフライデーセール開催中】誰でも簡単にAI時代に役立つスキルが動画でわかる「Udemy」おすすめ講座まとめ、Claude Code・AIエージェント・要件定義・Linux・AWS認定資格・AIセキュリティなど",
+      "url": "https://gigazine.net/news/20261124-udemy/",
+      "publishedAt": "2026-11-24T00:00:00.000Z",
+      "excerpt": "AIにコードを書いてもらったり面倒な仕事をAIエージェントに任せたりと、生成AIを活用することで効率的に仕事を進められるようになってきました。しかし、うまくAIに働いてもらうにはAIに適切な指示を出したりAIが生成したプログラムを動かすインフラを用意したり、安全に運用するためのセキュリティを確保したりするためのスキルが必要です。そんなAI時代に役立つスキルを効率的に学べるのが、動画形式の講座を受講できるオンライン学習プラットフォームの「Udemy(ユーデミー)」です。Udemyでは2026年12月1日(火)まで対象講座を1講座1500円から購入できる「ブラックフライデーセール」が開催されている"
+    },
+    {
+      "id": "itmedia:5d18f7c",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "SpaceXをオレゴン州とバージニア州が提訴　Grokの性的画像生成で",
+      "url": "https://www.itmedia.co.jp/news/article/2611/24/2000003399/",
+      "publishedAt": "2026-11-23T23:39:38.000Z",
+      "excerpt": "オレゴン州とバージニア州は、AI「Grok」が児童性的虐待コンテンツ（CSAM）や同意のない性的画像を生成・拡散したとしてSpaceXなどを提訴したと発表した。両州は「Spicy」モードなどで安全策を無視し、消費者を欺いたと主張。一方、Xの安全対策アカウントは悪用に対し保護策を強化したと説明している。"
+    },
+    {
+      "id": "gigazine:5c8dbd6d",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "世界の冷房電力需要が暖房電力需要を史上初めて上回る",
+      "url": "https://gigazine.net/news/20261124-cooling-heating/",
+      "publishedAt": "2026-11-23T23:00:00.000Z",
+      "excerpt": "国際エネルギー機関(IEA)が2026年11月19日に公表した年次報告書「World Energy Outlook 2026(WEO-2026)」の中で、世界の建物の冷房に必要な電力量が、暖房に必要な電力量を史上初めて上回ることが発表されました。 続きを読む..."
+    },
+    {
+      "id": "itmedia:5d18f5d",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "CrowdStrike、Zscalerを約439億ドルで買収へ　狙いはAIエージェントの安全確保",
+      "url": "https://www.itmedia.co.jp/news/article/2611/24/2000003398/",
+      "publishedAt": "2026-11-23T22:20:30.000Z",
+      "excerpt": "CrowdStrikeは、ネットワークセキュリティ大手のZscalerを全額株式交換で買収すると発表した。Zscalerの企業価値は約7兆円。Zscalerの「Zero Trust Exchange」などを「Falcon」基盤に統合し、AIエージェントの保護を強化する。統合後の年間経常収益は100億ドルを超える見込みだ。"
+    },
+    {
+      "id": "gigazine:d7359b1f",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "複数のPCにローカルAIの処理を割り振れるNVIDIA製ツール「Personal AI Router(PAIR)」の有用性検証結果が公開される",
+      "url": "https://gigazine.net/news/20261124-nvidia-pair/",
+      "publishedAt": "2026-11-23T22:00:00.000Z",
+      "excerpt": "LAN内のデバイスにAI処理を割り振れるNVIDIA製ツール「NVIDIA Personal AI Router(PAIR)」について、テクノロジーメディアのLTT Labsがレビューを行い、使用感や課題について考察しています。 続きを読む..."
+    },
+    {
+      "id": "itmedia:5d18f3e",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "NVIDIA、フアン氏のCEO復帰を発表　トランプ大統領「私がまとめた」と取締役会への働きかけ認める",
+      "url": "https://www.itmedia.co.jp/news/article/2611/24/2000003397/",
+      "publishedAt": "2026-11-23T21:32:46.000Z",
+      "excerpt": "NVIDIAは、11月12日に退任したジェンスン・フアン氏の社長兼CEOおよび取締役への復帰を発表した。取締役会は米政府高官の意見を踏まえ、国家安全保障上のリスクはないと判断したという。トランプ大統領はCNBCの取材に対し、取締役会へ直接復帰を働きかけたことを認め、ウォーレン上院議員は「無謀な決定」と批判している。"
+    },
+    {
+      "id": "gigazine:5358fd4d",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "特殊な靴下を履くだけで歩行時に消費するエネルギーを軽減できるという研究結果",
+      "url": "https://gigazine.net/news/20261124-foot-stiffening-socks-walking/",
+      "publishedAt": "2026-11-23T21:00:00.000Z",
+      "excerpt": "人間の足はチンパンジーなど他の霊長類の足に比べて曲がりにくい構造を持っており、この構造のおかげで二足歩行に使うエネルギーを抑えられるという説がありますが、靴底を硬くしたり中敷きで土踏まずのたわみを抑えたりした従来の実験では普段の速度で歩く際のエネルギー消費は減りませんでした。そんな中、テキサス大学オースティン校の研究チームが「足指の付け根を締め付ける靴下」を開発し、その靴下を履くだけで歩く際に使うエネルギーを軽減できることが確かめられました。 続きを読む..."
+    },
+    {
+      "id": "gigazine:39399d85",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "精神的疲労によりタスク達成のモチベーションが低下する理由が示唆される",
+      "url": "https://gigazine.net/news/20261124-give-up-tough-tasks/",
+      "publishedAt": "2026-11-23T20:00:00.000Z",
+      "excerpt": "タスクを終えたときにご褒美があるとわかっていても、精神的疲労が蓄積したとき、タスクを完了できずに諦めてしまうことがあります。その理由が脳内物質にある可能性が示唆されています。 続きを読む..."
+    },
+    {
+      "id": "publickey:6c90aed0",
+      "sourceId": "publickey",
+      "sourceName": "Publickey",
+      "title": "DHH氏が開発する「Omarchy 4.5」リリース。一般的なマルチウィンドウをサポート。最速7秒で導入、Appleシリコン対応、Webアプリ版MS Office用ランチャーなど新機能",
+      "url": "https://www.publickey1.jp/blog/26/dhhomarchy_457applewebms_office.html",
+      "publishedAt": "2026-11-23T15:49:45.000Z",
+      "excerpt": "Ruby on Railsの作者として知られるDHH氏が主導して開発しているデスクトップ向けのLinux OS「Omarchy」の最新版「Omarchy 4.5」（別名Omarchy Quattro RS）正式版がリリースされました。 Omarchyは同氏が提唱する「Omacom」（Omakase Computing：おまかせコンピューティングの略）の考え方を基に実装されたLinux OSで、DHH氏によって選択された（すなわちDHH氏に「おまかせ」して作られた）統一的な機能……"
+    },
+    {
+      "id": "publickey:60e9562e",
+      "sourceId": "publickey",
+      "sourceName": "Publickey",
+      "title": "PostgreSQL 19正式リリース。ノンブロッキングなREPACKやI/Oワーカーのオートスケールなど新機能",
+      "url": "https://www.publickey1.jp/blog/26/postgresql_19repackio.html",
+      "publishedAt": "2026-11-23T15:45:37.000Z",
+      "excerpt": "オープンソースのリレーショナルデータベース「PostgreSQL」の最新版となる「PostgreSQL 19」正式版がリリースされました（日本語のプレスリリース）。 PostgreSQLは毎年9月もしくは10月にメジャーバージョンアップが行われてきました。しかし今年は9月下旬にリリースされたPostgreSQL 19β4で多数のバグのによる新機能の取り下げなどがあり、慎重を期すために正式版のリリースが11月に延期されていました。 参考：PostgreSQL 19リリース延期の……"
+    },
+    {
+      "id": "gigazine:bf108571",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "NVIDIAのジェンスン・フアンがCEOに復帰",
+      "url": "https://gigazine.net/news/20261123-nvidia-jensen-huang-ceo/",
+      "publishedAt": "2026-11-23T14:34:00.000Z",
+      "excerpt": "2026年11月23日23時頃にNVIDIAの取締役会がジェンスン・フアン氏をCEOに再任したことを発表しました。 続きを読む..."
+    },
+    {
+      "id": "gigazine:ac4844f2",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "NVIDIA RTX Sparkの暗号化ファームウェアにより、AC電源接続時にLinux上での推論速度が35％低下",
+      "url": "https://gigazine.net/news/20261123-linux-nvidia-rtx-spark-laptop/",
+      "publishedAt": "2026-11-23T13:43:00.000Z",
+      "excerpt": "NVIDIA RTX Sparkプラットフォームを搭載したノートPCでLinuxをネイティブに実行すると、AC電源接続時にGPUのクロックスピードが大幅に低下するという深刻な問題に直面することが、ノーコードプラットフォーム開発元であるMindStudioのブログで指摘されています。この現象により、Linuxネイティブ環境ではWindows環境と比較してAIモデルの処理能力が著しく低下しパフォーマンスが大きく劣る結果となります。 続きを読む..."
+    },
+    {
+      "id": "gigazine:3e9b41c2",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "AIの顔認識技術に依存して容疑者を誤認逮捕した刑事の免責主張を連邦裁判官が却下、顔認識は逮捕を認める「相当な理由」にあたらず",
+      "url": "https://gigazine.net/news/20261123-probable-cause-ai/",
+      "publishedAt": "2026-11-23T10:30:00.000Z",
+      "excerpt": "監視カメラの映像から小切手詐欺の疑いで2025年に逮捕された人物が、カメラに映ったのと同時刻に別の場所で働いていたことから、州の検察局は訴追を取り下げました。容疑者を逮捕した刑事は「AI顔認識技術」のみに依存したことで容疑者を誤認しており、「AIは、アメリカ憲法の修正第4条に規定される捜査や押収における『相当な理由』にはあたらない」として、刑事の免責を連邦裁判官が却下しました。 続きを読む..."
+    },
+    {
+      "id": "gigazine:10ffe53b",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "Qwen3.8-27Bを量子化しても意外と性能が落ちないという検証結果",
+      "url": "https://gigazine.net/news/20261123-llm-qwen-quantization-quality/",
+      "publishedAt": "2026-11-23T10:18:00.000Z",
+      "excerpt": "高性能なAIモデルを実行するには大容量のメモリが必要です。メモリの使用量を削減する方法として「量子化」と呼ばれる手法が広く用いられていますが、量子化するとモデルの性能も低下するとされています。ところが、AIルーティングサービスを展開するOpenRouterが「Qwen3.8-27Bを量子化しても性能低下は検出されなかった」という検証結果を公開しました。 続きを読む..."
+    },
+    {
+      "id": "gigazine:5f639b81",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "『魔法使いの夜』アニメ映画公開に合わせて原作人気が再燃、Steamプレイヤーがリリース直後の1.5倍になりSwitchはランキング1位に",
+      "url": "https://gigazine.net/news/20261123-witch-on-the-holy-night-steam-players/",
+      "publishedAt": "2026-11-23T09:50:00.000Z",
+      "excerpt": "2026年11月20日(金)に劇場アニメ『魔法使いの夜』が公開されました。原作は2012年に発売されたゲームで、2023年にSteamでもリリースされているのですが、アニメ映画公開に合わせてプレイヤー数が増加していることが確認されています。また、Nintendo Switchでも売れ行きが伸びています。 続きを読む..."
+    },
+    {
+      "id": "gigazine:63c51ce8",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "濃いめのカルピスでバニラヨーグルトの風味が引き立つ「バニラヨーグルト＆カルピス」試飲レビュー",
+      "url": "https://gigazine.net/news/20261123-asahi-vanilla-yogurt-calpis/",
+      "publishedAt": "2026-11-23T06:30:00.000Z",
+      "excerpt": "通常の「カルピスウォーター」の1.5倍以上の乳成分を使用したという濃いめのカルピスをベースに、バニラヨーグルトの風味をかけ合わせた「バニラヨーグルト＆カルピス」が2026年11月17日(火)から期間限定で登場したので、買ってきて飲んでみました。 続きを読む..."
+    },
+    {
+      "id": "itmedia:174e887f",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "「Microsoft To Do」、2027年6月にアプリ提供終了　法人向けは「Planner」へ移行、個人向けは代替なし",
+      "url": "https://www.itmedia.co.jp/news/article/2611/23/2000003395/",
+      "publishedAt": "2026-11-23T03:12:33.000Z",
+      "excerpt": "Microsoftは、タスク管理アプリ「Microsoft To Do」の全プラットフォーム向けアプリを2027年6月30日に提供終了すると発表した。職場・学校アカウント向けには「Microsoft Planner」を後継として案内するが、個人アカウントでは利用できず、代替アプリへの移行を勧めている。既存データは自動移行されない。"
+    },
+    {
+      "id": "gigazine:49640b3c",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "無料でMacのアプリのウィンドウをiPhoneやiPadからリアルタイムに操作できる「Sill」、オープンソースで中継サーバー不要",
+      "url": "https://gigazine.net/news/20261123-sill/",
+      "publishedAt": "2026-11-23T03:00:00.000Z",
+      "excerpt": "Macで作業していると手元のiPhoneやiPadから特定のアプリケーションだけを操作したいことがあります。そこでMacのウィンドウをリアルタイムで転送し、タッチ・キーボード・トラックパッド・Apple Pencilなどで操作できるようにしたサーバー不要の無料のオープンソースアプリが「Sill」です。 続きを読む..."
+    },
+    {
+      "id": "itmedia:174e853a",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "高級感のためだけじゃない　財布やバッグの新しいアイデアが“革製品”から生まれる理由",
+      "url": "https://www.itmedia.co.jp/news/article/2611/23/2000003389/",
+      "publishedAt": "2026-11-23T01:00:00.000Z",
+      "excerpt": "革製品の魅力は高級感だけではない。留め具なしで閉じる薄い財布、パンツのポケットに収まる長財布、平たく畳める革のバッグ。どれも、革という素材でなければ成立しない仕掛けで作られているのだ。5年半続いた連載の最終回は、筆者が何年も愛用してきた財布とバッグから、革製品が“新しいアイデアの実験場”になる理由を探る。"
+    },
     {
       "id": "gigazine:521c7052",
       "sourceId": "gigazine",
@@ -71,105 +368,6 @@
       "excerpt": "「Lastbook」は数GB～数十GBにおよぶサバイバル情報をPCに保存してオフライン環境でも閲覧できるようにするアプリです。いざという時に役立ちそうなのでインストールしてみました。 続きを読む..."
     },
     {
-      "id": "gigazine:60c29b2e",
-      "sourceId": "gigazine",
-      "sourceName": "GIGAZINE",
-      "title": "「PCの父」のオススメ本・史上最高の小説100選・ソニー「WF-1000XM5」レビューなどAmazonで売上トップ10のGIGAZINE記事ランキング2026年10月版はコレ！",
-      "url": "https://gigazine.net/news/20261123-gigazine-kindle-ranking-2026-10/",
-      "publishedAt": "2026-11-22T15:00:00.000Z",
-      "excerpt": "GIGAZINEの記事を電子化した書籍を対象に「2026年10月に最もたくさん読まれた記事は何なのか？」がわかるランキングを作ってみました。Google検索の影響が大きい普段のアクセス解析記事と違い、Amazonならではのランキングとなっています。 続きを読む..."
-    },
-    {
-      "id": "gigazine:ed782de7",
-      "sourceId": "gigazine",
-      "sourceName": "GIGAZINE",
-      "title": "アニメ『死亡遊戯で飯を食う。』続編制作決定、「この世界で、生きてみようと思った」",
-      "url": "https://gigazine.net/news/20261122-anime-shiboyugi/",
-      "publishedAt": "2026-11-22T14:59:00.000Z",
-      "excerpt": "2026年冬にTVシリーズが放送されたアニメ『死亡遊戯で飯を食う。』の続編制作が決定しまし、主人公・幽鬼を描いたウルトラティザービジュアルが公開されました。 続きを読む..."
-    },
-    {
-      "id": "gigazine:3ca7cf9b",
-      "sourceId": "gigazine",
-      "sourceName": "GIGAZINE",
-      "title": "無料でSSOだけに特化してユーザーとグループを作成・管理できる「Pocket ID」、パスキーのみをベースに構築されいくつでも追加できてセルフホストも可能",
-      "url": "https://gigazine.net/news/20261122-pocket-id/",
-      "publishedAt": "2026-11-22T14:00:00.000Z",
-      "excerpt": "複数のウェブサービスを自分のサーバーで運用しているとサービスごとにアカウントを作成したりログイン情報を管理したりする手間が発生します。そこで複数のサービスのログイン機能を集約し、指紋認証や顔認証などを利用したパスキーによる本人確認やユーザー・グループごとのアクセス権限の管理が可能な無料のオープンソースソフトウェア「Pocket ID」を使ってみました。 続きを読む..."
-    },
-    {
-      "id": "gigazine:17ca3b26",
-      "sourceId": "gigazine",
-      "sourceName": "GIGAZINE",
-      "title": "中国ではAIリテラシー向上を目指して学校でAIに焦点を当てたカリキュラムや主要教科におけるAI生成型の授業を採用している",
-      "url": "https://gigazine.net/news/20261122-chinas-ai-native/",
-      "publishedAt": "2026-11-22T13:45:00.000Z",
-      "excerpt": "中国はアメリカに対抗するため、AI人材育成パイプラインの構築に力を入れています。半数の省および地方自治体にAI教育に関する義務が課せられていますが、AIリテラシーを測定するための標準的な枠組みは確立されておらず、学校に評価が任せられている不安定さも指摘されています。 続きを読む..."
-    },
-    {
-      "id": "gigazine:ed594bcd",
-      "sourceId": "gigazine",
-      "sourceName": "GIGAZINE",
-      "title": "生殖器をこすることでコウモリから身を守る「ガ」がいる",
-      "url": "https://gigazine.net/news/20261122-hawkmoth-ultrasound-defense/",
-      "publishedAt": "2026-11-22T12:00:00.000Z",
-      "excerpt": "一部の「スズメガ」のオスには生殖器の小片を腹部にこすりつけて超音波を出すことでコウモリから身を守る仕組みがあります。フロリダ大学などの研究チームは、この仕組みに「生殖器を別の小片にこすりつける」「生殖器を硬いトゲにこすりつける」「生殖器を小突起にこすりつける」の3種類あることを突き止めました。 続きを読む..."
-    },
-    {
-      "id": "gigazine:9867b092",
-      "sourceId": "gigazine",
-      "sourceName": "GIGAZINE",
-      "title": "Waymoの自動運転車が冠水した道路で立ち往生",
-      "url": "https://gigazine.net/news/20261122-waymo-flooded-lanes/",
-      "publishedAt": "2026-11-22T09:37:00.000Z",
-      "excerpt": "「サンフランシスコの冠水した道路でWaymoの自動運転車が立ち往生し、他の車両の邪魔になっている」という動画がXに投稿されています。 続きを読む..."
-    },
-    {
-      "id": "gigazine:ca1ad9d4",
-      "sourceId": "gigazine",
-      "sourceName": "GIGAZINE",
-      "title": "AIが世界を変えてもAI企業が儲かるとは限らない、その理由とは？",
-      "url": "https://gigazine.net/news/20261122-ai-will-not-make-you-rich/",
-      "publishedAt": "2026-11-22T06:00:00.000Z",
-      "excerpt": "生成AIの急速な進化を背景に、AIモデルの開発やデータセンターの建設などに巨額の資金が投じられています。しかし、AIが今後の経済成長をけん引するという期待が高まる一方で、AIを開発する企業や投資家が必ずしも大きな利益を得られるとは限りません。元ベンチャーキャピタリストのジェリー・ニューマン氏がPCの普及や海上輸送のコンテナ化といった過去の技術革新を振り返りながら、AIによって生み出される利益が最終的に誰の手に渡るのかを分析しました。 続きを読む..."
-    },
-    {
-      "id": "gigazine:6afeb5a",
-      "sourceId": "gigazine",
-      "sourceName": "GIGAZINE",
-      "title": "無料のWindows用Pingツール「PingTool」、TCPポートチェック・速度テスト・Wake-on-LAN機能あり",
-      "url": "https://gigazine.net/news/20261122-ping-tool/",
-      "publishedAt": "2026-11-22T03:00:00.000Z",
-      "excerpt": "PingToolはシステム管理者やネットワーク管理者に向けた無料のユーティリティソフトウェアです。単なるping機能にとどまらず、TCPポートの可用性チェック・LAN内での速度テスト・Wake-on-Lan(WOL)・ネットワークスキャンなど、多岐にわたる機能を提供します。 続きを読む..."
-    },
-    {
-      "id": "gigazine:ccda47f8",
-      "sourceId": "gigazine",
-      "sourceName": "GIGAZINE",
-      "title": "Anthropicの研究者がAI「Claude」とともに数学の未解決問題「リーマン予想」を証明したと発表、1700万行の証明コードを専門家が検証中",
-      "url": "https://gigazine.net/news/20261122-anthropic-claude-said-riemann-hypothesis-solved/",
-      "publishedAt": "2026-11-22T02:00:00.000Z",
-      "excerpt": "AI開発企業Anthropicの研究者であるレベント・アルポゲ氏が2026年11月20日、AnthropicのAIモデルであるClaudeとともに数学の未解決問題であるリーマン予想を証明したと発表しました。アルポゲ氏は約1700万行に及ぶ証明コードを公開しており、マサチューセッツ工科大学(MIT)などの研究者による独立した検証で証明の正しさを確認する複数の検査に成功しています。リーマン予想には100万ドル(約1億5800万円)の懸賞金が設定されていますが、記事作成時点では今回の証明はまだ正式に認められておらず、今後も専門家による評価が必要となります。 続きを読む..."
-    },
-    {
-      "id": "gigazine:dbab83b6",
-      "sourceId": "gigazine",
-      "sourceName": "GIGAZINE",
-      "title": "SignalがAIエージェントによる情報収集を防ぐためアプリでのAIによるスクリーンショット撮影を制限、OSレベルのAIエージェントによる情報収集に警鐘",
-      "url": "https://gigazine.net/news/20261122-signal-restricts-mobile-screenshots-threat-ai-surveillance/",
-      "publishedAt": "2026-11-22T01:30:00.000Z",
-      "excerpt": "プライベートメッセンジャーアプリのSignalが、モバイルアプリでのAIによるスクリーンショット撮影機能を制限しました。これはAIエージェントによる情報収集が、Signalの構築してきたプライバシー保護機能を崩してしまうためと説明されています。 続きを読む..."
-    },
-    {
-      "id": "gigazine:3d224354",
-      "sourceId": "gigazine",
-      "sourceName": "GIGAZINE",
-      "title": "多様性を受け入れるには「幸福感」が重要かもしれないとの研究結果",
-      "url": "https://gigazine.net/news/20261122-happiness-emotional-lever-openness-diversity/",
-      "publishedAt": "2026-11-22T00:00:00.000Z",
-      "excerpt": "さまざまな背景を持つ人々がともに生活している現代社会では、多様性や公平性についての取り組みが重要となっていますが、一部の人は多様性を推進する取り組みに反対しています。新たな研究では、多様性を受け入れて社会的不平等に疑問を持つには、「幸福感」を覚えることが重要かもしれないとの結果が示されました。 続きを読む..."
-    },
-    {
       "id": "itmedia:28cb7e9a",
       "sourceId": "itmedia",
       "sourceName": "ITmedia NEWS",
@@ -177,60 +375,6 @@
       "url": "https://www.itmedia.co.jp/news/article/2611/22/2000003388/",
       "publishedAt": "2026-11-21T23:21:31.000Z",
       "excerpt": "Anthropicの数学者レベント・アルポーゲ氏は、「Claude」と共同で未解決問題「リーマン予想」の証明を発見したと発表した。証明支援系「Lean」で記述された1700万行の形式証明を公開しており、Leanコミュニティは複数の検証を経て「証明は正しい」と認定する共同声明を出した。"
-    },
-    {
-      "id": "gigazine:2557677",
-      "sourceId": "gigazine",
-      "sourceName": "GIGAZINE",
-      "title": "出社してオフィスで働く頻度の最適解とは？",
-      "url": "https://gigazine.net/news/20261122-work-at-office/",
-      "publishedAt": "2026-11-21T23:00:00.000Z",
-      "excerpt": "2019年から発生した新型コロナウイルス感染症によるパンデミックで、多くの企業が従業員に自宅で仕事をさせるリモートワークを実施しました。あれから数年が経過し、リモートワークを取りやめる企業も出てきていますが、出勤に伴うストレスが減ることからリモートワークの継続を願う人も少なくありません。新たな研究で、週5日勤務の場合何日出社すればバランスがいいのかが明らかになりました。 続きを読む..."
-    },
-    {
-      "id": "gigazine:a0f83e79",
-      "sourceId": "gigazine",
-      "sourceName": "GIGAZINE",
-      "title": "無料でセルフホストできWindows・macOS・LinuxアプリもあるRSSリーダー「WyrmRSS」、YouTube動画の再生やDiscord・Slackへの新着通知も可能",
-      "url": "https://gigazine.net/news/20261121-wyrmrss/",
-      "publishedAt": "2026-11-21T14:00:00.000Z",
-      "excerpt": "ニュースサイトやブログなどの更新情報をまとめて取得できるほか、YouTube動画の再生・フィルター・外部サービスへの新着通知にも対応した無料のオープンソースRSSリーダーが「WyrmRSS」です。セルフホストに加えてWindows・macOS・Linux用のアプリも提供されているので実際に使ってみました。 続きを読む..."
-    },
-    {
-      "id": "gigazine:b72f5848",
-      "sourceId": "gigazine",
-      "sourceName": "GIGAZINE",
-      "title": "ヒヨコの脳細胞は酸素が極めて少なくても2時間以上生き延びる",
-      "url": "https://gigazine.net/news/20261121-chicken-brain-low-oxygen/",
-      "publishedAt": "2026-11-21T13:00:00.000Z",
-      "excerpt": "人間の脳に酸素が届かなくなると一部の脳細胞は数分で死に始めます。ところが、アメリカのウェイクフォレスト大学の研究チームがヒヨコの脳組織を調べたところ、酸素が極めて少ない状態でも2時間以上にわたって電気信号を出し続ける神経細胞が見つかりました。 続きを読む..."
-    },
-    {
-      "id": "gigazine:62a7d8dd",
-      "sourceId": "gigazine",
-      "sourceName": "GIGAZINE",
-      "title": "AIエージェントは「仲間のAI」の助けが得られると思うと秘密を漏らしやすくなるという実験結果",
-      "url": "https://gigazine.net/news/20261121-ai-agents-leak-secrets/",
-      "publishedAt": "2026-11-21T12:00:00.000Z",
-      "excerpt": "AIエージェントにソフトウェアのバグ修正を任せ、別のAIとやり取りする中で秘密を守れるかどうかを調べる実験を行ったところ、修正方法を教えてもらう代わりに秘密の認証情報を相手に渡すエージェントがいたという実験結果が報告されています。 続きを読む..."
-    },
-    {
-      "id": "gigazine:dd37d4b6",
-      "sourceId": "gigazine",
-      "sourceName": "GIGAZINE",
-      "title": "自分の仕事が「天職」だと思うことは私生活や人生の満足度にどのような影響を与えるのか？",
-      "url": "https://gigazine.net/news/20261121-job-becomes-calling-well-being/",
-      "publishedAt": "2026-11-21T11:00:00.000Z",
-      "excerpt": "日々の仕事内容が自分のやりたいことや能力にぴったり当てはまっている人は、「この仕事は天職だ」と感じているかもしれません。自分の仕事が天職だと思うことが私生活や人生の満足度に与える影響について、ドイツの研究チームが調査しました。 続きを読む..."
-    },
-    {
-      "id": "gigazine:fb22d88c",
-      "sourceId": "gigazine",
-      "sourceName": "GIGAZINE",
-      "title": "AlibabaのECサイト・AliExpressのブラックフライデーセールでミニPCはむしろ値上がりしていた",
-      "url": "https://gigazine.net/news/20261121-aliexpress-sale/",
-      "publishedAt": "2026-11-21T07:30:00.000Z",
-      "excerpt": "中国企業のAlibabaグループが運営するオンラインマーケットプレイス「AliExpress」が2026年11月11日に実施したセール「AliExpress版ブラックフライデー」において、店舗が組織的に出品情報の操作を行うことで、セールのクーポンを適用しても前月の価格より高い金額に設定されていたことを、ミニPCの価格やスペックなどの情報を収集・可視化しているMiniPCs.zipが報告しています。 続きを読む..."
     },
     {
       "id": "itmedia:3a4877fa",
@@ -242,60 +386,6 @@
       "excerpt": "ネット動画では、長尺コンテンツから短い動画を大量に切り出す手法が主流になりつつある。ただ、必要なところを自分で拾い上げる編集は一朝一夕には身につかない。ならばAIに任せればいいのでは？ 長尺動画を自動で切り抜く「FlexClip」と、AIに指示して編集させる「CutBay」を試した。指示通りに動かないAIを鬼詰めしつつ、人間が編集した動画とも比べてみた。"
     },
     {
-      "id": "gigazine:6f766bc4",
-      "sourceId": "gigazine",
-      "sourceName": "GIGAZINE",
-      "title": "宇宙の温度の約2800億分の1まで原子を冷却することに成功",
-      "url": "https://gigazine.net/news/20261121-10-picokelvin-quantum/",
-      "publishedAt": "2026-11-21T06:00:00.000Z",
-      "excerpt": "中国の北京大学や中国科学院などの研究チームが、中国の宇宙ステーション「天宮」で原子気体の等価温度を9.7ピコケルビン(1兆分の9.7℃)まで低下させることに成功しました。微小重力環境を利用した実験で、従来の最低記録である38ピコケルビンを大幅に更新しています。 続きを読む..."
-    },
-    {
-      "id": "gigazine:e626a038",
-      "sourceId": "gigazine",
-      "sourceName": "GIGAZINE",
-      "title": "BlenderのGPUアクセラレーション対応UIを他のアプリケーションから再利用可能にする「BUI」",
-      "url": "https://gigazine.net/news/20261121-bui/",
-      "publishedAt": "2026-11-21T03:00:00.000Z",
-      "excerpt": "BUI(Blender's User Interface)はBlenderの洗練されたユーザーインターフェースを、独立したUIライブラリとして再利用可能にするプロジェクトです。 続きを読む..."
-    },
-    {
-      "id": "gigazine:3a3bb300",
-      "sourceId": "gigazine",
-      "sourceName": "GIGAZINE",
-      "title": "SpaceXは圏外エリアを撲滅しあらゆる場所で通信できるようにするため屋上設置型基地局の設計を完了したとイーロン・マスクが語る",
-      "url": "https://gigazine.net/news/20261121-elon-musk-spacex-plan-eliminate-cell-phone-dead-zones/",
-      "publishedAt": "2026-11-21T00:00:00.000Z",
-      "excerpt": "衛星インターネットサービスのStarlinkを提供する宇宙開発企業・SpaceXのイーロン・マスクCEOが、「地球上のどこでも通信できるようにする計画がある」と語りました。さらに、Starlink衛星からの電波が届きにくい建物内の圏外エリアを解消するために、小型の屋上設置型基地局の設計を完了したことも明かしています。 続きを読む..."
-    },
-    {
-      "id": "gigazine:4e3adb7",
-      "sourceId": "gigazine",
-      "sourceName": "GIGAZINE",
-      "title": "退役したジェットエンジンがAIデータセンターの動力源として使われている",
-      "url": "https://gigazine.net/news/20261121-jet-engine-ai-power/",
-      "publishedAt": "2026-11-20T23:00:00.000Z",
-      "excerpt": "発電能力を確保するため、ボーイングやエアバスなど民間機で使われ役目を終えた古いジェットエンジンが買いあさられていることが分かりました。 続きを読む..."
-    },
-    {
-      "id": "gigazine:6d09bd25",
-      "sourceId": "gigazine",
-      "sourceName": "GIGAZINE",
-      "title": "VPN通信に使うWireGuardやOpenVPNをターミナルUIの1画面で管理できる「Vortix」、マルチトンネル制御・リアルタイムテレメトリ・リークガード機能を搭載",
-      "url": "https://gigazine.net/news/20261120-vortix/",
-      "publishedAt": "2026-11-20T14:00:00.000Z",
-      "excerpt": "複数のVPNを利用していると接続先ごとに異なるアプリやコマンドを使い分ける必要があり、通信状態や通信経路の確認も複雑になります。そこでWireGuard・OpenVPNなどの接続管理を一つの画面にまとめ、通信速度・遅延のリアルタイム監視・情報漏えいの検出・VPN切断時の通信遮断まで行える無料のオープンソースツールが「Vortix」です。 続きを読む..."
-    },
-    {
-      "id": "gigazine:c933181c",
-      "sourceId": "gigazine",
-      "sourceName": "GIGAZINE",
-      "title": "SSDの価格は2027年後半に下落し始める可能性あり",
-      "url": "https://gigazine.net/news/20261120-ssd-prices-outlook/",
-      "publishedAt": "2026-11-20T13:00:00.000Z",
-      "excerpt": "アナリストの分析により、HDDの価格が今後2年で高止まりする一方、SSDは価格が落ち着くという予測が出てきました。 続きを読む..."
-    },
-    {
       "id": "itmedia:4bc570bf",
       "sourceId": "itmedia",
       "sourceName": "ITmedia NEWS",
@@ -303,33 +393,6 @@
       "url": "https://www.itmedia.co.jp/news/article/2611/20/2000003381/",
       "publishedAt": "2026-11-20T12:18:07.000Z",
       "excerpt": "デジタル庁は11月20日、政府共通の業務環境「GSS」のファイル共有サービスで、ファイルの一部が外部に漏えいした可能性があると発表した。7月30日から11月12日までの間、正規の共有相手先以外の者によるアクセスがあったことを確認したという。個人情報が含まれることも想定されるとして、個人情報保護委員会に報告した。"
-    },
-    {
-      "id": "gigazine:cf2040ac",
-      "sourceId": "gigazine",
-      "sourceName": "GIGAZINE",
-      "title": "RTX Spark搭載ノートPCで画像生成AIや動画生成AIのローカル実行速度を検証した結果が公開される",
-      "url": "https://gigazine.net/news/20261120-rtx-spark-image-video-generation/",
-      "publishedAt": "2026-11-20T12:00:00.000Z",
-      "excerpt": "RTX SparkはNVIDIAが開発したSoCで、RTX Sparkを搭載したノートPCやミニPCは大規模言語モデルやコンテンツ生成モデルをローカルで実行することができます。そんなRTX Spark搭載ノートPCで画像生成AIや動画生成AIを実行して速度を検証した結果をテクノロジーメディアのLTT Labsが公開しています。 続きを読む..."
-    },
-    {
-      "id": "gigazine:c1a9b166",
-      "sourceId": "gigazine",
-      "sourceName": "GIGAZINE",
-      "title": "イギリス政府がAppleに暗号化データへのアクセスを求める秘密命令を出していたことを正式に認める",
-      "url": "https://gigazine.net/news/20261120-uk-government-apple-secret-encryption-order/",
-      "publishedAt": "2026-11-20T11:00:00.000Z",
-      "excerpt": "イギリス政府がAppleに対して暗号化されたiCloudのデータにアクセスできるよう求める秘密命令を出していたことが、2026年11月19日に公開された裁判所の判断で正式に確認されました。イギリス政府は命令の存在について肯定も否定もしない姿勢を続けていましたが、裁判所は命令の存在を公表しても国家安全保障に悪影響はないと判断しました。 続きを読む..."
-    },
-    {
-      "id": "gigazine:695864f3",
-      "sourceId": "gigazine",
-      "sourceName": "GIGAZINE",
-      "title": "AIが追加学習なしで自らのウェイトを書き換えて「自分自身を賢くする」ことに成功",
-      "url": "https://gigazine.net/news/20261120-large-language-model-can-rewrite-itself/",
-      "publishedAt": "2026-11-20T10:00:00.000Z",
-      "excerpt": "大規模言語モデル(LLM)は通常、学習が完了すると内部のウェイト(重み)が固定され、性能を向上させるには追加学習などが必要になります。こうした従来の仕組みとは異なり、AIが自分自身のウェイトを分析して書き換え、性能を向上させられることを示した研究論文が発表されました。研究チームは、この成果がAIによる「再帰的自己改善」の実現につながる可能性があるとしています。 続きを読む..."
     },
     {
       "id": "itmedia:4bc56d99",
@@ -737,42 +800,6 @@
       "excerpt": "ワンタイムキーは、出金やログインパスワードの変更、一部環境でのパスキー設定などに必要だが、こうした作業に支障が出ている可能性がある。"
     },
     {
-      "id": "itmedia:ddff66c9",
-      "sourceId": "itmedia",
-      "sourceName": "ITmedia NEWS",
-      "title": "「楽天証券」漏えい、あなたは対象？　ログインして「重要なお知らせ」確認を",
-      "url": "https://www.itmedia.co.jp/news/article/2611/18/2000003281/",
-      "publishedAt": "2026-11-18T00:57:48.000Z",
-      "excerpt": "記者のアカウントでは「重要なお知らせ」に、「お客様の情報漏えいの可能性に関するお詫びと重要なご連絡」というメッセージが届いており、本文には漏えい項目が書かれていた。"
-    },
-    {
-      "id": "itmedia:ddff66aa",
-      "sourceId": "itmedia",
-      "sourceName": "ITmedia NEWS",
-      "title": "NVIDIA、フアン氏退任後初の決算　取締役会「正式なCEOは急がず適任者を選ぶ」",
-      "url": "https://www.itmedia.co.jp/news/article/2611/18/2000003280/",
-      "publishedAt": "2026-11-18T00:38:00.000Z",
-      "excerpt": "NVIDIAは、フアン前CEO退任後初となる第3四半期決算を発表した。売上高は前年同期比103％増と好調を維持。電話会議でジョーンズ会長は、行動規範違反を理由に「前CEOを復帰させる意向はない」と明言した。本人の復帰希望を退けた形で、新CEO探しは社内外から慎重に進めるとしている。"
-    },
-    {
-      "id": "itmedia:ddff6400",
-      "sourceId": "itmedia",
-      "sourceName": "ITmedia NEWS",
-      "title": "OpenAI、「GPT-6.2」の「Astra」と「Sol」を公開　AI自己改善能力は初の「High」に",
-      "url": "https://www.itmedia.co.jp/news/article/2611/18/2000003279/",
-      "publishedAt": "2026-11-17T22:47:14.000Z",
-      "excerpt": "OpenAIは、専門業務向け最上位モデル「GPT-6.2 Astra」と汎用モデル「GPT-6.2 Sol」を発表した。AstraはAIの自己改善能力で同社初の「High」と評価された一方、両モデルともサイバーセキュリティ能力は「Critical」となり制限が強化された。同日より各有料プランで利用可能だ。"
-    },
-    {
-      "id": "itmedia:ddff63e1",
-      "sourceId": "itmedia",
-      "sourceName": "ITmedia NEWS",
-      "title": "NVIDIAのフアン前CEO、退任後初のX投稿　「取締役会が望むならCEOに復帰したい」",
-      "url": "https://www.itmedia.co.jp/news/article/2611/18/2000003278/",
-      "publishedAt": "2026-11-17T21:54:40.000Z",
-      "excerpt": "NVIDIAを退任したジェンスン・フアン前CEOは、自身のXで「取締役会が望むならCEOに復帰したい」と表明し、私生活での過ちを謝罪した。同日、NVIDIAは国家安全保障を監督する新委員会の設立を発表。米下院の各委員会も、12月初旬にフアン氏らへ非公開の聴取を行うことを明らかにしている。"
-    },
-    {
       "id": "publickey:29c431f2",
       "sourceId": "publickey",
       "sourceName": "Publickey",
@@ -818,15 +845,6 @@
       "excerpt": "マイクロソフトは日本時間11月18日未明に開幕した年次イベント「Microsoft Ignite 2026」で、Azure SQL Databaseをローカルで実行する「Azure SQL Database local development container」のパブリックプレビューを発表しました。 Azure SQL Database local development containerは、クラウドであるMicrosoft Azure上のAzure SQL Databa……"
     },
     {
-      "id": "itmedia:ef7c5d03",
-      "sourceId": "itmedia",
-      "sourceName": "ITmedia NEWS",
-      "title": "楽天証券に不正アクセス、最大1125万口座のIDなど漏えいか　「テスト環境」の一部情報が流出のおそれ",
-      "url": "https://www.itmedia.co.jp/news/article/2611/17/2000003275/",
-      "publishedAt": "2026-11-17T10:57:46.000Z",
-      "excerpt": "楽天証券は、第三者による不正アクセスで最大約1125万口座分の顧客情報が漏えいした可能性があると発表した。うち最大約447万口座分は氏名や住所、金融資産情報なども対象。パスワードや暗証番号の漏えいは確認していない。"
-    },
-    {
       "id": "publickey:f5bf4f0f",
       "sourceId": "publickey",
       "sourceName": "Publickey",
@@ -861,24 +879,6 @@
       "url": "https://www.publickey1.jp/blog/26/cloudflareaikitesurf.html",
       "publishedAt": "2026-11-15T15:30:19.000Z",
       "excerpt": "Cloudflareは、AIエージェントが操作することを想定した軽量のヘッドレスブラウザ「Kitesurf」をオープンソースで公開したと発表しました。 Kitesurf is now open source on GitHub under the Apache 2.0 license. Fork the repo, run it locally with Wrangler, or deploy a custom instance to Cloudflare. https://……"
-    },
-    {
-      "id": "publickey:bc354fc9",
-      "sourceId": "publickey",
-      "sourceName": "Publickey",
-      "title": "Google Antigravity、クラウド上でAIエージェントが働く「リモートエージェント」機能を搭載。就業時間外でもAIエージェントは働き続ける",
-      "url": "https://www.publickey1.jp/blog/26/google_antigravityaiai.html",
-      "publishedAt": "2026-11-12T15:13:43.000Z",
-      "excerpt": "Googleが提供するAIエージェントによる開発環境「Antigravity」に、新機能「リモートエージェント」が搭載されました。 We want Antigravity to be working for you all the time. We’ve been rolling out remote agents this week. Your tasks run in independent cloud virtual machines. Fire off a task,……"
-    },
-    {
-      "id": "publickey:a702dd44",
-      "sourceId": "publickey",
-      "sourceName": "Publickey",
-      "title": "AWSをローカルマシン上でエミュレートする、AWS公式の「AWSエミュレータ」正式リリース",
-      "url": "https://www.publickey1.jp/blog/26/awsawsaws_1.html",
-      "publishedAt": "2026-11-12T15:09:51.000Z",
-      "excerpt": "Amazon Web Servicesは、ローカルマシン上でAWSのAPIをエミュレートする「AWSエミュレータ」の正式リリースを発表しました。 ダウンロードしてインストールすれば誰でも無料で利用でき、AWSアカウントも不要です。 Today we're launching AWS Emulator, a free local emulator of AWS services for building and testing your apps offline. Every ……"
     }
   ]
 }
