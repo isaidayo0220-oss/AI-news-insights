@@ -1,0 +1,1135 @@
+{
+  "generatedAt": "2026-11-26T03:23:03.007Z",
+  "sources": [
+    {
+      "id": "itmedia",
+      "name": "ITmedia NEWS",
+      "homepage": "https://www.itmedia.co.jp/news/"
+    },
+    {
+      "id": "publickey",
+      "name": "Publickey",
+      "homepage": "https://www.publickey1.jp/"
+    },
+    {
+      "id": "gigazine",
+      "name": "GIGAZINE",
+      "homepage": "https://gigazine.net/"
+    }
+  ],
+  "articleCount": 95,
+  "aiSummary": {
+    "available": true,
+    "overview": "本日のIT/テクノロジーニュースは、AI技術の進化とそれに伴う社会的な影響、そしてサイバーセキュリティの脅威の増大が主要な傾向として見られます。特に、AIが数学論文を生成したり、宇宙AIデータセンターの設置が承認されたりと、AIの応用範囲が拡大している一方で、AIチャットボット搭載おもちゃの規制やAIの倫理的利用に関する議論も活発です。また、パスワード管理アプリのハッキングや脆弱性の急増など、セキュリティリスクへの対応が喫緊の課題となっています。",
+    "highlights": [
+      {
+        "title": "GoogleのAIが人間の介入なしに6本の数学論文を生成、素因数分解など数十年停滞していた分野に光",
+        "reason": "AIが人間の介入なしに高度な数学論文を生成したことは、AIの自律的な研究開発能力の飛躍的な向上を示しており、科学分野におけるAIの役割を大きく変える可能性を秘めています。",
+        "articleId": "gigazine:9bab6f16",
+        "analysis": {
+          "summary": "Google Researchが開発したAIシステム「Cogentic」が、人間の介入なしに6本の数学論文を生成し、GitHubに投稿しました。これらの論文はGemini 4を基盤としており、素因数分解など長年停滞していた数学分野に新たな進展をもたらす可能性を示唆しています。",
+          "keyPoints": [
+            "GoogleのAIシステム「Cogentic」が人間の介入なしに数学論文を生成。",
+            "Gemini 4をベースとしたマルチエージェントシステムが数学的発見を達成。",
+            "素因数分解など停滞分野での進展が期待される。"
+          ],
+          "keywords": [
+            "Google Research",
+            "Cogentic",
+            "Gemini 4",
+            "AI",
+            "数学論文",
+            "素因数分解"
+          ],
+          "category": "AI",
+          "importanceStars": 5,
+          "importanceReason": "AIが自律的に科学的発見を行う能力を示し、研究開発のあり方を根本的に変える可能性を秘めているため。",
+          "consultantPoints": [
+            "自社R&DプロセスにおけるAI導入の可能性とリスクを評価すべき。",
+            "AIによる知的財産創出に関する法整備や倫理的ガイドラインの動向を注視すべき。",
+            "AIが生成した成果物の信頼性検証メカニズムをどう構築するか検討すべき。"
+          ],
+          "issue": "AIが人間の介入なしに高度な科学的発見を行う能力を獲得したことで、研究開発のパラダイムがどのように変化するか。",
+          "hypotheses": [
+            "今後、AIが生成した論文が査読プロセスを通過し、学術界で広く認知されるようになる。",
+            "AIによる研究開発が加速し、これまで解決不可能とされた科学的課題が短期間で解決される可能性がある。",
+            "AIが生成する知的財産の帰属や著作権に関する新たな法的・倫理的議論が活発化する。"
+          ],
+          "businessImpact": {
+            "company": "研究開発部門を持つ企業は、AIを活用したR&Dの効率化や新規事業創出の機会を探る必要がある一方、AIによる成果物の品質管理や倫理的責任の課題に直面する。",
+            "consumer": "AIがもたらす科学技術の進歩により、より高度な製品やサービスが提供される可能性があるが、AIの誤謬や偏見による影響を受けるリスクも考慮される。",
+            "market": "AI研究開発市場はさらに拡大し、AIツールやプラットフォームを提供する企業に大きなビジネスチャンスが生まれる。一方で、既存の研究機関や大学の役割が再定義される可能性がある。",
+            "economy": "AIによる生産性向上は経済成長を加速させる可能性があるが、特定の職種における雇用構造の変化や、AI技術を持つ国と持たない国との格差拡大のリスクも存在する。"
+          },
+          "actions": [
+            "Google ResearchのGitHubリポジトリで公開された論文の内容を詳細に確認する。",
+            "CogenticのようなマルチエージェントAIシステムの技術的詳細と応用可能性を調査する。",
+            "AIによる科学的発見に関する最新の学術論文や業界レポートを収集する。"
+          ],
+          "readingNotes": {
+            "learning": "AIが単なるデータ処理ツールから、自律的な「発見者」へと進化していることを学んだ。",
+            "insight": "AIが人間の思考の限界を超え、新たな数学的アプローチや解決策を見出す可能性に驚きを感じた。これは科学研究のボトルネックを解消するブレイクスルーとなるかもしれない。",
+            "tomorrow": "自社のR&D戦略において、AIを単なる補助ツールではなく、共同研究者として位置づける可能性について議論を開始する。特に、探索的・仮説生成フェーズでのAI活用を検討する。"
+          }
+        }
+      },
+      {
+        "title": "アメリカの規制当局がSpaceXの宇宙AIデータセンター設置計画を承認",
+        "reason": "宇宙空間にAIデータセンターを設置する計画が承認されたことは、AIインフラの新たなフロンティアを開拓するものであり、地球上の制約を超えたAI開発の可能性を広げ、その影響は広範囲に及ぶと予想されます。",
+        "articleId": "gigazine:d1a09285",
+        "analysis": {
+          "summary": "FCCがSpaceXの宇宙AIデータセンター設置計画を承認しました。この計画は、Starlink衛星を活用し、宇宙空間でAI処理を行うデータセンターを構築するものです。これにより、地球上のデータセンターに依存しない新たなAIインフラが生まれる可能性があります。",
+          "keyPoints": [
+            "FCCがSpaceXの宇宙AIデータセンター設置計画を承認。",
+            "Starlink衛星網を活用し、宇宙空間でAI処理を行うデータセンターを構築する計画。",
+            "地球上のデータセンターに依存しない新たなAIインフラの可能性を提示。"
+          ],
+          "keywords": [
+            "SpaceX",
+            "FCC",
+            "宇宙AIデータセンター",
+            "Starlink",
+            "AIインフラ"
+          ],
+          "category": "AI",
+          "importanceStars": 4,
+          "importanceReason": "宇宙空間でのAIデータセンターは、AIインフラの概念を根本的に変える可能性を秘めているため重要です。",
+          "consultantPoints": [
+            "宇宙AIデータセンターが提供する低遅延・高セキュリティなAI処理能力を、どのようなユースケースで活用できるか検討すべき。",
+            "既存の地上データセンター事業者やクラウドプロバイダーは、この新たな競合環境にどう対応すべきか戦略を練る必要がある。",
+            "宇宙空間でのデータ処理に関する規制や法整備の動向を注視し、将来的な事業展開への影響を評価すべき。"
+          ],
+          "issue": "宇宙AIデータセンターの実現が、AIインフラ市場およびデータ処理のあり方をどのように変革するか。",
+          "hypotheses": [
+            "宇宙AIデータセンターは、軍事、宇宙探査、遠隔地でのリアルタイムAI処理など、特定の高付加価値領域で先行的に導入されるだろう。",
+            "地上データセンターとの連携やハイブリッド型AIインフラが主流となり、完全な代替ではなく補完関係が構築される可能性がある。",
+            "宇宙空間でのデータ処理に関する新たなセキュリティ脅威やプライバシー問題が発生し、それに対応する技術や規制が求められるようになるだろう。"
+          ],
+          "businessImpact": {
+            "company": "（事実）SpaceXは新たな収益源と技術的優位性を確立する。（推測）既存のクラウド・データセンター企業は競争激化に直面し、新たなサービスモデルを模索する必要がある。",
+            "consumer": "（推測）将来的には、より高速でセキュアなAIサービスを享受できる可能性があるが、直接的な影響は限定的。",
+            "market": "（推測）宇宙関連産業、AIインフラ市場、データセンター市場に大きな変革をもたらし、新たなエコシステムが形成される可能性がある。",
+            "economy": "（推測）長期的に見れば、新たな産業の創出と技術革新により、日本経済を含むグローバル経済にプラスの影響を与える可能性がある。"
+          },
+          "actions": [
+            "SpaceXの宇宙AIデータセンターの詳細な技術仕様とロードマップを調査する。",
+            "競合他社（Amazon Kuiperなど）の宇宙インフラ計画と比較分析を行う。",
+            "宇宙空間でのデータ処理に関する国際的な規制動向やセキュリティ基準について情報収集する。"
+          ],
+          "readingNotes": {
+            "learning": "宇宙空間でのAIデータセンターという新たな概念が現実味を帯びてきたこと、そしてその実現に向けた規制当局の承認プロセスを学んだ。",
+            "insight": "AIインフラの未来は、地上だけでなく宇宙空間へと拡張される可能性があり、これはデータ処理の場所と方法に関するパラダイムシフトを示唆している。",
+            "tomorrow": "自社のAI戦略において、将来的な宇宙AIインフラの活用可能性を検討する際の参考にする。また、関連技術や市場動向の継続的なモニタリングを開始する。"
+          }
+        }
+      },
+      {
+        "title": "脆弱性の発見数、1年で2倍超　Microsoft製品も月100件から1000件超に……AIで一変",
+        "reason": "AIの進化が脆弱性の発見数を劇的に増加させているという事実は、サイバーセキュリティの脅威が質・量ともに増大していることを示しており、企業や個人のセキュリティ対策の根本的な見直しを迫るものです。",
+        "articleId": "itmedia:e2d7fdbb",
+        "analysis": {
+          "summary": "2026年に入り、脆弱性の発見数が前年の2倍以上に急増し、特にMicrosoft製品では月間1000件を超える脆弱性が修正されている。AIの進化がこの脆弱性発見と攻撃の増加に寄与しており、企業はパッチ適用への対応に迫られている。",
+          "keyPoints": [
+            "2026年の脆弱性発見数は10万件を超え、2025年の2倍以上となっている。",
+            "Microsoft製品の月間脆弱性修正件数が100件から1000件超に激増している。",
+            "AIの進化が脆弱性発見と悪用攻撃の増加の背景にあると推測される。"
+          ],
+          "keywords": [
+            "脆弱性",
+            "セキュリティ",
+            "AI",
+            "Microsoft",
+            "サイバー攻撃"
+          ],
+          "category": "DX",
+          "importanceStars": 5,
+          "importanceReason": "AIの進化がサイバーセキュリティ環境を根本的に変化させ、企業の情報システム運用に直接的な影響を与えるため。",
+          "consultantPoints": [
+            "脆弱性管理プロセスの再評価と自動化ツールの導入による効率化の検討。",
+            "AIを活用した脅威インテリジェンスの強化と予測的防御戦略の構築。",
+            "サプライチェーン全体のセキュリティリスク評価と連携強化の必要性。"
+          ],
+          "issue": "AIの進化による脆弱性の急増に対し、企業がどのように効果的かつ効率的にセキュリティ対策を講じるか。",
+          "hypotheses": [
+            "AIを活用した脆弱性発見ツールや攻撃ツールがさらに普及し、脆弱性発見数と攻撃件数は今後も増加し続けるだろう。",
+            "セキュリティパッチの適用が追いつかなくなり、未修正の脆弱性を狙ったサイバー攻撃による被害が拡大する可能性がある。",
+            "AIによる自動化されたセキュリティ対策ソリューションへの投資が加速し、セキュリティ業界のM&Aが活発化するだろう。"
+          ],
+          "businessImpact": {
+            "company": "パッチ適用業務の負荷増大、セキュリティ人材不足の深刻化、情報漏洩やシステム停止リスクの増加。",
+            "consumer": "個人情報流出やサービス停止による利便性低下、サイバー犯罪被害の増加。",
+            "market": "セキュリティ関連製品・サービスの需要急増、AIセキュリティ市場の拡大、保険料の上昇。",
+            "economy": "サイバー攻撃による経済損失の増加、企業のデジタル化推進の足かせとなる可能性。"
+          },
+          "actions": [
+            "自社の脆弱性管理体制とパッチ適用プロセスの現状を評価する。",
+            "AIを活用したセキュリティソリューションの最新動向と導入事例を調査する。",
+            "セキュリティ人材の育成・確保戦略について検討を開始する。"
+          ],
+          "readingNotes": {
+            "learning": "AIが脆弱性発見と攻撃の両面でゲームチェンジャーとなり、従来のセキュリティ対策では追いつかない状況が生まれている。",
+            "insight": "単なるパッチ適用だけでなく、AIによる脅威予測や自動防御、サプライチェーン全体のセキュリティ強化といった多角的なアプローチが不可欠になる。",
+            "tomorrow": "自社のセキュリティチームと連携し、AI時代の脆弱性管理とセキュリティ戦略について議論を開始する。"
+          }
+        }
+      },
+      {
+        "title": "AIチャットボット搭載おもちゃの製造・流通・販売を5年間停止する法律にニューヨーク州知事が署名",
+        "reason": "AI技術の急速な進展に対し、具体的な製品（AIチャットボット搭載おもちゃ）の製造・販売を規制する法律が成立したことは、AIの倫理的・社会的な影響に対する懸念が現実の政策に反映され始めたことを示しており、今後のAI規制の動向に大きな影響を与える可能性があります。",
+        "articleId": "gigazine:292b70ab",
+        "analysis": {
+          "summary": "ニューヨーク州知事が、AIチャットボット搭載おもちゃの製造・流通・販売を5年間停止する法律に署名しました。この法律は署名から90日後に発効し、ホリデーシーズン前の保護者に対し、AIおもちゃの潜在的リスクを考慮するよう呼びかけています。これは子どもたちのプライバシーと安全保護を目的とした動きです。",
+          "keyPoints": [
+            "ニューヨーク州がAIチャットボット搭載おもちゃの製造・流通・販売を5年間停止する法律を制定。",
+            "法律は署名から90日後に発効し、ホリデーシーズンに先駆けて適用される。",
+            "知事は保護者に対し、AIおもちゃの潜在的リスクを考慮するよう呼びかけ。"
+          ],
+          "keywords": [
+            "AIチャットボット",
+            "おもちゃ",
+            "ニューヨーク州",
+            "規制",
+            "プライバシー"
+          ],
+          "category": "政策",
+          "importanceStars": 4,
+          "importanceReason": "AI技術の急速な進展に対し、具体的な製品分野での規制が米国の一州で導入されたことは、今後のAI関連製品開発・市場展開に大きな影響を与える可能性があるため。",
+          "consultantPoints": [
+            "AI搭載製品を開発・販売する企業は、地域ごとの規制動向を常に監視し、製品設計や市場戦略に反映させるべき。",
+            "消費者向けAI製品におけるプライバシー保護やデータセキュリティに関するリスク評価と対策を強化する必要がある。",
+            "規制当局や消費者団体との対話を通じて、AI技術の健全な発展と利用に向けた業界標準やガイドライン策定に貢献する機会を検討すべき。"
+          ],
+          "issue": "AI技術の急速な進化と普及に対し、消費者の安全とプライバシー保護を目的とした規制が、製品開発・市場展開の足かせとなる可能性があること。",
+          "hypotheses": [
+            "他の州や国もニューヨーク州に追随し、AI搭載おもちゃや類似の消費者向けAI製品に対する同様の規制を導入する可能性が高い。",
+            "AIおもちゃメーカーは、規制の緩い地域への市場シフトや、規制に準拠するための技術的・法的対応に多大なコストをかけることになるだろう。",
+            "AI技術の倫理的利用やプライバシー保護に関する国際的な議論が加速し、より広範なガイドラインや標準が策定される可能性がある。"
+          ],
+          "businessImpact": {
+            "company": "AIおもちゃメーカーはニューヨーク州市場から撤退するか、製品仕様変更を迫られる。他のAI搭載消費者製品メーカーも将来の規制を見越した開発戦略の見直しが必要となる。",
+            "consumer": "ニューヨーク州の消費者は、AIチャットボット搭載おもちゃの選択肢が一時的に制限されるが、プライバシーと安全性の保護が強化される。",
+            "market": "AIおもちゃ市場はニューヨーク州で縮小し、他の地域での成長が加速する可能性。規制対応コストの増加により、新規参入障壁が高まる。",
+            "economy": "日本経済への直接的な影響は限定的だが、日本のAI関連企業が米国市場に進出する際の規制リスクが高まり、開発・投資戦略に影響を与える可能性がある。"
+          },
+          "actions": [
+            "ニューヨーク州の当該法律の詳細な条文と適用範囲を確認する。",
+            "他の米国州やEUにおけるAI関連製品の規制動向を調査する。",
+            "AI倫理、プライバシー保護に関する国際的な議論や標準化の動きを追跡する。"
+          ],
+          "readingNotes": {
+            "learning": "AI技術の進展に伴い、具体的な製品分野での規制が現実のものとなっている。特に子ども向けの製品は、プライバシー保護の観点から厳しく見られる傾向がある。",
+            "insight": "技術の進歩と社会受容の間には常にギャップがあり、規制はそのギャップを埋めるための手段となる。企業は技術開発だけでなく、社会との対話と規制動向の理解が不可欠である。",
+            "tomorrow": "自社が関わるAI関連製品やサービスについて、将来的な規制リスクを洗い出し、対応策を検討する。特に消費者向け製品は、プライバシーとセキュリティの観点から再評価する。"
+          }
+        }
+      },
+      {
+        "title": "24時間超のMicrosoft 365停止を受け重大なサービス障害の防止と対応方法を根本的に見直すための「コードレッド」をMicrosoftが宣言",
+        "reason": "Microsoft 365のような広範に利用されるクラウドサービスの大規模障害は、社会インフラとしてのITサービスの信頼性の重要性を浮き彫りにします。Microsoftが「コードレッド」を宣言し、根本的な見直しを行うことは、今後のクラウドサービスの安定性向上に向けた業界全体の取り組みに影響を与えるでしょう。",
+        "articleId": "gigazine:cdb6ebe4",
+        "analysis": {
+          "summary": "Microsoft 365で2026年11月13日に発生した24時間超の世界規模サービス障害を受け、Microsoftは重大なサービス障害の防止と対応策を根本的に見直す「コードレッド」を宣言しました。これは、同社のクラウドサービスにおける信頼性向上へのコミットメントを示すものです。",
+          "keyPoints": [
+            "Microsoft 365で24時間超の世界規模障害が発生した事実。",
+            "Microsoftがサービス障害の防止・対応策を抜本的に見直す「コードレッド」を宣言した事実。",
+            "クラウドサービスの信頼性確保がMicrosoftの最優先課題となった推測。"
+          ],
+          "keywords": [
+            "Microsoft 365",
+            "サービス障害",
+            "コードレッド",
+            "クラウドサービス",
+            "信頼性"
+          ],
+          "category": "DX",
+          "importanceStars": 5,
+          "importanceReason": "世界的なクラウドサービスプロバイダーの重大な障害と、それに対する抜本的な対応は、DX推進企業にとってサービス選定やリスク管理に直結するため極めて重要です。",
+          "consultantPoints": [
+            "自社の基幹システムが利用するクラウドサービスのSLA（サービス品質保証）と過去の障害実績を再評価すべきか。",
+            "マルチクラウド戦略やDR（災害復旧）戦略において、単一ベンダーへの依存リスクをどのように低減するか。",
+            "クラウドサービス障害発生時の事業継続計画（BCP）や緊急時対応プロセスの実効性を確認すべきか。"
+          ],
+          "issue": "世界的なクラウドサービスプロバイダーの障害が、利用企業の事業継続性にもたらすリスクをいかに管理するか。",
+          "hypotheses": [
+            "Microsoftは今後、障害検知・復旧の自動化、冗長性の強化、AIを活用した予兆検知などに大規模な投資を行うと推測される。",
+            "他の主要クラウドプロバイダーも、同様の障害発生リスクを再評価し、信頼性向上への投資を加速させる可能性があると推測される。",
+            "企業はクラウドサービス選定において、価格や機能だけでなく、障害対応能力や透明性をより重視するようになると推測される。"
+          ],
+          "businessImpact": {
+            "company": "Microsoft 365利用企業は、事業継続性へのリスク再評価と、代替手段やDR戦略の検討が求められる可能性があります。クラウドサービスプロバイダーは信頼性向上が喫緊の課題となります。",
+            "consumer": "Microsoft 365を利用する個人ユーザーは、一時的にサービスが利用できなくなる不便を被る可能性がありますが、長期的に見ればサービスの安定性向上が期待されます。",
+            "market": "クラウドサービス市場全体で、信頼性やSLAの重要性が再認識され、ベンダー間の競争軸に影響を与える可能性があります。マルチクラウドソリューションや障害対策サービスへの需要が高まるかもしれません。",
+            "economy": "日本経済全体への直接的な影響は限定的ですが、DX推進の基盤となるクラウドサービスの信頼性向上は、企業の生産性向上を通じて間接的にプラスに作用する可能性があります。"
+          },
+          "actions": [
+            "自社が利用するMicrosoft 365のSLA内容と、今回の障害が自社に与えた影響を具体的に評価する。",
+            "Microsoftの「コードレッド」宣言後の具体的な改善策やロードマップに関する情報を継続的に追跡する。",
+            "クラウドサービス障害発生時の自社の事業継続計画（BCP）や緊急時対応プロセスの見直し、または策定に着手する。"
+          ],
+          "readingNotes": {
+            "learning": "世界的なクラウドサービスでも大規模障害は発生し得るという事実と、それに対するトップベンダーの危機意識の高さ。",
+            "insight": "クラウドサービス利用が不可欠な現代において、障害発生時のリスク管理と事業継続計画の重要性は、これまで以上に高まっている。",
+            "tomorrow": "自社のクラウドサービス利用状況を棚卸し、主要サービスのSLAと過去の障害実績を再確認する。また、障害発生時の社内連絡体制と対応フローを改めて検討する。"
+          }
+        }
+      }
+    ]
+  },
+  "articles": [
+    {
+      "id": "gigazine:c1528a9c",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "男性の「精子の数や質」は本当に減少しているのか？",
+      "url": "https://gigazine.net/news/20261126-mens-sperm-counts-not-decline/",
+      "publishedAt": "2026-11-26T03:00:00.000Z",
+      "excerpt": "近年は「男性の精子」が世界的に減少しているという研究結果が複数報告されており、出生率への悪影響が懸念されています。ところが、デンマークで行われた研究では過去20年以上にわたって精子の数が安定しており、状況はより複雑であることが示唆されています。 続きを読む..."
+    },
+    {
+      "id": "gigazine:9bab6f16",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "GoogleのAIが人間の介入なしに6本の数学論文を生成、素因数分解など数十年停滞していた分野に光",
+      "url": "https://gigazine.net/news/20261126-cogentic-6-research-papers/",
+      "publishedAt": "2026-11-26T02:47:00.000Z",
+      "excerpt": "Googleの研究部門であるGoogle Researchが、6つの数学論文をGitHubに投稿しました。これらの論文は全て、Gemini 4をベースとする数学的発見を行うためのマルチエージェントシステム「Cogentic」が生成しています。 続きを読む..."
+    },
+    {
+      "id": "gigazine:d1a09285",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "アメリカの規制当局がSpaceXの宇宙AIデータセンター設置計画を承認",
+      "url": "https://gigazine.net/news/20261126-fcc-approves-spacex-plan-ai-data-centers-space/",
+      "publishedAt": "2026-11-26T02:30:00.000Z",
+      "excerpt": "アメリカ国内の放送通信事業の規制監督を行う連邦通信委員会(FCC)が、イーロン・マスク氏率いる宇宙開発企業であるSpaceXの「宇宙AIデータセンター」設置計画を承認しました。 続きを読む..."
+    },
+    {
+      "id": "itmedia:e2d808c0",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "「PayPayマネーライト現金化」サービス、PayPay「当社は関与していない」「絶対に利用しないで」",
+      "url": "https://www.itmedia.co.jp/news/article/2611/26/2000003474/",
+      "publishedAt": "2026-11-26T02:27:43.000Z",
+      "excerpt": "PayPayマネーライトを現金化する目的で第三者へ譲渡する行為はPayPayの利用規約違反であり、PayPay残高の利用停止やアカウントの閉鎖などの措置を講じる場合があると警告している。"
+    },
+    {
+      "id": "gigazine:292b70ab",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "AIチャットボット搭載おもちゃの製造・流通・販売を5年間停止する法律にニューヨーク州知事が署名",
+      "url": "https://gigazine.net/news/20261126-new-york-state-bans-ai-toys/",
+      "publishedAt": "2026-11-26T02:25:00.000Z",
+      "excerpt": "ホリデーシーズンで買い物需要が高まるのに先駆けて、「AIチャットボット搭載おもちゃをニューヨーク州内で製造・流通・販売することを5年間停止する」という法律に、キャシー・ホークル知事が署名しました。法律の発効は署名から90日後でホリデーシーズンよりも先になるため、ホークル知事は「ホリデーシーズンに子どもにプレゼントを購入する際は、AIチャットボット搭載おもちゃのもたらす潜在的リスクについて検討するようにしてください」と保護者に呼びかけています。 続きを読む..."
+    },
+    {
+      "id": "itmedia:e2d808a1",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "AnthropicのアモデイCEO、「人間の自由意志をAIに明け渡す」考えを否定　AI企業間で議論",
+      "url": "https://www.itmedia.co.jp/news/article/2611/26/2000003473/",
+      "publishedAt": "2026-11-26T02:24:00.000Z",
+      "excerpt": "Anthropicのダリオ・アモデイCEOは、超知能AIに人間の意思決定権を委ねるべきだと考えているとしたAxiosの報道をXで否定した。社会の統治と個別タスクの自動化を混同していると反論し、AIは民主的プロセスで管理されるべきだと強調した。超知能時代の主導権を巡っては、OpenAIやMeta幹部も発言しており議論が広がっている。"
+    },
+    {
+      "id": "gigazine:d1a725cb",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "パスワード管理アプリ「1Password」がハッキングされ顧客アカウント情報を盗まれる",
+      "url": "https://gigazine.net/news/20261126-1password-security-incident/",
+      "publishedAt": "2026-11-26T02:08:00.000Z",
+      "excerpt": "現地時間の2026年11月25日、パスワード管理アプリの「1Password」が、社内システムがハッキングされ一部顧客アカウントの情報が窃取されたことを明かしました。 続きを読む..."
+    },
+    {
+      "id": "gigazine:6ab74721",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "Kimi K3をベースにコーディング能力を増強したAIモデル「SWE-2.1」が登場",
+      "url": "https://gigazine.net/news/20261126-swe-2-1-coding-ai/",
+      "publishedAt": "2026-11-26T02:05:00.000Z",
+      "excerpt": "アメリカに拠点を置くAI開発企業のCognitionがAIモデル「SWE-2.1」を現地時間の2026年11月24日に発表しました。中国製AIモデル「Kimi K3」をベースに開発されており、コーディング能力が大幅に引き上げられています。 続きを読む..."
+    },
+    {
+      "id": "gigazine:21b87f84",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "AnthropicがClaudeを使って自社APIをPythonからRustに移植しCPU使用量を約70％削減した方法を公開",
+      "url": "https://gigazine.net/news/20261126-anthropic-claude-api-rust/",
+      "publishedAt": "2026-11-26T02:02:00.000Z",
+      "excerpt": "AI企業のAnthropicが、AIモデル「Claude」を外部から利用するための「Messages API」をPythonからRustに移植した際の開発手法を公開しました。AnthropicはClaudeを活用して移植を進め、2026年9月にサービスを停止することなくRust版へ移行。リクエスト当たりのCPU使用量を約70％削減することに成功しています。 続きを読む..."
+    },
+    {
+      "id": "itmedia:e2d80882",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "都が育児支援で配った「QUOカードPay」が「使えない」「残高減っている」……委託先への不正アクセスが関係か",
+      "url": "https://www.itmedia.co.jp/news/article/2611/26/2000003472/",
+      "publishedAt": "2026-11-26T01:32:28.000Z",
+      "excerpt": "赤ちゃんファーストコールセンターに「QUOカードPayが利用できない」「残高が少なくなっている」などの相談が寄せられ、リンベルが調べたところ、問題を確認した。"
+    },
+    {
+      "id": "itmedia:e2d7fdbb",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "脆弱性の発見数、1年で2倍超　Microsoft製品も月100件から1000件超に……AIで一変",
+      "url": "https://www.itmedia.co.jp/news/article/2611/26/2000003446/",
+      "publishedAt": "2026-11-26T01:00:00.000Z",
+      "excerpt": "米Microsoftが毎月公開しているWindowsのセキュリティ更新プログラム。11月は1000件以上の脆弱性が修正された。他社の製品も含めると、2026年に入って発見された脆弱性は10万件を超え、すでに25年の倍以上だ。AIの進化に伴い脆弱性の発見とそれを悪用した攻撃が激増する中で、パッチを適用する側はどう対処すればいいのか。"
+    },
+    {
+      "id": "itmedia:e2d8059a",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "「サツドラ」顧客情報22万件流出　委託先サイバーエージェントがデータ誤公開、1年以上気づかず",
+      "url": "https://www.itmedia.co.jp/news/article/2611/26/2000003469/",
+      "publishedAt": "2026-11-26T00:23:25.000Z",
+      "excerpt": "サイバーエージェントが開発環境のクラウド上の保管領域に、顧客の個人情報を含むファイルを誤って公開設定で1年以上にわたって配置しており、第三者が対象のファイルを少なくとも9回にわたって取得していたという。"
+    },
+    {
+      "id": "itmedia:e2d8057b",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "SpaceXの軌道上データセンター衛星「Starmind」、米FCCが最大100万基を承認",
+      "url": "https://www.itmedia.co.jp/news/article/2611/26/2000003468/",
+      "publishedAt": "2026-11-26T00:15:54.000Z",
+      "excerpt": "米連邦通信委員会（FCC）は、SpaceXによる軌道上データセンター衛星群「Starmind」の配備を条件付きで承認した。宇宙空間のデータセンター群に対する認可は米国初で、最大100万基の軌道コンピュートモジュールで構成する。一方、高度600km超の衛星の一部に関する宇宙デブリ対策については判断を保留した。"
+    },
+    {
+      "id": "gigazine:ff2eea4a",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "「普段どれくらいゲームするのか？」「欲しいゲーム機は？」「Steamでよく遊ぶジャンルは？」などGIGAZINE読者のゲーム事情を調査してみた",
+      "url": "https://gigazine.net/news/20261126-gigazine-user-game-preference/",
+      "publishedAt": "2026-11-26T00:00:00.000Z",
+      "excerpt": "GIGAZINEにはゲームのカテゴリがあり、普段から新作ゲームの情報を記事化したり編集部が実際に遊んだゲームのレビューを掲載したりしています。そこで2025年冬・2026年春に続き、2026年夏のプレゼントアンケートでも読者に1日にゲームをする時間や持っているゲーム機、欲しいゲーム機などを聞いてみました。 続きを読む..."
+    },
+    {
+      "id": "itmedia:e2d8055c",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "M&A検討資料など最大数千社分漏えいか　ミロク情報子会社に不正アクセス　役職員の認証情報取得される",
+      "url": "https://www.itmedia.co.jp/news/article/2611/26/2000003467/",
+      "publishedAt": "2026-11-25T23:35:38.000Z",
+      "excerpt": "ファイアウォール機器に、第三者が作成したとみられる管理者アカウントなどの不審な設定があった。役職員の認証情報の一部が不正に取得されたことも確認したという。"
+    },
+    {
+      "id": "gigazine:84ff132d",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "「トマト詐欺」で大手食品メーカーが訴えられる",
+      "url": "https://gigazine.net/news/20261126-cento-fine-foods-sued-tomato-fraud/",
+      "publishedAt": "2026-11-25T23:00:00.000Z",
+      "excerpt": "大手食品メーカーのCento Fine Foodsが、「トマト詐欺」で訴えられました。この「トマト詐欺」について、オンラインマガジンのSlateが解説しています。 続きを読む..."
+    },
+    {
+      "id": "itmedia:e2d8053d",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "1Password、一部顧客の氏名やメールアドレスが流出　保管庫内のデータに「影響なし」",
+      "url": "https://www.itmedia.co.jp/news/article/2611/26/2000003466/",
+      "publishedAt": "2026-11-25T22:01:52.000Z",
+      "excerpt": "パスワード管理ツール「1Password」を手掛けるカナダのAgileBitsは、従業員のGitHubアカウントを悪用した不正アクセスにより、一部顧客の氏名やメールアドレスなどが流出したと発表した。保管庫（Vault）内のデータや暗号化鍵に影響はなく、ユーザー側でのパスワード変更は不要だが、フィッシング詐欺への注意を呼び掛けている。"
+    },
+    {
+      "id": "gigazine:f2fcf263",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "Linux上で完全なmacOS GUIユーザー空間を実現する「xnulinux」",
+      "url": "https://gigazine.net/news/20261126-xnu-linux/",
+      "publishedAt": "2026-11-25T21:00:00.000Z",
+      "excerpt": "Linux環境上でmacOSのGUIユーザー空間を実行可能にする「xnulinux」がオープンソースプロジェクトとして開発されています。macOSのオープンソースカーネルであるXNUをLinuxカーネルモジュールとして直接実行するのが特徴で、すでにApple Silicon Mac上のLinux仮想環境やNVIDIA DGX Sparkといったarm64 Linux環境で動作が確認されています。 続きを読む..."
+    },
+    {
+      "id": "publickey:f487f6cb",
+      "sourceId": "publickey",
+      "sourceName": "Publickey",
+      "title": "MCPに新機能「Skills over MCP」登場。ツールとの接続だけでなく使い方のスキルもMCP経由で提供",
+      "url": "https://www.publickey1.jp/blog/26/mcpskills_over_mcpmcp.html",
+      "publishedAt": "2026-11-25T15:29:05.000Z",
+      "excerpt": "AIエージェントと外部ツールを接続する業界標準となっているMCP（Model Context Protocol）に、新機能として「Skills over MCP」がβ版として追加されました。 Skills over MCPを利用することで、AIエージェントはMCP経由でMCPサーバからつねに最新のスキルを取得できるようになります。また、必要なときだけスキルを読み込めるためコンテキストの節約にもなります。 下図はMCPの開発を主導するAnthropicのブログ「MCP serv……"
+    },
+    {
+      "id": "publickey:2f93665",
+      "sourceId": "publickey",
+      "sourceName": "Publickey",
+      "title": "「Google Workspace MCPサーバ」と「Google Workspace CLI」が正式版としてリリース",
+      "url": "https://www.publickey1.jp/blog/26/google_workspace_mcpgoogle_workspace_cli.html",
+      "publishedAt": "2026-11-25T15:27:15.000Z",
+      "excerpt": "Googleは、Google WorkspaceをAIエージェントが操作するためのインターフェイスとして「Google Workspace MCP Server」と「Google Workspace CLI」が正式版になったことを発表しました。 下記は、Alphabet傘下でGoogleのAI研究開発を行っているGoogle Deepmind所属のPhilipp Schmid氏のポストです。 Google Workspace MCP servers and gwscli ar……"
+    },
+    {
+      "id": "gigazine:3ac4200e",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "無料のCloudflareアカウントを使って動かすパーソナルAIエージェント「Talorys」",
+      "url": "https://gigazine.net/news/20261125-talorys/",
+      "publishedAt": "2026-11-25T14:00:00.000Z",
+      "excerpt": "自分専用のAIエージェントを自前で動かそうとすると、VPSなどのサーバー契約や管理の手間に加えて有料AIのAPI利用料といったコストがかかります。そこでCloudflareの無料アカウントを使ってコマンド1つで構築でき、AIチャット・タスク管理・メモリー・リマインダーなどの機能を備えたオープンソースの「Talorys」を使ってみました。 続きを読む..."
+    },
+    {
+      "id": "gigazine:7cb9fb0f",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "なぜ犯罪組織は「偽造ワイン」を作るのか？偽造手口はどのように進化してきたのか？",
+      "url": "https://gigazine.net/news/20261125-inside-criminal-gangs-making-fake-wine/",
+      "publishedAt": "2026-11-25T13:00:00.000Z",
+      "excerpt": "ワインは世界中の人々に愛されており、市場には1本数百万円する高級ワインも出回っていますが、同時に犯罪組織による「偽造ワイン」の製造・売買も問題となっています。そんな犯罪組織による偽造ワイン製造の手口や司法当局の捜査について、ジャーナリストであるウィリアム・ラルストン氏がまとめています。 続きを読む..."
+    },
+    {
+      "id": "gigazine:92c29d5c",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "AIにリアルタイムでマインクラフトをプレイさせて性能を測定する「KradleBench」、総合1位はGPT-6.2 AstraだがPVPなら人間が最強",
+      "url": "https://gigazine.net/news/20261125-kradlebench-ai-benchmark-minecraft/",
+      "publishedAt": "2026-11-25T12:00:00.000Z",
+      "excerpt": "AIにMinecraftをプレイさせて性能を測定する「KradleBench」がAI研究組織のKradleによって公開されました。単体のAIにプレイさせるのではなく、複数のAIエージェントにマルチプレイさせるのが特徴で、協力プレイだけでなく競合プレイの性能も測定されています。 続きを読む..."
+    },
+    {
+      "id": "gigazine:e1b68b61",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "AnthropicとOpenAIの従業員らが「未公開モデルが強力になりすぎて一般公開するのは危険」と懸念",
+      "url": "https://gigazine.net/news/20261125-anthropic-openai-employees-fear-unreleased-ai-models/",
+      "publishedAt": "2026-11-25T11:30:00.000Z",
+      "excerpt": "大手AI企業のAnthropicやOpenAIで、複数の従業員が未公開の最先端AIモデルの能力が高くなりすぎたことを懸念していることがわかりました。この情報を伝えたニュースサイト・Axiosによると、すでにAIモデルを制御するための技術的解決策を凌駕し始めているそうです。 続きを読む..."
+    },
+    {
+      "id": "gigazine:7ac9ecd3",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "MacBookのトラックパッドをスピーカーに変えてしゃべらせる「NO SPEAKER」が登場",
+      "url": "https://gigazine.net/news/20261125-no-speaker-macbook-trackpad/",
+      "publishedAt": "2026-11-25T11:00:00.000Z",
+      "excerpt": "MacBookのトラックパッドにはクリックした感触を指先に伝えるための振動モーターが内蔵されています。この振動モーターを高速で駆動することで、スピーカーを一切使わずに音声や音楽を再生できるオープンソースのソフトウェア「NO SPEAKER」を、開発者のコーディー・コリアー氏が公開しました。 続きを読む..."
+    },
+    {
+      "id": "gigazine:8e2f906e",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "りんご風味をショウガのビリビリが上書きしていく「ウィルキンソン ドライジンジャエールアップル」試飲レビュー",
+      "url": "https://gigazine.net/news/20261125-wilkinson-ginger-apple/",
+      "publishedAt": "2026-11-25T10:45:00.000Z",
+      "excerpt": "アサヒ飲料の炭酸水ブランド「ウィルキンソン」に、2026年11月24日(火)から新しく「ウィルキンソン ドライジンジャエールアップル」が登場したので、買ってきて飲んでみました。 続きを読む..."
+    },
+    {
+      "id": "gigazine:b48e24a3",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "「PCやスマホのGPUをAIトレーニングに利用する代わりに報酬を支払う仕組み」の特許をMicrosoftが出願",
+      "url": "https://gigazine.net/news/20261125-microsoft-ai-use-gpu-capacity/",
+      "publishedAt": "2026-11-25T10:00:00.000Z",
+      "excerpt": "AIのトレーニングには膨大なコンピューティングリソースが必要ですが、GPUの生産量には限りがあり、AI開発企業はGPUの確保に奔走しています。そんな中でMicrosoftが、「使われていないゲーミングPCやノートPCのGPUをAIトレーニングに利用して、計算量に応じて報酬を支払う仕組み」の(PDFファイル)特許を出願したことが判明しました。 続きを読む..."
+    },
+    {
+      "id": "gigazine:7109a780",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "2026年11月25日のヘッドラインニュース",
+      "url": "https://gigazine.net/news/20261125-headline/",
+      "publishedAt": "2026-11-25T09:55:00.000Z",
+      "excerpt": "牛丼チェーンのすき家が、本日2026年11月25日(水)9時から「白髪ねぎ牛丼」と、新商品の「食べラー白髪ねぎ牛丼」の販売を開始しました。 続きを読む..."
+    },
+    {
+      "id": "gigazine:c6e0d0d8",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "中国の諜報機関が高性能AIチップの密輸を支援する秘密工作を少なくとも2年前から展開していたことが明らかに",
+      "url": "https://gigazine.net/news/20261125-china-spy-nvidia-chips/",
+      "publishedAt": "2026-11-25T09:45:00.000Z",
+      "excerpt": "「中国の情報機関である国家安全部(MSS)が中国企業による高性能AIチップの入手を支援する秘密工作を少なくとも2年前から展開している」とアメリカやアジア、ヨーロッパの現職および元当局者らがThe New York Timesに証言しました。国家安全部はアメリカなどが課す輸出規制に対抗するための専門チームを設置し、半導体の調達支援や情報収集を進めているとのことです。 続きを読む..."
+    },
+    {
+      "id": "gigazine:cdb6ebe4",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "24時間超のMicrosoft 365停止を受け重大なサービス障害の防止と対応方法を根本的に見直すための「コードレッド」をMicrosoftが宣言",
+      "url": "https://gigazine.net/news/20261125-microsoft-code-red/",
+      "publishedAt": "2026-11-25T09:30:00.000Z",
+      "excerpt": "Microsoftのクラウドサービス「Microsoft 365」で2026年11月13日に世界規模の大規模障害が発生しました。これを受けてMicrosoftは、重大なサービス障害の防止および対応方法を抜本的に見直すため、「コードレッド」体制を宣言しました。 続きを読む..."
+    },
+    {
+      "id": "itmedia:f454fb39",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "海外経由の接続は見放題、議論尽くせるか　「ブロッキング」法制化、識者の見方は",
+      "url": "https://www.itmedia.co.jp/news/article/2611/25/2000003458/",
+      "publishedAt": "2026-11-25T09:16:02.000Z",
+      "excerpt": "総務省は11月20日、漏えいした個人情報の二次被害の抑止策を議論する作業部会の初会合を開き、通信事業者がWebサイトへのアクセスを強制的に遮断する「ブロッキング」の法制化に向けた議論をスタートした。"
+    },
+    {
+      "id": "gigazine:127af167",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "スマホユーザーは「考える必要なし」というフレーズを含む広告をタップしがちということが判明",
+      "url": "https://gigazine.net/news/20261125-phone-pc-shopping/",
+      "publishedAt": "2026-11-25T09:05:00.000Z",
+      "excerpt": "「スマートフォンでオンラインショッピングすると判断力が鈍る」と感じている人は多いはず。ところが、マイアミ大学と香港城市大学の研究チームが「スマートフォンを使用しても判断力の低下は確認されない」という研究結果を発表しました。また、「考える必要なし」ということを示すことでスマートフォンでの購買意欲低下を抑えられることも判明しています。 続きを読む..."
+    },
+    {
+      "id": "gigazine:3feafcb2",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "「Firefox 161」正式版リリース、閲覧データを素早く消去できるボタンが登場＆内蔵VPNがサイトごとに設定可能に",
+      "url": "https://gigazine.net/news/20261125-firefox-161/",
+      "publishedAt": "2026-11-25T08:50:00.000Z",
+      "excerpt": "ウェブブラウザ「Firefox 161」の正式版が公開されました。内蔵VPNの有効・無効をウェブサイトごとに設定したり、キーボードショートカットで閲覧中のタブのURLをコピーしたりできるようになっています。またデスクトップ版では閲覧データを素早く消去できるボタンが追加されたほか、Android版ではウェブページの読み上げ機能が利用可能になりました。 続きを読む..."
+    },
+    {
+      "id": "gigazine:73cd49ca",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "Uberは10歳から利用できる乗車サービスを試験的に導入",
+      "url": "https://gigazine.net/news/20261125-uber-kids/",
+      "publishedAt": "2026-11-25T08:45:00.000Z",
+      "excerpt": "Uberが10歳から12歳の子ども専用の配車サービス「Uber Kids」の試験運用を開始しました。学校や習い事などの送り迎えなどを代替することが期待されています。 続きを読む..."
+    },
+    {
+      "id": "gigazine:f6864b4a",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "NVIDIAのジェンスン・フアンCEOの不倫相手であるアリス・フアンは犯罪組織を含む巨大違法取引ネットワークに関与していたと判明",
+      "url": "https://gigazine.net/news/20261125-alice-huang/",
+      "publishedAt": "2026-11-25T08:38:00.000Z",
+      "excerpt": "NVIDIAのジェンスン・フアンCEOの不倫相手で中国のスパイであることが疑われているアリス・フアン氏が、中国へNVIDIA製半導体を違法に輸出する巨大ネットワークに関与していたことが報じられています。 続きを読む..."
+    },
+    {
+      "id": "gigazine:7061f1b8",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "バードウォッチャーが「GTA6のバードウォッチングガイド」を公開",
+      "url": "https://gigazine.net/news/20261125-gta6-bird-watching/",
+      "publishedAt": "2026-11-25T07:00:00.000Z",
+      "excerpt": "100年以上の歴史を持つ野生生物保護団体「全米オーデュボン協会」のウェブサイトに、ゲーム「グランド・セフト・オートVI(GTA6)」でバードウォッチングを楽しむためのガイドが寄稿されました。現実のバードウォッチング専門家がゲーム内で鳥を見つける方法を解説しています。 続きを読む..."
+    },
+    {
+      "id": "gigazine:234915e4",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "最先端のAIでも日常的な作業の完了率はわずか約60％だと新ベンチマーク「ShellBench」で判明",
+      "url": "https://gigazine.net/news/20261125-openclaw-shellbench-real-world-task/",
+      "publishedAt": "2026-11-25T06:30:00.000Z",
+      "excerpt": "オープンソースのAIエージェント「OpenClaw」の開発を支えるOpenClaw Foundationが、2026年11月24日にAIエージェントの日常的な作業能力を評価する新たなベンチマーク「ShellBench」を発表しました。実際のAI利用状況を参考に作成された100種類のタスクでテストを実施した結果、最上位のAIモデルでも日常的なタスクの完了率は約60％にとどまることが明らかになりました。 続きを読む..."
+    },
+    {
+      "id": "itmedia:f454f71b",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "突然「未来の約定通知」届く……三菱UFJ eスマート証券、メンテ中のミス謝罪",
+      "url": "https://www.itmedia.co.jp/news/article/2611/25/2000003445/",
+      "publishedAt": "2026-11-25T06:12:33.000Z",
+      "excerpt": "22日朝「日曜日なのに、2日後の24日付の約定通知メールが届いた」「誤配信だと思うが不安」という声がXで相次いでいた。"
+    },
+    {
+      "id": "gigazine:b84830ce",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "NVIDIAのジェンスン・フアンCEO復帰を中国国営メディアは「王が帰ってきた！」と報道＆台湾では故郷の英雄として応援、一方で社内での横暴ぶりも報じられる",
+      "url": "https://gigazine.net/news/20261125-nvidia-asia/",
+      "publishedAt": "2026-11-25T06:10:00.000Z",
+      "excerpt": "中国のスパイであることが疑われている女性との不倫が発覚して2026年11月12日にCEOを辞任していたNVIDIAのジェンスン・フアン氏は、日本時間の2026年11月23日23時頃に取締役会がCEOに再任しました。この決定に中国と台湾では祝賀ムードが高まっています。 続きを読む..."
+    },
+    {
+      "id": "gigazine:fa06cf42",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "「自動車の座席暖房をサブスクで解禁」など自動車の後付けサブスクを禁止する法律がニューヨークで成立",
+      "url": "https://gigazine.net/news/20261125-no-vehicle-subscription-fee-act/",
+      "publishedAt": "2026-11-25T06:09:00.000Z",
+      "excerpt": "一部の自動車メーカーは、自動車に搭載された特定の機能をサブスクリプション形式で提供しています。この「自動車は普通買い切りのはずなのに実はサブスクが必要」問題を是正すべく、ニューヨーク州が新たな法律を成立させました。 続きを読む..."
+    },
+    {
+      "id": "itmedia:f454f6dd",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "タイムズカー免許画像漏えいの見舞金、「現金かカーシェアeチケット3000円分」　12月1日から案内",
+      "url": "https://www.itmedia.co.jp/news/article/2611/25/2000003443/",
+      "publishedAt": "2026-11-25T05:51:07.000Z",
+      "excerpt": "対象は、暗号化された運転免許証などの本人確認書類の画像データへの不正アクセスと、外部送信を示す痕跡が確認された約146万件。"
+    },
+    {
+      "id": "gigazine:fbd95e4b",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "NVIDIAのジェンスン・フアンCEOが従業員に謝罪し「NVIDIAは最も政治と無縁な会社」と主張",
+      "url": "https://gigazine.net/news/20261125-jensen-huang-apologizes-to-nvidia-employees/",
+      "publishedAt": "2026-11-25T05:40:00.000Z",
+      "excerpt": "不倫問題発覚後にNVIDIAのCEOを辞任したジェンスン・フアン氏が、辞任から2週間弱でCEOに復帰しました。フアン氏のCEO復帰を巡っては、トランプ大統領が「取締役会の会議に電話で参加してフアン氏の復帰を求めた」と主張していますが、フアン氏は従業員全員を集めた会議で「政治の関与があったなどと思わないでください」「NVIDIAは最も政治と縁のない会社」と述べました。 続きを読む..."
+    },
+    {
+      "id": "gigazine:795d2ad8",
+      "sourceId": "gigazine",
+      "sourceName": "GIGAZINE",
+      "title": "AI導入事例の多くはコスト削減ではなく生産性の向上と加速によって価値を生み出しており、AIで構築されたアプリ100件のうち80％が手作業を自動化していることがAnthropicのレポートで明らかに",
+      "url": "https://gigazine.net/news/20261125-anthropic-working-with-ai/",
+      "publishedAt": "2026-11-25T05:35:00.000Z",
+      "excerpt": "現地時間の2026年11月23日、Anthropicが「企業がAIを導入すると仕事の進め方や雇用はどう変わるのか」を調べた報告書「Working with AI」を公開しました。 続きを読む..."
+    },
+    {
+      "id": "itmedia:f454f398",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "六花亭のカード情報流出、対応が「誠実」と評判　再発行時の「伝え方」まで明記",
+      "url": "https://www.itmedia.co.jp/news/article/2611/25/2000003437/",
+      "publishedAt": "2026-11-25T05:21:43.000Z",
+      "excerpt": "カード再発行に当たっては、「株式会社六花亭から情報流出の通知を受けたため、カードを再発行したい」と伝えるよう案内するなど、「どうすればいいか」を具体的に示していることが「誠実だ」と評価されている。"
+    },
+    {
+      "id": "itmedia:f454f680",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "子どもの成績や月謝、口座番号など最大5万件漏えいか　学習塾「ベスト個別」運営元に不正アクセス",
+      "url": "https://www.itmedia.co.jp/news/article/2611/25/2000003440/",
+      "publishedAt": "2026-11-25T05:08:34.000Z",
+      "excerpt": "漏えいした可能性がある顧客情報は、保護者の氏名、子どもの氏名、兄弟姉妹情報、住所、電話番号、メールアドレスなど。"
+    },
+    {
+      "id": "itmedia:f454f3d6",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "タワレコ、会員情報約1100万件流出　「3年以内の退会者」も対象　通販サイト停止続く",
+      "url": "https://www.itmedia.co.jp/news/article/2611/25/2000003439/",
+      "publishedAt": "2026-11-25T04:27:21.000Z",
+      "excerpt": "退会後3年以内の人の情報も含まれているという。"
+    },
+    {
+      "id": "itmedia:f454ef1d",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "AIでドーピングしたコンサルの実力は　使わない人材との能力差、BCG約500人で検証　Nature系列誌",
+      "url": "https://www.itmedia.co.jp/news/article/2611/25/2000003421/",
+      "publishedAt": "2026-11-25T03:00:00.000Z",
+      "excerpt": "米ボストン大学、米BCGのヘンダーソン研究所、米OpenAIに所属する研究者らがNature Human Behaviourで発表した論文「Generative AI and the temporary upskilling of knowledge workers」は、生成AIによる一時的なスキルアップの効果と限界を調査した研究報告だ。"
+    },
+    {
+      "id": "itmedia:f454f35a",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "楽天証券、金融資産情報など約441万件の漏えい確認　ログインIDなど約1198万口座分も",
+      "url": "https://www.itmedia.co.jp/news/article/2611/25/2000003435/",
+      "publishedAt": "2026-11-25T02:25:59.000Z",
+      "excerpt": "楽天証券は11月24日、17日に発表した不正アクセスを巡り、情報漏えいを確認したと発表した。ログインIDなどは約1198万口座分、氏名や住所などは約441万件漏えい。入金先口座情報などの漏えいも新たに判明した。"
+    },
+    {
+      "id": "itmedia:f454f379",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "復旧費用1000万円超が6割　被害相次ぐサイバー攻撃、保険広がるも中小企業に死角",
+      "url": "https://www.itmedia.co.jp/news/article/2611/25/2000003436/",
+      "publishedAt": "2026-11-25T02:22:20.000Z",
+      "excerpt": "サイバー攻撃の脅威がが増す中、「サイバー保険」に加入する企業が増えている。特に不正アクセスによる情報漏えいが頻発した10月以降、保険会社への問い合わせが急増している。専門家は「サイバー攻撃は従業員個人の努力だけで防げるものではなくなっている」と警告。組織全体で重層的な対策を施す必要性を強調する。"
+    },
+    {
+      "id": "itmedia:f454f31c",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "音楽サービスのTIDAL、AI生成楽曲を削除・受付停止へ　直近90日の配信楽曲の43％がAI生成",
+      "url": "https://www.itmedia.co.jp/news/article/2611/25/2000003433/",
+      "publishedAt": "2026-11-25T01:57:02.000Z",
+      "excerpt": "音楽ストリーミングサービスのTIDALは、完全AI生成楽曲の受付を停止し、配信済みの楽曲も削除すると発表した。直近90日間に配信された楽曲の43％が完全AI生成と判定されており、現在カタログの6.3％に当たる約2700万曲が該当する。AIを補助的に使った楽曲は引き続き配信可能だ。"
+    },
+    {
+      "id": "itmedia:f454f2fd",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "JAXAの衛星データ提供システムに不正アクセス　コマンドインジェクション脆弱性悪用、アカウント情報流出",
+      "url": "https://www.itmedia.co.jp/news/article/2611/25/2000003432/",
+      "publishedAt": "2026-11-25T01:31:48.000Z",
+      "excerpt": "Webアプリケーションプログラムの一部にコマンドインジェクションの脆弱性があったことが判明。攻撃者はこの脆弱性を悪用してバックドアを設置し、システムの探索や情報の窃取を試みていた。"
+    },
+    {
+      "id": "itmedia:f454f2de",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "「Claude」で作ったアプリをMac／Windowsにインストール可能に　全プランでβ提供",
+      "url": "https://www.itmedia.co.jp/news/article/2611/25/2000003431/",
+      "publishedAt": "2026-11-25T01:07:59.000Z",
+      "excerpt": "Anthropicは、AIアシスタント「Claude」で作成したアーティファクトをMac／Windows向けのデスクトップアプリとして導入できる「Install as app」を全プラン向けにβ提供すると発表した。専用ウィンドウで動作し、通知やメニューバー表示、許可に応じたファイル操作にも対応する。"
+    },
+    {
+      "id": "itmedia:f454f2bf",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "AIエージェントは隙あらばサンドボックスの外に出るのか　Anthropicが評価手法「Siren」を発表",
+      "url": "https://www.itmedia.co.jp/news/article/2611/25/2000003430/",
+      "publishedAt": "2026-11-24T22:41:42.000Z",
+      "excerpt": "Anthropicは、AIエージェントが脆弱なサンドボックスから抜け出すかどうかを測る評価手法「Siren」を発表した。1700以上のシナリオで6モデルを検証し、最新モデル群が外に置かれた認証情報などを不正に使った割合は0.6?1.6％にとどまった。システムプロンプトでのルール明示や報告ツールなどの対策を組み合わせると、問題行動をほぼゼロに抑えられるという。"
+    },
+    {
+      "id": "itmedia:f454f015",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "京王、1100万人超の個人情報漏えいか　一部クレカ番号なども　9月のランサム被害で",
+      "url": "https://www.itmedia.co.jp/news/article/2611/25/2000003429/",
+      "publishedAt": "2026-11-24T22:00:00.000Z",
+      "excerpt": "京王電鉄は11月24日、京王グループが9月に受けたランサムウェア攻撃を巡り、顧客や取引先など約1063万人分の個人情報が漏えいした可能性があると発表した。一部には海外からの宿泊客のパスポートの写しやクレジットカード番号も含まれる。従業員や採用応募者などの一部は漏えいを確認した。二次被害は確認していないという。"
+    },
+    {
+      "id": "publickey:821199d7",
+      "sourceId": "publickey",
+      "sourceName": "Publickey",
+      "title": "AWS、DynamoDB互換データベースをローカルマシンで構築可能にするオープンソース「ExtendDB」がバージョン1.0に到達",
+      "url": "https://www.publickey1.jp/blog/26/awsdynamodbextenddb10.html",
+      "publishedAt": "2026-11-24T15:19:30.000Z",
+      "excerpt": "Amazon Web Services（AWS）は、同社がクラウドサービスとして提供しているNoSQLデータベース「Amazon DynamoDB」の互換データベースを、Windows、Linux、macOSなどのOSに対応したユーザーのローカルマシン上で構築できるオープンソース「ExtendDB」がバージョン1.0に到達したことを発表しました。 ExtendDBのオリジナルに当たるDynamoDBは、キーバリュー型やJSONライクなドキュメントデータを扱えるNoSQL型のデ……"
+    },
+    {
+      "id": "publickey:75a6eb9b",
+      "sourceId": "publickey",
+      "sourceName": "Publickey",
+      "title": "jQuery 4.1正式版がリリース、内部実装をquerySelectorAllに統一でより高速に。jQuery 3.x系最後となるjQuery 3.8も同時リリース",
+      "url": "https://www.publickey1.jp/blog/26/jquery_41queryselectoralljquery_3xjquery_38.html",
+      "publishedAt": "2026-11-24T15:15:39.000Z",
+      "excerpt": "jQuery開発チームは、JavaScriptライブラリ「jQuery」の最新版となる「jQuery 4.1」正式版のリリースを発表しました。 また同時にjQuery 3.x系の最後のリリースとなる「jQuery 3.8」も同時にリリースしました。 jQuery 4.x系は、基本的にはいわゆるモダンブラウザを対象としたJavaScriptライブラリであり、Internet Explorer 10もしくはそれ以前のバージョンのサポートは終了しています。 Internet Exp……"
+    },
+    {
+      "id": "itmedia:5d1e956",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "ソフトバンク、アイティメディアの売却検討か　2社「コメント控える」「決定した事実ない」",
+      "url": "https://www.itmedia.co.jp/news/article/2611/24/2000003427/",
+      "publishedAt": "2026-11-24T12:02:48.000Z",
+      "excerpt": "ソフトバンクが傘下のアイティメディアの売却を検討していると日本経済新聞が報じた。ITmedia NEWSの取材に対し、ソフトバンクは「コメントを控える」、アイティメディアは「現時点で決定した事実はない」と回答した。"
+    },
+    {
+      "id": "itmedia:5d1e5d3",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "無印良品、不正アクセスで株主優待が“紙に逆戻り”　電子クーポンにはいつ戻る？　広報に聞いた",
+      "url": "https://www.itmedia.co.jp/news/article/2611/24/2000003419/",
+      "publishedAt": "2026-11-24T09:25:45.000Z",
+      "excerpt": "「無印良品」を展開する良品計画は11月20日、株主優待を電子クーポンから紙のクーポンに切り替えた理由などについて、ITmedia NEWSの取材に回答した。電子クーポンに戻すのは、外部の専門機関の調査を経てネットストアを再開した後を想定しているという。"
+    },
+    {
+      "id": "itmedia:5d1e196",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "月に3度の障害……揺らぐドコモの信頼　通信品質が安定しない理由は？",
+      "url": "https://www.itmedia.co.jp/news/article/2611/24/2000003405/",
+      "publishedAt": "2026-11-24T09:20:17.000Z",
+      "excerpt": "NTTドコモへの信頼が揺らぎつつある。11月5日、11日、16日と3回に渡って通信障害を発生させ、17日には藤井比早之総務相が「国民生活の重要なインフラとなっている通信サービスにおいて、短期間で3度の障害は大変遺憾だ」と原因究明と再発防止を求めた。"
+    },
+    {
+      "id": "itmedia:5d1e212",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "東京都内自治体の中小企業向けサイバーセキュリティー支援相次ぐ　専門家訪問や窓口開設",
+      "url": "https://www.itmedia.co.jp/news/article/2611/24/2000003409/",
+      "publishedAt": "2026-11-24T06:24:19.000Z",
+      "excerpt": "大量の個人情報の流出など情報システムの不正アクセス被害に歯止めがかからない中、東京都内の自治体が相次いで中小企業向けのサイバーセキュリティ支援に乗り出している。"
+    },
+    {
+      "id": "itmedia:5d1e1f3",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "爆増するサイバー攻撃、魔の手はITだけでなく「OT」にも　元米軍のセキュリティ専門家が警鐘",
+      "url": "https://www.itmedia.co.jp/news/article/2611/24/2000003408/",
+      "publishedAt": "2026-11-24T06:06:51.000Z",
+      "excerpt": "工場や水道、店舗の冷蔵設備を動かす制御システム「OT」を狙う攻撃が海外で相次いでいる。OTセキュリティに関する11月20日の記者説明会では米DragosのCEOが、AIを使った攻撃者がITからOTへ標的を移した事例を紹介した。"
+    },
+    {
+      "id": "itmedia:5d18f7c",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "SpaceXをオレゴン州とバージニア州が提訴　Grokの性的画像生成で",
+      "url": "https://www.itmedia.co.jp/news/article/2611/24/2000003399/",
+      "publishedAt": "2026-11-23T23:39:38.000Z",
+      "excerpt": "オレゴン州とバージニア州は、AI「Grok」が児童性的虐待コンテンツ（CSAM）や同意のない性的画像を生成・拡散したとしてSpaceXなどを提訴したと発表した。両州は「Spicy」モードなどで安全策を無視し、消費者を欺いたと主張。一方、Xの安全対策アカウントは悪用に対し保護策を強化したと説明している。"
+    },
+    {
+      "id": "itmedia:5d18f5d",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "CrowdStrike、Zscalerを約439億ドルで買収へ　狙いはAIエージェントの安全確保",
+      "url": "https://www.itmedia.co.jp/news/article/2611/24/2000003398/",
+      "publishedAt": "2026-11-23T22:20:30.000Z",
+      "excerpt": "CrowdStrikeは、ネットワークセキュリティ大手のZscalerを全額株式交換で買収すると発表した。Zscalerの企業価値は約7兆円。Zscalerの「Zero Trust Exchange」などを「Falcon」基盤に統合し、AIエージェントの保護を強化する。統合後の年間経常収益は100億ドルを超える見込みだ。"
+    },
+    {
+      "id": "itmedia:5d18f3e",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "NVIDIA、フアン氏のCEO復帰を発表　トランプ大統領「私がまとめた」と取締役会への働きかけ認める",
+      "url": "https://www.itmedia.co.jp/news/article/2611/24/2000003397/",
+      "publishedAt": "2026-11-23T21:32:46.000Z",
+      "excerpt": "NVIDIAは、11月12日に退任したジェンスン・フアン氏の社長兼CEOおよび取締役への復帰を発表した。取締役会は米政府高官の意見を踏まえ、国家安全保障上のリスクはないと判断したという。トランプ大統領はCNBCの取材に対し、取締役会へ直接復帰を働きかけたことを認め、ウォーレン上院議員は「無謀な決定」と批判している。"
+    },
+    {
+      "id": "publickey:6c90aed0",
+      "sourceId": "publickey",
+      "sourceName": "Publickey",
+      "title": "DHH氏が開発する「Omarchy 4.5」リリース。一般的なマルチウィンドウをサポート。最速7秒で導入、Appleシリコン対応、Webアプリ版MS Office用ランチャーなど新機能",
+      "url": "https://www.publickey1.jp/blog/26/dhhomarchy_457applewebms_office.html",
+      "publishedAt": "2026-11-23T15:49:45.000Z",
+      "excerpt": "Ruby on Railsの作者として知られるDHH氏が主導して開発しているデスクトップ向けのLinux OS「Omarchy」の最新版「Omarchy 4.5」（別名Omarchy Quattro RS）正式版がリリースされました。 Omarchyは同氏が提唱する「Omacom」（Omakase Computing：おまかせコンピューティングの略）の考え方を基に実装されたLinux OSで、DHH氏によって選択された（すなわちDHH氏に「おまかせ」して作られた）統一的な機能……"
+    },
+    {
+      "id": "publickey:60e9562e",
+      "sourceId": "publickey",
+      "sourceName": "Publickey",
+      "title": "PostgreSQL 19正式リリース。ノンブロッキングなREPACKやI/Oワーカーのオートスケールなど新機能",
+      "url": "https://www.publickey1.jp/blog/26/postgresql_19repackio.html",
+      "publishedAt": "2026-11-23T15:45:37.000Z",
+      "excerpt": "オープンソースのリレーショナルデータベース「PostgreSQL」の最新版となる「PostgreSQL 19」正式版がリリースされました（日本語のプレスリリース）。 PostgreSQLは毎年9月もしくは10月にメジャーバージョンアップが行われてきました。しかし今年は9月下旬にリリースされたPostgreSQL 19β4で多数のバグのによる新機能の取り下げなどがあり、慎重を期すために正式版のリリースが11月に延期されていました。 参考：PostgreSQL 19リリース延期の……"
+    },
+    {
+      "id": "itmedia:174e887f",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "「Microsoft To Do」、2027年6月にアプリ提供終了　法人向けは「Planner」へ移行、個人向けは代替なし",
+      "url": "https://www.itmedia.co.jp/news/article/2611/23/2000003395/",
+      "publishedAt": "2026-11-23T03:12:33.000Z",
+      "excerpt": "Microsoftは、タスク管理アプリ「Microsoft To Do」の全プラットフォーム向けアプリを2027年6月30日に提供終了すると発表した。職場・学校アカウント向けには「Microsoft Planner」を後継として案内するが、個人アカウントでは利用できず、代替アプリへの移行を勧めている。既存データは自動移行されない。"
+    },
+    {
+      "id": "itmedia:174e853a",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "高級感のためだけじゃない　財布やバッグの新しいアイデアが“革製品”から生まれる理由",
+      "url": "https://www.itmedia.co.jp/news/article/2611/23/2000003389/",
+      "publishedAt": "2026-11-23T01:00:00.000Z",
+      "excerpt": "革製品の魅力は高級感だけではない。留め具なしで閉じる薄い財布、パンツのポケットに収まる長財布、平たく畳める革のバッグ。どれも、革という素材でなければ成立しない仕掛けで作られているのだ。5年半続いた連載の最終回は、筆者が何年も愛用してきた財布とバッグから、革製品が“新しいアイデアの実験場”になる理由を探る。"
+    },
+    {
+      "id": "itmedia:174e8860",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "OpenAIのチーフサイエンティスト、AI開発に業界共通の「上限」を提案　指標は「パープレキシティ」",
+      "url": "https://www.itmedia.co.jp/news/article/2611/23/2000003394/",
+      "publishedAt": "2026-11-22T22:49:18.000Z",
+      "excerpt": "OpenAIのチーフサイエンティストが、AIの予測精度を示す「パープレキシティ」を共通指標とし、開発の上限を業界で設けるよう提案する論考を公開した。GPT-3.5以降の社内モデルの推移も開示し、早ければ2027年にも事前学習が急加速する恐れがあるとして、監視技術が追いつくまでの歯止めを訴えている。"
+    },
+    {
+      "id": "itmedia:28cb7e9a",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "Anthropicの数学者、「Claude」と共同で「リーマン予想」を証明したと主張　Leanコミュニティが「正しい」と認定",
+      "url": "https://www.itmedia.co.jp/news/article/2611/22/2000003388/",
+      "publishedAt": "2026-11-21T23:21:31.000Z",
+      "excerpt": "Anthropicの数学者レベント・アルポーゲ氏は、「Claude」と共同で未解決問題「リーマン予想」の証明を発見したと発表した。証明支援系「Lean」で記述された1700万行の形式証明を公開しており、Leanコミュニティは複数の検証を経て「証明は正しい」と認定する共同声明を出した。"
+    },
+    {
+      "id": "itmedia:3a4877fa",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "AIは人並みに動画編集できる？　“バズる切り抜き”からガジェット開封動画まで2つのツールを試す",
+      "url": "https://www.itmedia.co.jp/news/article/2611/21/2000003387/",
+      "publishedAt": "2026-11-21T06:38:29.000Z",
+      "excerpt": "ネット動画では、長尺コンテンツから短い動画を大量に切り出す手法が主流になりつつある。ただ、必要なところを自分で拾い上げる編集は一朝一夕には身につかない。ならばAIに任せればいいのでは？ 長尺動画を自動で切り抜く「FlexClip」と、AIに指示して編集させる「CutBay」を試した。指示通りに動かないAIを鬼詰めしつつ、人間が編集した動画とも比べてみた。"
+    },
+    {
+      "id": "itmedia:4bc570bf",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "デジ庁、政府機関向けファイル共有サービスで漏えいか　7月末から第三者がアクセス",
+      "url": "https://www.itmedia.co.jp/news/article/2611/20/2000003381/",
+      "publishedAt": "2026-11-20T12:18:07.000Z",
+      "excerpt": "デジタル庁は11月20日、政府共通の業務環境「GSS」のファイル共有サービスで、ファイルの一部が外部に漏えいした可能性があると発表した。7月30日から11月12日までの間、正規の共有相手先以外の者によるアクセスがあったことを確認したという。個人情報が含まれることも想定されるとして、個人情報保護委員会に報告した。"
+    },
+    {
+      "id": "itmedia:4bc56d99",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "韓国大学入試で電子機器不正111件摘発　AI受験疑惑巡り死者も発生",
+      "url": "https://www.itmedia.co.jp/news/article/2611/20/2000003376/",
+      "publishedAt": "2026-11-20T08:48:50.000Z",
+      "excerpt": "韓国教育省は11月20日、19日に実施された大学修学能力試験（修能、日本の大学入学共通テストに相当）で、スマートグラス（AI眼鏡）など電子機器の扱いを巡り111件の不正行為が確認されたと明らかにした。"
+    },
+    {
+      "id": "itmedia:4bc56cfe",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "片山財務相、楽天証券は「顧客の不安解消に、できること全部していただきたい」",
+      "url": "https://www.itmedia.co.jp/news/article/2611/20/2000003371/",
+      "publishedAt": "2026-11-20T08:13:16.000Z",
+      "excerpt": "片山さつき財務相は、情報漏えいの可能性を発表した楽天証券について、「お客様等の相談に真摯に応じ、不安の解消についても、できる限りのことは全部やっていただきたい」と話した。"
+    },
+    {
+      "id": "itmedia:4bc56d5b",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "H3ロケット打ち上げ、JAXAから三菱重工に移管　来年1月の11号機から",
+      "url": "https://www.itmedia.co.jp/news/article/2611/20/2000003374/",
+      "publishedAt": "2026-11-20T08:09:25.000Z",
+      "excerpt": "27年1月11日に打ち上げ予定の11号機は、三菱重工が打ち上げを担う。"
+    },
+    {
+      "id": "itmedia:4bc56a35",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "ドンキのAI社員「近藤あい」が正式デビュー　販促POPや動画で活躍へ　運営元「すでに裏に20人ぐらいいる」",
+      "url": "https://www.itmedia.co.jp/news/article/2611/20/2000003369/",
+      "publishedAt": "2026-11-20T06:11:05.000Z",
+      "excerpt": "ドン・キホーテのAI社員「近藤あい」が11月23日に正式デビューする。実は裏には約20人のAIキャラクターが控えているという。開発に約1年半を費やした舞台裏や、AI社員を導入した狙いを担当者に聞いた。"
+    },
+    {
+      "id": "itmedia:4bc56a16",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "Microsoft、AIによるサイバー攻撃にAIエージェントで対抗する新サービス「Microsoft Perception」提供開始",
+      "url": "https://www.itmedia.co.jp/news/article/2611/20/2000003368/",
+      "publishedAt": "2026-11-20T04:29:35.000Z",
+      "excerpt": "米Microsoftは日本時間11月18日未明に開幕した年次イベント「Microsoft Ignite 2026」で、AIによるサイバー攻撃に対抗するためのAIエージェントによる新サービス「Microsoft Perception」の提供開始を発表しました。"
+    },
+    {
+      "id": "itmedia:4bc569f7",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "ハンコヤドットコム、カード番号やセキュリティコード8220件漏えいか　決済画面改ざんされる",
+      "url": "https://www.itmedia.co.jp/news/article/2611/20/2000003367/",
+      "publishedAt": "2026-11-20T04:05:21.000Z",
+      "excerpt": "不正アクセスにより決済画面が改ざんされ、顧客が入力したカード情報が外部へ送信される状態になっていた。"
+    },
+    {
+      "id": "itmedia:4bc5695c",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "掘らずに地中レーダー探査、AI分析も　奈良文化財研究所が挑む次世代のサイバー考古学",
+      "url": "https://www.itmedia.co.jp/news/article/2611/20/2000003362/",
+      "publishedAt": "2026-11-20T03:01:06.000Z",
+      "excerpt": "奈良文化財研究所（奈文研、奈良市）が少子高齢化や人件費高騰が進む中、発掘調査方法の見直しを模索している。"
+    },
+    {
+      "id": "itmedia:4bc56655",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "Google、宇宙AIデータセンター構想「Project Suncatcher」でベゾス氏のBlue Originと提携　2029年に衛星打ち上げへ",
+      "url": "https://www.itmedia.co.jp/news/article/2611/20/2000003358/",
+      "publishedAt": "2026-11-20T00:25:43.000Z",
+      "excerpt": "Googleは、衛星軌道上にAIデータセンターを構築する「Project Suncatcher」でジェフ・ベゾス氏率いる米Blue Originと提携したと発表した。2029年第1四半期を目標に、大型ロケット「New Glenn」で衛星を太陽同期軌道へ打ち上げる。各衛星はデータセンターのラック1本分程度の計算能力を持つとしている。"
+    },
+    {
+      "id": "itmedia:4bc56636",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "PHP「緊急」脆弱性、サービス一時停止の動き再び　ウマ娘やグラブル、イープラスなど緊急メンテ",
+      "url": "https://www.itmedia.co.jp/news/article/2611/20/2000003357/",
+      "publishedAt": "2026-11-20T00:17:02.000Z",
+      "excerpt": "「PHP2Shell」への対応以降、脆弱性の修正に合わせ、サービスを止めてメンテナンスする流れができつつある。"
+    },
+    {
+      "id": "itmedia:4bc55ddb",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "日本で受け入れられるのか？　ネットにつながらない携帯「INFOBAR ZERO」　KDDIが語った発売の意図",
+      "url": "https://www.itmedia.co.jp/news/article/2611/20/2000003330/",
+      "publishedAt": "2026-11-19T23:45:00.000Z",
+      "excerpt": "KDDIが11月18日に発表した、音声通話とSMSに機能を絞った携帯電話「INFOBAR ZERO」。スマートフォンが普及したいま、挑戦的とも思える商品だが、売れる見込みはあるのか。"
+    },
+    {
+      "id": "itmedia:4bc56617",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "Mac版「Gemini」にユーザーの代わりにアプリを操作する「computer use」機能追加　まず米国で",
+      "url": "https://www.itmedia.co.jp/news/article/2611/20/2000003356/",
+      "publishedAt": "2026-11-19T23:41:04.000Z",
+      "excerpt": "Googleは、Mac版「Gemini」アプリにAIが画面を認識してアプリを自動操作する「computer use」機能を追加した。隔離されたバックグラウンドウィンドウで動作するため、ユーザーの作業を妨げずにファイルやWebをまたいだ複数手順の業務を代行できる。まずは米国の有料プラン加入者向けに英語版から提供を始める。"
+    },
+    {
+      "id": "itmedia:4bc565f8",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "湘南美容クリニックのSBC、162万人分の個人情報流出　パスワードは「暗号化せず保存していた」",
+      "url": "https://www.itmedia.co.jp/news/article/2611/20/2000003355/",
+      "publishedAt": "2026-11-19T23:17:42.000Z",
+      "excerpt": "162万4000人分の氏名、性別、電話番号、メールアドレス、パスワード、住所、生年月日、などが流出。期間は2010年?2023年で、「当時は登録パスワードを暗号化せずに保存していた」という。"
+    },
+    {
+      "id": "itmedia:4bc565d9",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "AnthropicがNasdaq上場、IPO調達額は史上最大の813億ドル　初値は公開価格を34％上回る",
+      "url": "https://www.itmedia.co.jp/news/article/2611/20/2000003354/",
+      "publishedAt": "2026-11-19T21:38:41.000Z",
+      "excerpt": "Anthropicは、Nasdaq市場に上場した（ティッカー：ANT）。公開価格は1株83ドルで、IPO調達額は約813億ドルとSpaceXを上回り史上最大規模となった。初値は公開価格を約34％上回る111.50ドルを付け、時価総額は初値ベースで約2兆ドルに達した。アモデイCEOは上場に際し、安全性を重視する姿勢を改めて表明した。"
+    },
+    {
+      "id": "publickey:fdac4686",
+      "sourceId": "publickey",
+      "sourceName": "Publickey",
+      "title": "マイクロソフト、クラウドやオンプレミスのデータベースを一元管理する「Database Hub」正式リリース。AIエージェントによる運用監視の自動化も",
+      "url": "https://www.publickey1.jp/blog/26/database_hubai.html",
+      "publishedAt": "2026-11-19T15:19:21.000Z",
+      "excerpt": "マイクロソフトは日本時間11月18日未明に開幕した年次イベント「Microsoft Ignite 2026」で、Microsoft Azureやオンプレミス、他社クラウドにあるデータベースなど、管理者が権限を持つデータベースを自動的に一覧表示し、一元管理できる新サービス「Database Hub in Fabric」の正式リリースを発表しました。 Microsoft Fabricとは、同社が提供する統合データ分析基盤です。今回正式リリースとなったDatabase Hub in……"
+    },
+    {
+      "id": "itmedia:cc82d666",
+      "sourceId": "itmedia",
+      "sourceName": "ITmedia NEWS",
+      "title": "美少女ゲーム「NIKKE」経由でマルウェア感染　北海道2自治体、委託先が認める",
+      "url": "https://www.itmedia.co.jp/news/article/2611/19/2000003351/",
+      "publishedAt": "2026-11-19T11:04:47.000Z",
+      "excerpt": "北海道岩見沢市と新得町で、業務の再委託先がマルウェアに感染し、個人情報が漏えいした恐れがある。委託先のGIS北海道は取材に対し、ゲーム「NIKKE」経由の感染を認めた。業務用PCでゲームを起動したかは回答を控えた。"
+    },
+    {
+      "id": "publickey:b3a96059",
+      "sourceId": "publickey",
+      "sourceName": "Publickey",
+      "title": "マイクロソフト、AIによるサイバー攻撃にAIエージェントで対抗する新サービス「Microsoft Perception」提供開始",
+      "url": "https://www.publickey1.jp/blog/26/aiaimicrosoft_perception.html",
+      "publishedAt": "2026-11-18T16:00:37.000Z",
+      "excerpt": "マイクロソフトは日本時間11月18日未明に開幕した年次イベント「Microsoft Ignite 2026」で、AIによるサイバー攻撃に対抗するためのAIエージェントによる新サービス「Microsoft Perception」の提供開始を発表しました。 Now generally available, Microsoft Perception brings red, blue and green team agents together through playbooks t……"
+    },
+    {
+      "id": "publickey:7ae84b76",
+      "sourceId": "publickey",
+      "sourceName": "Publickey",
+      "title": "マイクロソフト、AIが生成したアプリを企業内で安全に実行するランタイム「Copilot Managed Runtime」正式リリース",
+      "url": "https://www.publickey1.jp/blog/26/aicopilot_managed_runtime.html",
+      "publishedAt": "2026-11-18T15:58:32.000Z",
+      "excerpt": "マイクロソフトは日本時間11月18日未明に開幕した年次イベント「Microsoft Ignite 2026」で、AIが生成したアプリなどを企業内で安全に実行するための基盤となる「Copilot Managed Runtime」の正式リリースを発表しました。 AIを活用することでプログラマだけでなく社内のあらゆる従業員が自分のアイデアをバイブコーディングなどによりアプリケーションとして構築できるようになりました。 すると次の問題は、そのようにして作られたアプリケーションを、どの……"
+    },
+    {
+      "id": "publickey:b4f0f8a3",
+      "sourceId": "publickey",
+      "sourceName": "Publickey",
+      "title": "Windows Server 2028がパブリックプレビュー公開。Microsoft FoundryなどAIによる推論の実行基盤へと拡張",
+      "url": "https://www.publickey1.jp/blog/26/windows_server_2028microsoft_foundryai.html",
+      "publishedAt": "2026-11-18T15:55:49.000Z",
+      "excerpt": "マイクロソフトは日本時間11月18日未明に開幕した年次イベント「Microsoft Ignite 2026」で、次期サーバ向けOSとなるWindows Server 2028のパブリックプレビュー公開を発表しました。 企業内のAI推論基盤へと拡張 Windows Serverはこれまで、Active Directoryによるユーザーやリソースの管理、アプリケーションの実行基盤などとして利用されてきました。 Windows Server 2028では新たにMicrosoft F……"
+    },
+    {
+      "id": "publickey:29c431f2",
+      "sourceId": "publickey",
+      "sourceName": "Publickey",
+      "title": "［速報］マイクロソフト、コーディング用AIモデルとして高性能かつ低価格「MAI Code 2」「MAI Code 2 Flash」発表",
+      "url": "https://www.publickey1.jp/blog/26/aimai_code_2mai_code_2_flash.html",
+      "publishedAt": "2026-11-17T21:48:15.000Z",
+      "excerpt": "マイクロソフトは日本時間11月18日未明に開幕した年次イベント「Microsoft Ignite 2026」で、同社が開発したコーディング用AIモデルのフラグシップで高性能かつ低価格を売り文句とする「MAI Code 2」と、さらに安価な「MAI Code 2 Flash」を発表しました。 競合と同等性能を低価格で提供 MAI Code 2とMAI Code 2 Flashは企業における日常的なコーディング作業向けに設計された2つの新しいコーディング用のAIモデルです。 いず……"
+    },
+    {
+      "id": "publickey:d2ccd03e",
+      "sourceId": "publickey",
+      "sourceName": "Publickey",
+      "title": "［速報］マイクロソフト、PostgreSQL互換のミッションクリティカル向けデータベースサービス「Azure HorizonDB」正式リリース",
+      "url": "https://www.publickey1.jp/blog/26/postgresqlazure_horizondb.html",
+      "publishedAt": "2026-11-17T21:45:41.000Z",
+      "excerpt": "マイクロソフトは日本時間11月18日未明に開幕した年次イベント「Microsoft Ignite 2026」で、PostgreSQL互換のミッションクリティカル向けデータベースサービス「Azure HorizonDB」の正式リリースを発表しました。 PostgreSQL互換かつ高可用性と高性能を提供 Azure HorizonDBは昨年開催されたMicrosoft Ignite 2025で発表されたデータベースサービスです。 プライマリノードとレプリカノードのノード全体で最大……"
+    },
+    {
+      "id": "publickey:8872c936",
+      "sourceId": "publickey",
+      "sourceName": "Publickey",
+      "title": "［速報］PostgreSQL互換のサーバレスでOLTPとOLAP両対応を実現する「Microsoft Fabric HorizonDB」パブリックプレビュー",
+      "url": "https://www.publickey1.jp/blog/26/postgresqloltpolapmicrosoft_fabric_horizondb.html",
+      "publishedAt": "2026-11-17T21:43:09.000Z",
+      "excerpt": "マイクロソフトは日本時間11月18日未明に開幕した年次イベント「Microsoft Ignite 2026」で、PostgreSQL互換のサーバレスデータベース「Microsoft Fabric HorizonDB」のパブリックプレビュー版を発表しました。 数秒でプロビジョニング、すぐに使い始められる Azure HorizonDBがエンタープライズ向けのミッションクリティカル対応データベースなのに対して、Fabric HorizonDBは主にプロトタイプや開発環境などを想定……"
+    },
+    {
+      "id": "publickey:71851d58",
+      "sourceId": "publickey",
+      "sourceName": "Publickey",
+      "title": "［速報］AIがOracle DBからPostgreSQLへの移行を支援、「Azure Database Migration Service」プレビュー",
+      "url": "https://www.publickey1.jp/blog/26/aioracle_dbpostgresqlazure_database_migration_service.html",
+      "publishedAt": "2026-11-17T21:40:32.000Z",
+      "excerpt": "マイクロソフトは日本時間11月18日未明に開幕した年次イベント「Microsoft Ignite 2026」で、Azure Database Migration Service （Azure DMS）におけるOracle DBからPostgreSQLへのデータ移行機能をプレビュー版として提供開始したと発表しました。 Azure DMSは、データベースのダウンタイムを最小限に抑えつつ、Microsoft Azure上のデータベースサービスに移行するための機能を提供するマネージド……"
+    },
+    {
+      "id": "publickey:7e9c8bdd",
+      "sourceId": "publickey",
+      "sourceName": "Publickey",
+      "title": "［速報］Azure SQL Databaseをローカルで実行する「Azure SQL Database local development container」パブリックプレビュー",
+      "url": "https://www.publickey1.jp/blog/26/azure_sql_databaseazure_sql_database_local_development_container.html",
+      "publishedAt": "2026-11-17T21:37:53.000Z",
+      "excerpt": "マイクロソフトは日本時間11月18日未明に開幕した年次イベント「Microsoft Ignite 2026」で、Azure SQL Databaseをローカルで実行する「Azure SQL Database local development container」のパブリックプレビューを発表しました。 Azure SQL Database local development containerは、クラウドであるMicrosoft Azure上のAzure SQL Databa……"
+    }
+  ]
+}
